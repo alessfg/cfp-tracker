@@ -1,0 +1,5022 @@
+{
+  "lastUpdated": "2026-02-17",
+  "cfps": [
+    {
+      "id": "data-platform-next-step",
+      "name": "Data Platform Next Step",
+      "cfpUrl": "https://sessionize.com/data-platform-next-step",
+      "cfpClosingDate": "2026-02-18",
+      "eventUrl": "https://dataplatformnextstep.com",
+      "location": "Copenhagen (Denmark)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "symfonyday-montreal-2026",
+      "name": "SymfonyDay Montreal 2026",
+      "cfpUrl": "https://live.symfony.com/2026-montreal/cfp",
+      "cfpClosingDate": "2026-02-18",
+      "eventUrl": "https://live.symfony.com/2026-montreal/",
+      "location": "Montreal (Canada)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "azure-spring-clean-2026",
+      "name": "Azure Spring Clean 2026",
+      "cfpUrl": "https://sessionize.com/azure-spring-clean-2026/",
+      "cfpClosingDate": "2026-02-19",
+      "eventUrl": "https://www.azurespringclean.com",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "node-congress",
+      "name": "Node Congress",
+      "cfpUrl": "https://gitnation.com/events/node-congress-2026/cfp",
+      "cfpClosingDate": "2026-02-19",
+      "eventUrl": "https://nodecongress.com",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "chippewa-valley-code-camp-2026",
+      "name": "Chippewa Valley Code Camp 2026",
+      "cfpUrl": "https://papercall.io/cfps/6548/submissions/new",
+      "cfpClosingDate": "2026-02-19",
+      "eventUrl": "https://chippewavalleycodecamp.com",
+      "location": "Eau Claire, WI",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "bug-future-show-2026",
+      "name": "Bug Future Show 2026",
+      "cfpUrl": "https://sessionize.com/bfs2026",
+      "cfpClosingDate": "2026-02-20",
+      "eventUrl": "https://bfs.bug.hr/",
+      "location": "Zagreb (Croatia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "break-the-pattern-disrupt-lead-inspire",
+      "name": "Break the Pattern: Disrupt, Lead, Inspire",
+      "cfpUrl": "https://sessionize.com/break-the-pattern-disrupt-lead-inspir",
+      "cfpClosingDate": "2026-02-21",
+      "eventUrl": "https://gdg.community.dev/gdg-cape-town/",
+      "location": "Cape Town (South Africa)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "modern-business-building-with-microsoft-dynamics-365-and-ai",
+      "name": "Modern Business Building with Microsoft Dynamics 365 and AI",
+      "cfpUrl": "https://sessionize.com/van-365-view-dynamics365",
+      "cfpClosingDate": "2026-02-21",
+      "eventUrl": "https://www.meetup.com/van365view/events/303775752",
+      "location": "Vancouver, BC (Canada)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "azure-cosmos-db-conf-2026",
+      "name": "Azure Cosmos DB Conf 2026",
+      "cfpUrl": "https://sessionize.com/azure-cosmos-db-conf-2026",
+      "cfpClosingDate": "2026-02-21",
+      "eventUrl": "https://developer.azurecosmosdb.com/conf/",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "cloud-native-birmingham-online-meetup-kicking-off-2026-together",
+      "name": "Cloud Native Birmingham Online Meetup: Kicking Off 2026 Together",
+      "cfpUrl": "https://sessionize.com/cloud-native-birmingham",
+      "cfpClosingDate": "2026-02-22",
+      "eventUrl": "https://community.cncf.io/events/details/cncf-cloud-native-birmingham-presents-cloud-native-birmingham-online-meetup-kicking-off-2026-together/",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "aws-user-group-trichy-inaugural-meetup-online-edition",
+      "name": "AWS User Group Trichy – Inaugural Meetup (Online Edition)",
+      "cfpUrl": "https://sessionize.com/aws-user-group-trichy-inaugural-meetup",
+      "cfpClosingDate": "2026-02-22",
+      "eventUrl": "https://www.meetup.com/aws-user-group-trichy/events/313184769/",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "agentcamp-valencia-2026",
+      "name": "AgentCamp Valencia 2026",
+      "cfpUrl": "https://sessionize.com/agentcamp-valencia-2026",
+      "cfpClosingDate": "2026-02-22",
+      "eventUrl": "https://globalaivalencia.es/",
+      "location": "Valencia (Spain)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "open-source-day-2026",
+      "name": "Open Source Day 2026",
+      "cfpUrl": "https://sessionize.com/open-source-day-2026",
+      "cfpClosingDate": "2026-02-22",
+      "eventUrl": "https://osday.dev/",
+      "location": "Florence (Italy)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "merge-conference-2026",
+      "name": "Merge Conference 2026",
+      "cfpUrl": "https://www.papercall.io/merge2026",
+      "cfpClosingDate": "2026-02-22",
+      "eventUrl": "https://merge.softwaregr.org/",
+      "location": "Grand Rapids, MI (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "dpdk-summit-2026",
+      "name": "DPDK Summit 2026",
+      "cfpUrl": "https://sessionize.com/dpdk-summit-2026/",
+      "cfpClosingDate": "2026-02-22",
+      "eventUrl": "https://events.linuxfoundation.org/dpdk-summit/",
+      "location": "Stockholm (Sweden)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "polycloud",
+      "name": "Polycloud",
+      "cfpUrl": "https://conference-hall.io/polycloud-2026",
+      "cfpClosingDate": "2026-02-22",
+      "eventUrl": "https://polycloud.fr/",
+      "location": "Montpellier (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "platformcon-virtual",
+      "name": "PlatformCON Virtual",
+      "cfpUrl": "https://sessionize.com/platformcon-2026",
+      "cfpClosingDate": "2026-02-22",
+      "eventUrl": "https://platformcon.com/program",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "merge-conference-2026",
+      "name": "Merge Conference 2026",
+      "cfpUrl": "https://papercall.io/cfps/6539/submissions/new",
+      "cfpClosingDate": "2026-02-22",
+      "eventUrl": "https://merge.softwaregr.org",
+      "location": "Grand Rapids, MI",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "call-for-workshops-ndc-oslo-2026",
+      "name": "Call for Workshops - NDC Oslo 2026",
+      "cfpUrl": "https://sessionize.com/workshops-ndc-oslo-2026",
+      "cfpClosingDate": "2026-02-22",
+      "eventUrl": "https://ndcoslo.com",
+      "location": "Oslo, Norway",
+      "tags": [
+        "",
+        "general"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "2026-applied-machine-learning-conference",
+      "name": "2026 Applied Machine Learning Conference",
+      "cfpUrl": "https://sessionize.com/2026-applied-machine-learning-conference/",
+      "cfpClosingDate": "2026-02-23",
+      "eventUrl": "https://appliedml.us/2026/",
+      "location": "Charlottesville, VA (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "kcd-beijing-vllm-2026",
+      "name": "KCD Beijing + vLLM 2026",
+      "cfpUrl": "https://sessionize.com/kcd-beijing-2026/",
+      "cfpClosingDate": "2026-02-24",
+      "eventUrl": "https://community.cncf.io/events/details/cncf-kcd-beijing-presents-kcd-beijing-vllm-2026/",
+      "location": "Beijing (China)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "riviera-dev",
+      "name": "Riviera Dev",
+      "cfpUrl": "https://conference-hall.io/riviera-dev-2026",
+      "cfpClosingDate": "2026-02-24",
+      "eventUrl": "https://rivieradev.fr/",
+      "location": "Sophia Antipolis (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "build-with-ai-in-krak-w",
+      "name": "Build with AI in Kraków",
+      "cfpUrl": "https://sessionize.com/gdg-krakow-build-with-ai",
+      "cfpClosingDate": "2026-02-25",
+      "eventUrl": "https://gdg.community.dev/gdg-krakow/",
+      "location": "Krakow (Poland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devopsdays-austin",
+      "name": "Devopsdays Austin",
+      "cfpUrl": "https://talks.devopsdays.org/devopsdays-austin-2026/cfp",
+      "cfpClosingDate": "2026-02-26",
+      "eventUrl": "https://devopsdays.org/events/2026-austin",
+      "location": "Austin, TX (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "agentcamp-2026-agentes-para-el-beneficio-de-la-sociedad",
+      "name": "AgentCamp 2026: Agentes para el beneficio de la sociedad",
+      "cfpUrl": "https://sessionize.com/agentcamp-devshow-2026",
+      "cfpClosingDate": "2026-02-27",
+      "eventUrl": "https://www.meetup.com/virtualdevshow/events/312368158/",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "agentcamp-colombia-2026",
+      "name": "AgentCamp Colombia 2026",
+      "cfpUrl": "https://sessionize.com/agentcampcolombia2026",
+      "cfpClosingDate": "2026-02-27",
+      "eventUrl": "https://www.meetup.com/virtualdevshow/events/313211823",
+      "location": "Bogotá (Colombia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "bsides-colombia-2026",
+      "name": "BSIDES COLOMBIA 2026",
+      "cfpUrl": "https://sessionize.com/bsides-colombia-2026",
+      "cfpClosingDate": "2026-02-27",
+      "eventUrl": "https://bsidesco.org",
+      "location": "Pereira (Colombia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "how2026-postgresql-ivorysql-eco-conference",
+      "name": "HOW2026：PostgreSQL & IvorySQL Eco Conference",
+      "cfpUrl": "https://sessionize.com/how2026",
+      "cfpClosingDate": "2026-02-27",
+      "eventUrl": "https://ivorysql.io",
+      "location": "Jinan (China)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devops-days-nashville-2026",
+      "name": "DevOps Days Nashville 2026",
+      "cfpUrl": "https://www.papercall.io/devopsdaysnashville2026",
+      "cfpClosingDate": "2026-02-27",
+      "eventUrl": "https://devopsdays.org/events/2026-nashville/welcome/",
+      "location": "Murfreesboro, TN (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "percona-live",
+      "name": "Percona Live",
+      "cfpUrl": "https://sessionize.com/percona-live26",
+      "cfpClosingDate": "2026-02-27",
+      "eventUrl": "https://perconalive.com/2026-usa/",
+      "location": "Mountain View, CA (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "ai-native-devcon-london-2026",
+      "name": "AI Native DevCon London 2026",
+      "cfpUrl": "https://sessionize.com/ai-native-devcon-ldn-2026",
+      "cfpClosingDate": "2026-02-27",
+      "eventUrl": "https://ainativedev.io/devcon",
+      "location": "London (UK)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "sikkerhetsfestivalen-2026",
+      "name": "Sikkerhetsfestivalen 2026",
+      "cfpUrl": "https://sessionize.com/sikkerhetsfestivalen-2026",
+      "cfpClosingDate": "2026-02-27",
+      "eventUrl": "https://sikkerhetsfestivalen.no/",
+      "location": "Lillehammer (Norway)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "microsoft-techcon-365-pwrcon-datacon-2026",
+      "name": "Microsoft TechCon 365, PWRCON & DATACON 2026",
+      "cfpUrl": "https://sessionize.com/techconpwrcondatacon26",
+      "cfpClosingDate": "2026-02-27",
+      "eventUrl": "https://www.techcon365.com/Seattle",
+      "location": "Washington D.C. (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "m365-community-days-quebec-2026",
+      "name": "M365 COMMUNITY DAYS QUEBEC 2026",
+      "cfpUrl": "https://sessionize.com/m365-community-days-quebec-2026",
+      "cfpClosingDate": "2026-02-27",
+      "eventUrl": "https://www.communitydays.org/pending/2026-04-01/m365-community-days-quebec-2026",
+      "location": "Québec, Canada",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "global-azure-bulgaria-2026",
+      "name": "Global Azure Bulgaria 2026",
+      "cfpUrl": "https://sessionize.com/global-azure-bulgaria-2026",
+      "cfpClosingDate": "2026-02-27",
+      "eventUrl": "https://www.eventbrite.com/e/global-azure-bulgaria-2026-tickets-1968874557803",
+      "location": "",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "devops-days-nashville-2026",
+      "name": "DevOps Days Nashville 2026",
+      "cfpUrl": "https://papercall.io/cfps/6515/submissions/new",
+      "cfpClosingDate": "2026-02-27",
+      "eventUrl": "https://devopsdays.org/events/2026-nashville/welcome",
+      "location": "Murfreesboro, TN",
+      "tags": [
+        "Devops",
+        "Ai"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "aws-student-community-day-at-saltillo",
+      "name": "AWS Student Community Day at Saltillo",
+      "cfpUrl": "https://sessionize.com/aws-student-community-day-at-saltillo",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://studentday.awscommunity.mx/",
+      "location": "Saltillo (Mexico)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "data-ai-community-day-durban-ai-unplugged",
+      "name": "Data & AI Community Day Durban: AI Unplugged",
+      "cfpUrl": "https://sessionize.com/durban-ai-unplugged",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://aimldatadurban.org/",
+      "location": "Durban (South Africa)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "monkigras-2026",
+      "name": "Monkigras 2026",
+      "cfpUrl": "https://www.papercall.io/monkigras26",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://monkigras.com/",
+      "location": "London (UK)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "women-techmakers-modena-2026",
+      "name": "Women Techmakers Modena 2026",
+      "cfpUrl": "https://sessionize.com/women-techmakers-modena-2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://wtm.modena.it/",
+      "location": "Modena (Italy)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "global-ai-bootcamp-2026-guatemala",
+      "name": "Global AI Bootcamp 2026 Guatemala",
+      "cfpUrl": "https://sessionize.com/global-ai-bootcamp-2026-guatemala",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.meetup.com/datosenaccion/events/312855826/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link&utm_version=v2&member_id=300359965",
+      "location": "Guatemala City (Guatemala)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "kcd-kochi-26",
+      "name": "KCD KOCHI 26",
+      "cfpUrl": "https://sessionize.com/kcd-kochi/",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://community.cncf.io/kcd-kochi/",
+      "location": "Kochi (India)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "global-azure-puglia-2026",
+      "name": "Global Azure Puglia 2026",
+      "cfpUrl": "https://sessionize.com/global-azure-puglia-2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://azure-meetup-puglia.github.io/",
+      "location": "Bari (Italy)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "global-azure-2026-pordenone",
+      "name": "Global Azure 2026 Pordenone",
+      "cfpUrl": "https://sessionize.com/globalazure2026pn/",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://globalazure2026pn.1nn0va.it/",
+      "location": "Pordenone (Italy)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "opensips-summit-2026",
+      "name": "OpenSIPS Summit 2026",
+      "cfpUrl": "https://www.papercall.io/opensips-summit-2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.opensips.org/events/Summit-2026Bucharest",
+      "location": "Bucharest (Romania)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "agentcon-san-francisco",
+      "name": "AgentCon San Francisco",
+      "cfpUrl": "https://sessionize.com/agentcon-san-francisco",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://globalai.community/chapters/san-francisco/events/agentcon-san-francisco/",
+      "location": "San Francisco, CA (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "security-bsides-luxembourg",
+      "name": "Security BSides Luxembourg",
+      "cfpUrl": "https://pretalx.com/bsidesluxembourg-2026/cfp",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://2026.bsides.lu/",
+      "location": "Belval (Luxembourg)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "ignite-kiel-2026",
+      "name": "IgNITE Kiel 2026",
+      "cfpUrl": "https://sessionize.com/ignite-kiel-2026/",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.ignite-kiel.de",
+      "location": "Kiel (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "aws-community-day-t-rkiye-2026",
+      "name": "AWS Community Day Türkiye 2026",
+      "cfpUrl": "https://www.papercall.io/aws-comday-tur-2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://aws.cloudturkey.io/",
+      "location": "Istanbul (Turkey)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "bsides-maine",
+      "name": "BSides Maine",
+      "cfpUrl": "https://www.papercall.io/bsides-maine",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "http://www.bsidesmaine.org",
+      "location": "Portland, ME (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "gophercon-singapore-2026",
+      "name": "GopherCon Singapore 2026",
+      "cfpUrl": "https://www.papercall.io/gopherconsg-2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://2026.gophercon.sg",
+      "location": "Singapore (Singapore)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "azure-bootcamp-switzerland-2026",
+      "name": "Azure Bootcamp Switzerland 2026",
+      "cfpUrl": "https://sessionize.com/azure-bootcamp-switzerland-2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://azurebootcamp.ch",
+      "location": "Bern (Switzerland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "workplace-ninjas-norway-2026",
+      "name": "Workplace Ninjas Norway 2026",
+      "cfpUrl": "https://sessionize.com/workplace-ninjas-norway-2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://wpninjas.no",
+      "location": "Oslo (Norway)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "hackmiami-2026",
+      "name": "Hackmiami 2026",
+      "cfpUrl": "https://www.hackmiami.com/#cfp",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.hackmiami.com/",
+      "location": "Sunny Isles Beach, FL (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devbcn",
+      "name": "DevBCN",
+      "cfpUrl": "https://sessionize.com/devbcn26/",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.devbcn.com/",
+      "location": "Barcelona (Spain)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devoxx-poland",
+      "name": "Devoxx Poland",
+      "cfpUrl": "https://devoxx.pl/cfp",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://devoxx.pl/",
+      "location": "Krakow (Poland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "tedxdhahran",
+      "name": "TEDxDhahran",
+      "cfpUrl": "https://sessionize.com/TEDxDhahranxSaudiArabia",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.ted.com/tedx/events/61237",
+      "location": "Dhahran (Saudi Arabia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "ai-conf-2026",
+      "name": "AI Conf 2026",
+      "cfpUrl": "https://sessionize.com/ai-conf-2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.aiconf.it",
+      "location": "Milan (Italy)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "experts-live-austria-2026",
+      "name": "Experts Live Austria 2026",
+      "cfpUrl": "https://sessionize.com/experts-live-austria-2026/",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "http://www.expertslive.at",
+      "location": "Linz (Austria)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "ieee-cloud-summit-2026",
+      "name": "IEEE Cloud Summit 2026",
+      "cfpUrl": "https://sessionize.com/ieeecloudsummit26",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.ieeecloudsummit.org/",
+      "location": "Washington D.C. (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "the-perl-raku-conference-in-greenville-sc-2026",
+      "name": "The Perl & Raku Conference in Greenville, SC 2026",
+      "cfpUrl": "https://www.papercall.io/tprcgsp2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://tprc.us/",
+      "location": "Greenville, SC (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "kcd-kuala-lumpur-2026",
+      "name": "KCD Kuala Lumpur 2026",
+      "cfpUrl": "https://sessionize.com/kcd-kuala-lumpur-2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://community.cncf.io/kcd-kuala-lumpur-2026",
+      "location": "Kuala Lumpur (Malaysia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "web-summer-camp-2026",
+      "name": "Web Summer Camp 2026",
+      "cfpUrl": "https://sessionize.com/web-summer-camp-2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://websummercamp.com/2026",
+      "location": "Opatija (Croatia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "developers-conference-2026",
+      "name": "Developers Conference 2026",
+      "cfpUrl": "https://sessionize.com/mscc-developers-conference-2026/",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://conference.mscc.mu/",
+      "location": "Moka (Mauritius)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "azure-cloud-lab-sesiones-junior-mentorizadas",
+      "name": "Azure Cloud Lab - Sesiones Junior mentorizadas",
+      "cfpUrl": "https://sessionize.com/azurecloudlabjunior",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.azurecloudlab.net",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "container-days-hamburg-2026",
+      "name": "Container Days Hamburg 2026",
+      "cfpUrl": "https://sessionize.com/containerdays-hamburg-2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.containerdays.io/containerdays-hamburg-2026/",
+      "location": "Hamburg (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "helish-summit-2026",
+      "name": "HELish Summit 2026",
+      "cfpUrl": "https://sessionize.com/helish-summit-2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.helishsummit.fi",
+      "location": "Helsinki (Finland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "turn-conference-2026",
+      "name": "TURN Conference 2026",
+      "cfpUrl": "https://sessionize.com/turn-conference-26",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://turn-conference.org/",
+      "location": "Weimar (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "the-cloud-ai-summit-2026",
+      "name": "The Cloud & AI Summit 2026",
+      "cfpUrl": "https://sessionize.com/thecloudandaisummit2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.cloudandaisummit.com/",
+      "location": "St. Louis, MO (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "bsides-maine",
+      "name": "BSides Maine",
+      "cfpUrl": "https://papercall.io/cfps/6495/submissions/new",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.bsidesmaine.org",
+      "location": "Portland, ME",
+      "tags": [
+        "Hacker",
+        "Bsides",
+        "Computer security",
+        "Exploit",
+        "Linux",
+        "Windows",
+        "Meshtastic",
+        "Sdr",
+        "Red team",
+        "Osint",
+        "Privacy",
+        "Cloud security",
+        "Reverse engineering",
+        "Dfir",
+        "Incident response",
+        "Penetration testing",
+        "Hacking",
+        "Offensive security",
+        "Ai",
+        "Social engineering",
+        "Maine",
+        "New england"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "gophercon-singapore-2026",
+      "name": "GopherCon Singapore 2026",
+      "cfpUrl": "https://papercall.io/cfps/6552/submissions/new",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://2026.gophercon.sg",
+      "location": "Singapore",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "ape-2026",
+      "name": "APE 2026",
+      "cfpUrl": "https://sessionize.com/ape-2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.meetup.com/azure-platform-engineering",
+      "location": "",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "ai-devsummit-developerweek-management-2026",
+      "name": "AI DevSummit + DeveloperWeek Management 2026",
+      "cfpUrl": "https://sessionize.com/ai-devsummit-developerweek-management-2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://aidevsummit.co",
+      "location": "South San Francisco, California, United States",
+      "tags": [
+        "",
+        "data"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "the-perl-html5-dom-document-internal-entity1-amp-end-raku-conference-in-greenville-sc-2026",
+      "name": "The Perl html5-dom-document-internal-entity1-amp-end Raku Conference in Greenville, SC 2026",
+      "cfpUrl": "https://papercall.io/cfps/6551/submissions/new",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://tprc.us/tprc-2026-gsp",
+      "location": "Greenville, SC, USA",
+      "tags": [
+        "Perl",
+        "Raku",
+        "Open source",
+        "Devops",
+        "Polyglot",
+        "Fun",
+        "Data",
+        "Beginner talk",
+        "Community",
+        "Class"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "aws-community-day-t-rkiye-2026",
+      "name": "AWS Community Day Türkiye 2026",
+      "cfpUrl": "https://papercall.io/cfps/6499/submissions/new",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://aws.cloudturkey.io",
+      "location": "Wyndham Grand Hotel, Istanbul",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "monkigras-2026",
+      "name": "Monkigras 2026",
+      "cfpUrl": "https://papercall.io/cfps/6454/submissions/new",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://monkigras.com",
+      "location": "London, UK",
+      "tags": [
+        "",
+        "Llm",
+        "Prompt engineering",
+        "Art and technology",
+        "Chatgpt",
+        "Generative ai",
+        "Google bard",
+        "Gemini"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "build-with-ai-iwd-tegucigalpa-2026",
+      "name": "Build With AI + IWD Tegucigalpa 2026 ",
+      "cfpUrl": "https://sessionize.com/build-with-ai-iwd-tegucigalpa-2026",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-tegucigalpa-presents-build-with-ai-amp-iwd-tegucigalpa-2026",
+      "location": "Tegucigalpa, Honduras",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "d365-finance-bootcamp",
+      "name": "D365 Finance Bootcamp ",
+      "cfpUrl": "https://sessionize.com/d365-finance-bootcamp",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.d365ugme.com",
+      "location": "",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "opensips-summit-2026-bucharest-ro",
+      "name": "OpenSIPS Summit 2026 - Bucharest, RO",
+      "cfpUrl": "https://papercall.io/cfps/6522/submissions/new",
+      "cfpClosingDate": "2026-02-28",
+      "eventUrl": "https://www.opensips.org/events/Summit-2026Bucharest",
+      "location": "Bucharest, Romania",
+      "tags": [
+        "Voip",
+        "Sip",
+        "Opensips",
+        "Rtc",
+        "Unified communication",
+        "Ims",
+        "Rcs",
+        "Telecom",
+        "Open source"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "the-brasov-forum",
+      "name": "The  Brasov Forum",
+      "cfpUrl": "https://sessionize.com/the-brasov-forum",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://www.brasovforum.com",
+      "location": "Brasov (Romania)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devopsdays-buenos-aires-2026",
+      "name": "DevOpsDays Buenos Aires 2026",
+      "cfpUrl": "https://www.papercall.io/dodba26",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://devopsdays.org/events/2026-ciudad-autonoma-de-buenos-aires",
+      "location": "Buenos Aires (Argentina)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "bsides-groningen-2026",
+      "name": "BSides Groningen 2026",
+      "cfpUrl": "https://sessionize.com/bsides-groningen-2026",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://bsidesgrunn.org",
+      "location": "Groningen (Netherlands)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "hack-n-iv-cybersecurity-conference",
+      "name": "HACKÉN IV - CYBERSECURITY CONFERENCE",
+      "cfpUrl": "https://www.papercall.io/hacken-iv",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://hacken.es/",
+      "location": "Jaén (Spain)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "langtalks-ai-engineering-conference-2026",
+      "name": "LangTalks AI Engineering Conference 2026",
+      "cfpUrl": "https://sessionize.com/langtalks-ai-engineering-conference-2026",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://luma.com/slude1kk",
+      "location": "Tel Aviv (Israel)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "lead-innovation-day-leadership-edition",
+      "name": "Lead Innovation Day - Leadership Edition",
+      "cfpUrl": "https://sessionize.com/lead-innovation-day-leadership-edition",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://leadinnovation.day/",
+      "location": "Paris (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "owasp-appsec-israel-2026",
+      "name": "OWASP AppSec Israel 2026",
+      "cfpUrl": "https://www.papercall.io/owasp-il-2026",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://appsecil.org/",
+      "location": "Tel Aviv (Israel)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devopsdays-medellin-2026",
+      "name": "DevOpsDays Medellin 2026",
+      "cfpUrl": "https://www.papercall.io/dodmde2026",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "http://devopsdays.io",
+      "location": "Medellin (Colombia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "kcd-istanbul-2026",
+      "name": "KCD Istanbul 2026",
+      "cfpUrl": "https://sessionize.com/kcd-istanbul-2026",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://kcd.istanbul",
+      "location": "Istanbul (Turkey)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "owasp-appsec-israel-2026-tel-aviv",
+      "name": "OWASP AppSec Israel 2026 Tel-Aviv",
+      "cfpUrl": "https://www.papercall.io/cfps/6524/submissions/new",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://appsecil.org/",
+      "location": "Tel Aviv (Israel)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "budapest-data-ai-forum-2026",
+      "name": "Budapest Data+AI Forum 2026",
+      "cfpUrl": "https://sessionize.com/budapestdai26",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://budapestdata26.hu",
+      "location": "Budapest (Hungary)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "agentcon-2025-mukono",
+      "name": "AgentCon 2025 - Mukono",
+      "cfpUrl": "https://sessionize.com/agentcon-2025-mukono",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://agentcon.city/mukono",
+      "location": "Mukono (Uganda)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "jjug-ccc-2026-spring",
+      "name": "JJUG CCC 2026 Spring",
+      "cfpUrl": "https://sessionize.com/jjug-ccc-2026-spring",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://www.java-users.jp/",
+      "location": "Tokyo (Japan)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "future-frontend",
+      "name": "Future Frontend",
+      "cfpUrl": "https://forms.gle/gWReoDDjra4MCQMM8",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://futurefrontend.com",
+      "location": "Espoo (Finland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "sunny-tech",
+      "name": "Sunny Tech",
+      "cfpUrl": "https://conference-hall.io/sunny-tech-2026",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://sunny-tech.io/",
+      "location": "Montpellier (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "beer-city-code-2026",
+      "name": "Beer City Code 2026",
+      "cfpUrl": "https://sessionize.com/beer-city-code-2026",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://beercitycode.com",
+      "location": "Grand Rapids, MI (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "tacon-2026",
+      "name": "TACON 2026",
+      "cfpUrl": "https://sessionize.com/tacon-2026",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://events.summit-community.de/event/tacon-2026",
+      "location": "Leipzig (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "whatthestack",
+      "name": "WhatTheStack",
+      "cfpUrl": "https://wts.sh/login",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://wts.sh",
+      "location": "Skopje (Macedonia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "modern-re-2026",
+      "name": "Modern RE 2026",
+      "cfpUrl": "https://sessionize.com/modernre2026",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://events.summit-community.de/event/modernre-2026/",
+      "location": "Leipzig (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devconf-cz",
+      "name": "DevConf.CZ",
+      "cfpUrl": "https://pretalx.devconf.info/devconf-cz-2026/cfp",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://www.devconf.info/cz",
+      "location": "Brno",
+      "tags": [
+        "graphql"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "hack-n-iv-cybersecurity-conference-ja-n-spain",
+      "name": "HACKÉN  IV - CYBERSECURITY CONFERENCE - JAÉN (SPAIN)",
+      "cfpUrl": "https://papercall.io/cfps/6531/submissions/new",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://hacken.es",
+      "location": "Jaén, Spain",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "devopsdays-buenos-aires-2026",
+      "name": "DevOpsDays Buenos Aires 2026",
+      "cfpUrl": "https://papercall.io/cfps/6523/submissions/new",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://devopsdaysba.com",
+      "location": "Ciudad Autónoma de Buenos Aires",
+      "tags": [
+        "Automatización y ci/cd",
+        "Seguridad (devsecops)",
+        "Observabilidad",
+        "Infraestructura como código",
+        "Casos de éxito",
+        "Cultura y colaboración",
+        "Futuro del devops",
+        "Nube nativa (cloud native)"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "secretcon-4-2026",
+      "name": "SecretCon 4 (2026)",
+      "cfpUrl": "https://sessionize.com/secretcon",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://www.secretcon.com",
+      "location": "Saint Paul, Minnesota, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "laouc-2026",
+      "name": "LAOUC 2026",
+      "cfpUrl": "https://sessionize.com/laouc-2026",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://www.laouc.org",
+      "location": "",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "devopsdays-medellin-2026",
+      "name": "DevOpsDays Medellin 2026",
+      "cfpUrl": "https://papercall.io/cfps/6509/submissions/new",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://devopsdays.io",
+      "location": "Medellin, Colombia",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "bsides312-2026",
+      "name": "BSides312 2026",
+      "cfpUrl": "https://sessionize.com/bsides312",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://bsides312.org",
+      "location": "Chicago, Illinois, United States",
+      "tags": [
+        "General security",
+        "Osint",
+        "Hardware",
+        "Software",
+        "Web apps",
+        "Bsides",
+        "Bsides312",
+        "General",
+        "Security"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "owasp-appsec-israel-2026-tel-aviv-may-18th-securing-tomorrow-tel-aviv-israel",
+      "name": "OWASP AppSec Israel 2026 Tel-Aviv, May 18th - Securing tomorrow. Tel-Aviv, Israel",
+      "cfpUrl": "https://sessionize.com/appsecil-2026",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://appsecil.org",
+      "location": "Tel Aviv, Israel",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "directions-asia-2026",
+      "name": "Directions ASIA 2026",
+      "cfpUrl": "https://sessionize.com/directions-asia-2026",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://www.directionsforpartners.com/asia2026",
+      "location": "Ho Chi Minh City, Vietnam",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "project-lightning-talk-maintainer-track-kubecon-cloudnativecon-india-2026",
+      "name": "Project Lightning Talk + Maintainer  Track: KubeCon + CloudNativeCon India 2026",
+      "cfpUrl": "https://sessionize.com/kccncindia-projectlt-maintainer-track",
+      "cfpClosingDate": "2026-03-01",
+      "eventUrl": "https://events.linuxfoundation.org/kubecon-cloudnativecon-india",
+      "location": "Mumbai, India",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "laracon-eu",
+      "name": "Laracon EU",
+      "cfpUrl": "https://form.typeform.com/to/Kz3xhTQE",
+      "cfpClosingDate": "2026-03-02",
+      "eventUrl": "https://laracon.eu/",
+      "location": "Amsterdam (Netherlands)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "agentic-conf-hamburg",
+      "name": "Agentic Conf Hamburg",
+      "cfpUrl": "https://sessionize.com/agentic-conf-hamburg",
+      "cfpClosingDate": "2026-03-02",
+      "eventUrl": "https://agentic.hamburg/conf-2026/",
+      "location": "Hamburg (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "gs-uk-virtual-2026",
+      "name": "GS UK Virtual 2026",
+      "cfpUrl": "https://sessionize.com/gs-uk-virtual-2026",
+      "cfpClosingDate": "2026-03-02",
+      "eventUrl": "https://conferences.gse.org.uk/2026V",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "agile-trends-nordeste-2026",
+      "name": "Agile Trends Nordeste 2026",
+      "cfpUrl": "https://sessionize.com/agile-trends-nordeste-2026",
+      "cfpClosingDate": "2026-03-02",
+      "eventUrl": "https://agiletrendsbr.com/",
+      "location": "Recife (Brazil)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "ia-na",
+      "name": "IA–NA",
+      "cfpUrl": "https://conference-hall.io/ia-na-2026",
+      "cfpClosingDate": "2026-03-02",
+      "eventUrl": "https://ia-na.fr",
+      "location": "La Rochelle (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "qa-or-the-highway-2026",
+      "name": "QA or the Highway 2026",
+      "cfpUrl": "https://sessionize.com/qa-or-the-highway-2026",
+      "cfpClosingDate": "2026-03-02",
+      "eventUrl": "https://www.qaorthehwy.com/",
+      "location": "Columbus, OH (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "react-summit",
+      "name": "React Summit",
+      "cfpUrl": "https://gitnation.com/events/react-summit-2026/cfp",
+      "cfpClosingDate": "2026-03-02",
+      "eventUrl": "https://reactsummit.com",
+      "location": "Amsterdam (Netherlands)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "tech-work",
+      "name": "Tech'Work",
+      "cfpUrl": "https://conference-hall.io/tech-work-lyon-2026",
+      "cfpClosingDate": "2026-03-02",
+      "eventUrl": "https://techwork.events",
+      "location": "Lyon (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "jsnation",
+      "name": "JSNation",
+      "cfpUrl": "https://papercall.io/cfps/5820/submissions/new",
+      "cfpClosingDate": "2026-03-02",
+      "eventUrl": "https://jsnation.com",
+      "location": "Amsterdam html5-dom-document-internal-entity1-amp-end Online",
+      "tags": [
+        "javascript",
+        "Javascript",
+        "React",
+        "Performance",
+        "A11y",
+        "Developer tooling",
+        "Ai",
+        "Node",
+        "Deno",
+        "Bun",
+        "typescript"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "kcd-panama-2026",
+      "name": "KCD Panama 2026",
+      "cfpUrl": "https://sessionize.com/kcd-panama",
+      "cfpClosingDate": "2026-03-03",
+      "eventUrl": "https://community.cncf.io/events/details/cncf-kcd-panama-presents-kcd-panama-2026/",
+      "location": "Panama City (Panama)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "raleigh-day-of-data-2026",
+      "name": "Raleigh Day of Data 2026",
+      "cfpUrl": "https://sessionize.com/ral-dod-2026/",
+      "cfpClosingDate": "2026-03-03",
+      "eventUrl": "https://dayofdata.org/2026-05-23-dayofdata1143/",
+      "location": "Durham, NC (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "techlead-conference-2026-amsterdam",
+      "name": "TechLead Conference 2026 Amsterdam",
+      "cfpUrl": "https://papercall.io/cfps/5899/submissions/new",
+      "cfpClosingDate": "2026-03-03",
+      "eventUrl": "https://techleadconf.com",
+      "location": "Online",
+      "tags": [
+        "leadership",
+        "performance",
+        "general",
+        "Tech leadership",
+        "Tech conference",
+        "Seniority in tech",
+        "data",
+        "javascript"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "days-of-knowledge-nordic-2026",
+      "name": "Days of Knowledge Nordic 2026",
+      "cfpUrl": "https://sessionize.com/days-of-knowledge-nordic-2026",
+      "cfpClosingDate": "2026-03-03",
+      "eventUrl": "https://www.directionsforpartners.com/dokno2026",
+      "location": "Odense, Denmark",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "gophercon-2026",
+      "name": "GopherCon 2026",
+      "cfpUrl": "https://sessionize.com/gophercon-2026",
+      "cfpClosingDate": "2026-03-04",
+      "eventUrl": "https://gophercon.com",
+      "location": "Washington D.C. (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "open-source-summit-india-2026",
+      "name": "Open Source Summit India 2026",
+      "cfpUrl": "https://sessionize.com/open-source-summit-india-2026",
+      "cfpClosingDate": "2026-03-04",
+      "eventUrl": "https://events.linuxfoundation.org/open-source-summit-india",
+      "location": "Mumbai, India",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "hardwear-io-usa",
+      "name": "Hardwear.io USA",
+      "cfpUrl": "https://hardwear.io/usa-2026/cfp.php",
+      "cfpClosingDate": "2026-03-05",
+      "eventUrl": "https://hardwear.io/usa-2026",
+      "location": "Anaheim, CA",
+      "tags": [
+        "iot"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "wome-ntech",
+      "name": "Wome'nTech",
+      "cfpUrl": "https://sessionize.com/womentech",
+      "cfpClosingDate": "2026-03-06",
+      "eventUrl": "https://gdg.community.dev/gdg-vicenza",
+      "location": "Vicenza (Italy)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "agentcon-seoul",
+      "name": "AgentCon Seoul",
+      "cfpUrl": "https://sessionize.com/agentcon-seoul",
+      "cfpClosingDate": "2026-03-06",
+      "eventUrl": "https://globalai.community/chapters/seoul/events/agentcon-seoul/",
+      "location": "Seoul (South Korea)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "agentcon-hong-kong",
+      "name": "AgentCon Hong Kong",
+      "cfpUrl": "https://sessionize.com/agentcon-hong-kong",
+      "cfpClosingDate": "2026-03-06",
+      "eventUrl": "https://globalai.community/chapters/hong-kong/events/agentcon-hong-kong/",
+      "location": "Hong Kong (Hong Kong)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "pycon-austria-2026",
+      "name": "PyCon Austria 2026",
+      "cfpUrl": "https://www.papercall.io/pycon-austria-2026",
+      "cfpClosingDate": "2026-03-06",
+      "eventUrl": "https://pycon.at",
+      "location": "Eisenstadt (Austria)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "cloud-native-days-italy",
+      "name": "Cloud Native Days Italy",
+      "cfpUrl": "https://sessionize.com/cloud-native-days-italy-2026",
+      "cfpClosingDate": "2026-03-06",
+      "eventUrl": "https://cloudnativedaysitaly.org/",
+      "location": "Bologna (Italy)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "20th-silicon-saxony-days",
+      "name": "20th Silicon Saxony Days",
+      "cfpUrl": "https://sessionize.com/20th-silicon-saxony-days",
+      "cfpClosingDate": "2026-03-06",
+      "eventUrl": "https://www.silicon-saxony-day.de/",
+      "location": "Dresden (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "2026-provincial-intermediate-and-middle-years-teachers-association-mypita-fall-conference",
+      "name": "2026 Provincial Intermediate and Middle Years Teachers' Association (myPITA) Fall Conference",
+      "cfpUrl": "https://sessionize.com/mypita",
+      "cfpClosingDate": "2026-03-06",
+      "eventUrl": "https://mypita.ca/",
+      "location": "Vancouver, BC (Canada)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "pycon-austria-2026",
+      "name": "PyCon Austria 2026",
+      "cfpUrl": "https://papercall.io/cfps/6490/submissions/new",
+      "cfpClosingDate": "2026-03-06",
+      "eventUrl": "https://pycon.at",
+      "location": "Eisenstadt, Austria",
+      "tags": [
+        "Open-source",
+        "Python"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "bsides-belgrade-2026",
+      "name": "BSides Belgrade 2026",
+      "cfpUrl": "https://sessionize.com/bsides-belgrade-20263111",
+      "cfpClosingDate": "2026-03-07",
+      "eventUrl": "https://bsidesbeg.org/",
+      "location": "Belgrade (Serbia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "ddd-south-west-2026",
+      "name": "DDD South West 2026",
+      "cfpUrl": "https://sessionize.com/ddd-south-west-2026",
+      "cfpClosingDate": "2026-03-07",
+      "eventUrl": "https://dddsouthwest.com/",
+      "location": "Bristol (UK)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "flupa-ux-days-2026",
+      "name": "Flupa UX Days 2026",
+      "cfpUrl": "https://sessionize.com/flupa-ux-days-2025-appel-a-orateurric",
+      "cfpClosingDate": "2026-03-07",
+      "eventUrl": "https://www.uxdays.eu",
+      "location": "Paris (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "aicd-brussels",
+      "name": "AICD - BRUSSELS",
+      "cfpUrl": "https://sessionize.com/aicd-brussels",
+      "cfpClosingDate": "2026-03-07",
+      "eventUrl": "https://aicommunitydays.ai",
+      "location": "Brussels, Belgium",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "pmr-pre-day",
+      "name": "PMR Pre-Day",
+      "cfpUrl": "https://sessionize.com/pmr-pre-day",
+      "cfpClosingDate": "2026-03-07",
+      "eventUrl": "https://dynamicscon.com/pmr-pre-day",
+      "location": "Las Vegas, Nevada, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "agi-lille-2026",
+      "name": "Agi'Lille 2026",
+      "cfpUrl": "https://sessionize.com/agilille-2026",
+      "cfpClosingDate": "2026-03-08",
+      "eventUrl": "https://agilille.fr",
+      "location": "Lille (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "global-ai-milwaukee-agentcamp-2026",
+      "name": "Global AI Milwaukee AgentCamp 2026",
+      "cfpUrl": "https://sessionize.com/global-ai-milwaukee-agentcamp-2026",
+      "cfpClosingDate": "2026-03-08",
+      "eventUrl": "https://globalai.community/agentcamp/milwaukee",
+      "location": "Pewaukee, Wisconsin, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "flupa-ux-days-2026-appel-orateur-rices-pour-la-14-dition",
+      "name": "Flupa UX Days 2026 – Appel à orateur·rices pour la 14ᵉ édition ",
+      "cfpUrl": "https://sessionize.com/flupa-ux-days-2026",
+      "cfpClosingDate": "2026-03-08",
+      "eventUrl": "https://www.uxdays.eu",
+      "location": "Paris, France",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "cfcamp-2026",
+      "name": "CFCamp 2026",
+      "cfpUrl": "https://www.papercall.io/cfcamp2026",
+      "cfpClosingDate": "2026-03-09",
+      "eventUrl": "https://www.cfcamp.org/",
+      "location": "Munich (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "kcdc-2026",
+      "name": "KCDC 2026",
+      "cfpUrl": "https://sessionize.com/kcdc-2026",
+      "cfpClosingDate": "2026-03-09",
+      "eventUrl": "http://www.kcdc.info",
+      "location": "Kansas City, MO (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "vcf-latam-2026",
+      "name": "VCF Latam 2026",
+      "cfpUrl": "https://sessionize.com/vcf-latam-2026",
+      "cfpClosingDate": "2026-03-10",
+      "eventUrl": "https://vcf.espaciotec.com.ar/",
+      "location": "Bahia Blanca (Argentina)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "agentcamp-sofia",
+      "name": "AgentCamp Sofia",
+      "cfpUrl": "https://sessionize.com/agentcamp-sofia",
+      "cfpClosingDate": "2026-03-10",
+      "eventUrl": "http://bsc.technology/AIBootcamp/",
+      "location": "Sofia (Bulgaria)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "bsides-boulder-2026",
+      "name": "BSides Boulder 2026",
+      "cfpUrl": "https://sessionize.com/bsides-boulder-2026/",
+      "cfpClosingDate": "2026-03-10",
+      "eventUrl": "https://bsidesboulder.org",
+      "location": "Boulder, CO (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "gophercon-latam-2026",
+      "name": "GopherCon Latam 2026",
+      "cfpUrl": "https://www.papercall.io/gopherconlatam2026",
+      "cfpClosingDate": "2026-03-10",
+      "eventUrl": "https://gopherconlatam.org",
+      "location": "Florianópolis (Brazil)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "gophercon-latam-2026",
+      "name": "GopherCon Latam 2026",
+      "cfpUrl": "https://papercall.io/cfps/6595/submissions/new",
+      "cfpClosingDate": "2026-03-10",
+      "eventUrl": "https://gopherconlatam.org",
+      "location": "Florianópolis, SC, Brazil",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "lac-csirts-meeting-lacnic45-guadalajara-mexico",
+      "name": "LAC-CSIRTs Meeting (LACNIC45 - Guadalajara, Mexico)",
+      "cfpUrl": "https://papercall.io/cfps/6188/submissions/new",
+      "cfpClosingDate": "2026-03-10",
+      "eventUrl": "https://lacnic45.lacnic.net",
+      "location": "Mexico",
+      "tags": [
+        "Csirt",
+        "Security",
+        "Misp",
+        "Training",
+        "Dfir",
+        "Ransomware",
+        "Ddos",
+        "Community",
+        "Cybersecurity",
+        "Threat intelligence",
+        "Security awareness",
+        "Tabletop exercise",
+        "Artificial intelligence (ai)",
+        "Supply chain security",
+        "Iot security",
+        "Llm security",
+        "Vibe coding security",
+        "Lacnic45"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "github-copilot-dev-days-perth",
+      "name": "GitHub Copilot Dev Days | Perth",
+      "cfpUrl": "https://sessionize.com/github-copilot-dev-days-perth",
+      "cfpClosingDate": "2026-03-11",
+      "eventUrl": "https://www.meetup.com/perth-github-user-group/events/313275269/",
+      "location": "Perth (Australia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "agentcamp-2026-perth",
+      "name": "AgentCamp 2026 Perth",
+      "cfpUrl": "https://sessionize.com/agentcamp-2026-perth",
+      "cfpClosingDate": "2026-03-11",
+      "eventUrl": "https://globalai.community/agentcamp/seu56m6w/",
+      "location": "Perth (Australia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "ruby-conf-africa-2026",
+      "name": "Ruby Conf Africa 2026",
+      "cfpUrl": "https://www.papercall.io/ruby-conf-africa-2026",
+      "cfpClosingDate": "2026-03-11",
+      "eventUrl": "https://rubyconf.africa/",
+      "location": "Nairobi (Kenya)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "copilot-co-g-teborg",
+      "name": "Copilot & Co - Göteborg",
+      "cfpUrl": "https://sessionize.com/copilotco-goteborg",
+      "cfpClosingDate": "2026-03-11",
+      "eventUrl": "https://copilotco.se",
+      "location": "Göteborg, Sweden",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "ruby-conf-africa-2026",
+      "name": "Ruby Conf Africa 2026",
+      "cfpUrl": "https://papercall.io/cfps/6492/submissions/new",
+      "cfpClosingDate": "2026-03-11",
+      "eventUrl": "https://rubyconf.africa",
+      "location": "Nairobi, Kenya",
+      "tags": [
+        "Rubyconfafrica",
+        "Ruby",
+        "Ruby on rails",
+        "Stimulus",
+        "Turbo",
+        "Hotwire",
+        "Development best practices",
+        "Software architecture",
+        "Performance optimization",
+        "Testing",
+        "Devops",
+        "Ai/machine learning",
+        "Cloud/infrastructure",
+        "Open source",
+        "Career development",
+        "Entrepreneurship",
+        "Community html5-dom-document-internal-entity1-amp-end diversity"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "cybersecurity-una-gara-da-vincere-2026",
+      "name": "Cybersecurity - una gara da vincere 2026",
+      "cfpUrl": "https://sessionize.com/cybersecurity-una-gara-da-vincere-2026",
+      "cfpClosingDate": "2026-03-12",
+      "eventUrl": "https://www.linkedin.com/company/cybergaradavincere",
+      "location": "Imola, Italy",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "azur-tech-summer-2026",
+      "name": "Azur Tech Summer 2026",
+      "cfpUrl": "https://conference-hall.io/azur-tech-summer-2026",
+      "cfpClosingDate": "2026-03-13",
+      "eventUrl": "https://www.telecom-valley.fr/azurtechsummer/",
+      "location": "Valbonne (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "agile-lyon-2026",
+      "name": "Agile Lyon 2026",
+      "cfpUrl": "https://sessionize.com/agile-lyon-2026/",
+      "cfpClosingDate": "2026-03-13",
+      "eventUrl": "https://www.agilelyon.fr/",
+      "location": "Lyon (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "tailscaleup-2026",
+      "name": "TailscaleUp 2026",
+      "cfpUrl": "https://sessionize.com/tailscaleup2026",
+      "cfpClosingDate": "2026-03-13",
+      "eventUrl": "https://www.tailscale.com/tailscaleup",
+      "location": "San Francisco, CA (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "aws-community-lounge-at-aws-summit-hamburg-2026",
+      "name": "AWS Community Lounge at AWS Summit Hamburg 2026",
+      "cfpUrl": "https://sessionize.com/community-lounge-at-aws-summit-dach-2026",
+      "cfpClosingDate": "2026-03-13",
+      "eventUrl": "https://aws.amazon.com/events/summits",
+      "location": "Hamburg, Germany",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "azur-tech-summer-2026",
+      "name": "Azur Tech Summer 2026",
+      "cfpUrl": "https://sessionize.com/azur-tech-summer-2026",
+      "cfpClosingDate": "2026-03-13",
+      "eventUrl": "https://www.telecom-valley.fr",
+      "location": "Valbonne, France",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "global-azure-london-2026",
+      "name": "Global Azure London 2026",
+      "cfpUrl": "https://sessionize.com/global-azure-london",
+      "cfpClosingDate": "2026-03-14",
+      "eventUrl": "https://globalazure.net",
+      "location": "London (UK)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "global-azure-bootcamp-2026-melbourne-australia",
+      "name": "Global Azure Bootcamp 2026 - Melbourne Australia",
+      "cfpUrl": "https://sessionize.com/global-azure-bootcamp-2026-melbourne-a",
+      "cfpClosingDate": "2026-03-14",
+      "eventUrl": "https://melbourneazurebootcamp.com/",
+      "location": "Melbourne (Australia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "boise-code-camp-2026",
+      "name": "Boise Code Camp - 2026",
+      "cfpUrl": "https://sessionize.com/boise-code-camp-2026",
+      "cfpClosingDate": "2026-03-14",
+      "eventUrl": "https://www.boisecodecamp.com",
+      "location": "Boise, ID (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "mendercon-2026",
+      "name": "MenderCon 2026",
+      "cfpUrl": "https://www.papercall.io/mendercon-2026",
+      "cfpClosingDate": "2026-03-14",
+      "eventUrl": "https://mendercon.com/",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "threatmodcon-2026-vienna",
+      "name": "ThreatModCon 2026 Vienna",
+      "cfpUrl": "https://sessionize.com/threatmodcon-2026-vienna",
+      "cfpClosingDate": "2026-03-14",
+      "eventUrl": "https://www.threatmodcon.com/vienna-2026",
+      "location": "Vienna (Austria)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "kandddinsky-2026",
+      "name": "KanDDDinsky 2026",
+      "cfpUrl": "https://sessionize.com/kandddinsky-2026",
+      "cfpClosingDate": "2026-03-14",
+      "eventUrl": "https://kandddinsky.com",
+      "location": "Berlin (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "airflow-summit-2026",
+      "name": "Airflow Summit 2026",
+      "cfpUrl": "https://sessionize.com/airflow-summit-2026",
+      "cfpClosingDate": "2026-03-14",
+      "eventUrl": "https://airflowsummit.org",
+      "location": "Austin, Texas, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "mendercon-2026",
+      "name": "MenderCon 2026",
+      "cfpUrl": "https://papercall.io/cfps/6514/submissions/new",
+      "cfpClosingDate": "2026-03-14",
+      "eventUrl": "https://mendercon.com",
+      "location": "Online",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "sem-servidor-conf-2026",
+      "name": "Sem Servidor Conf 2026",
+      "cfpUrl": "https://www.papercall.io/semservidorconf2026-floripa",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://materiais.semservidor.com.br/sem-servidor-conf-2026-floripa",
+      "location": "Florianópolis (Brazil)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "optimized-ai-conference-2026",
+      "name": "Optimized AI Conference 2026",
+      "cfpUrl": "https://sessionize.com/optimized-ai-conference-2026",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://www.oaiconference.com/",
+      "location": "Atlanta, GA (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "orlando-code-camp-2026",
+      "name": "Orlando Code Camp 2026",
+      "cfpUrl": "https://sessionize.com/orlando-code-camp-2026",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://orlandocodecamp.com/",
+      "location": "Sanford, FL (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "lost-in-a-lightfield-online-conference-2026",
+      "name": "Lost in a Lightfield Online Conference 2026",
+      "cfpUrl": "https://sessionize.com/lost-in-a-lightfield-conference-2026",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://conference.lostinalightfield.com",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "global-azure-2026",
+      "name": "Global Azure 2026",
+      "cfpUrl": "https://sessionize.com/global-azure-2026-madrid",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://globalazure.es",
+      "location": "Madrid (Spain)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "llmday-austin-2026-q2",
+      "name": "LLMday Austin 2026 Q2",
+      "cfpUrl": "https://www.papercall.io/llmday-2026-austin-q2",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://llmday.com/2026-austin-q2/",
+      "location": "Austin, TX (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "security-bsides-knoxville-2026",
+      "name": "Security BSides Knoxville 2026",
+      "cfpUrl": "https://www.papercall.io/bsides-knoxville-2026",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://bsidesknoxville.com/",
+      "location": "Knoxville, TN (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "confidence",
+      "name": "CONFidence",
+      "cfpUrl": "https://confidence-conference.org/cfp-2026",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://confidence-conference.org",
+      "location": "Krakow (Poland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "cloud-toulouse-2026",
+      "name": "Cloud Toulouse 2026",
+      "cfpUrl": "https://conference-hall.io/cloud-toulouse-2026",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://cloudtoulouse.com/",
+      "location": "Toulouse (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "scenic-city-summit-2026",
+      "name": "Scenic City Summit 2026",
+      "cfpUrl": "https://sessionize.com/scenic-city-summit-2026",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "http://www.sceniccitysummit.com",
+      "location": "Chattanooga, TN (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devquest-niort",
+      "name": "DevQuest Niort",
+      "cfpUrl": "https://conference-hall.io/devquest-2026",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://www.devquest.fr/",
+      "location": "Niort (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "2026-ire-conference",
+      "name": "2026 IRE CONFERENCE",
+      "cfpUrl": "https://sessionize.com/2026-ire-conference",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://www.ire.org",
+      "location": "National Harbor, MD (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "reactnext-2026",
+      "name": "ReactNext 2026",
+      "cfpUrl": "https://sessionize.com/ReactNext2026/",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://www.react-next.com",
+      "location": "Tel Aviv (Israel)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "nodetlv-2026",
+      "name": "NodeTLV 2026",
+      "cfpUrl": "https://sessionize.com/nodetlv-2026/",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://www.nodetlv.com/",
+      "location": "Tel Aviv (Israel)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "rubyconf-las-vegas-2026",
+      "name": "RubyConf Las Vegas 2026",
+      "cfpUrl": "https://sessionize.com/rubyconf-2026",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "http://rubyconf.org",
+      "location": "Las Vegas, NV (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "opensearchcon-india-2026",
+      "name": "OpenSearchCon India 2026 ",
+      "cfpUrl": "https://sessionize.com/opensearchcon-india-2026",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://events.linuxfoundation.org/opensearchcon-india",
+      "location": "Mumbai, India",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "west-africa-internet-governance-forum-2026",
+      "name": "West Africa internet Governance Forum 2026 ",
+      "cfpUrl": "https://sessionize.com/waigf2026",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://waigf.ecowas.int",
+      "location": "Freetown, Sierra Leone",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "sem-servidor-conf-2026-edi-o-floripa",
+      "name": "Sem Servidor Conf 2026 - Edição Floripa",
+      "cfpUrl": "https://papercall.io/cfps/6555/submissions/new",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://materiais.semservidor.com.br/sem-servidor-conf-2026-floripa",
+      "location": "Florianópolis, SC",
+      "tags": [
+        "Serverless",
+        "Cloud",
+        "Cloud computing",
+        "Aws",
+        "Gcp",
+        "Azure",
+        "Lambda",
+        "Dynamodb",
+        "S3"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "llmday-austin-2026-q2",
+      "name": "LLMday Austin 2026 Q2",
+      "cfpUrl": "https://papercall.io/cfps/6554/submissions/new",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://llmday.com/2026-austin-q2",
+      "location": "Austin, Texas, United States",
+      "tags": [
+        "Llms",
+        "Prompting",
+        "Ai",
+        "Ml",
+        "Mlops",
+        "Iot"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "a-i-day-2026",
+      "name": "A.I. Day 2026",
+      "cfpUrl": "https://sessionize.com/a-i-day-2026",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://aiday.dotnetcode.it/ai-day-conf-2025-reloaded",
+      "location": "Rome, Italy",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "helsinki-architect-dreamin-2026",
+      "name": "Helsinki Architect Dreamin - 2026",
+      "cfpUrl": "https://sessionize.com/helsinki-architect-dreamin-2026",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://architectdream.wpengine.com",
+      "location": "Helsinki, Finland",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "security-bsides-knoxville-2026",
+      "name": "Security BSides Knoxville 2026",
+      "cfpUrl": "https://papercall.io/cfps/6517/submissions/new",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://bsidesknoxville.com",
+      "location": "Knoxville, TN",
+      "tags": [
+        "Offensive security",
+        "Defensive security",
+        "Application security",
+        "Intelligence",
+        "Malware",
+        "Exploit development",
+        "Social engineering",
+        "Security management",
+        "Grc",
+        "Ciso",
+        "Dfir",
+        "Soc",
+        "Osint",
+        "Breaking into industry",
+        "Physical pen testing",
+        "Body hacking",
+        "Red team",
+        "Blue team",
+        "Human factors",
+        "Hardware",
+        "Soft skills",
+        "Management",
+        "Appsec",
+        "Ics/scada"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "agentcamp-tulsa",
+      "name": "AgentCamp - Tulsa",
+      "cfpUrl": "https://sessionize.com/agentcamp-tulsa",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://globalai.community/agentcamp/tulsa",
+      "location": "Tulsa, Oklahoma, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "cfcamp-2026",
+      "name": "CFCamp 2026",
+      "cfpUrl": "https://papercall.io/cfps/6457/submissions/new",
+      "cfpClosingDate": "2026-03-15",
+      "eventUrl": "https://www.cfcamp.org/call-for-papers.html",
+      "location": "Atomis Hotel Munich Airport",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "sreday-san-francisco-2026-q2",
+      "name": "SREday San Francisco 2026 Q2",
+      "cfpUrl": "https://www.papercall.io/sreday-2026-san-francisco-q2",
+      "cfpClosingDate": "2026-03-16",
+      "eventUrl": "https://sreday.com/2026-san-francisco-q2/",
+      "location": "San Francisco, CA (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "sreday-seattle-2026-q2",
+      "name": "SREday Seattle 2026 Q2",
+      "cfpUrl": "https://www.papercall.io/sreday-2026-seattle-q2",
+      "cfpClosingDate": "2026-03-16",
+      "eventUrl": "https://sreday.com/2026-seattle-q2/",
+      "location": "Seattle, WA (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "aws-community-summit-birmingham-2026",
+      "name": "AWS Community Summit - Birmingham 2026",
+      "cfpUrl": "https://sessionize.com/aws-community-summit-birmingham-2026",
+      "cfpClosingDate": "2026-03-16",
+      "eventUrl": "https://www.comsum.co.uk",
+      "location": "Birmingham (UK)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "stl-techweek-2026",
+      "name": "STL TechWeek 2026",
+      "cfpUrl": "https://sessionize.com/stl-techweek",
+      "cfpClosingDate": "2026-03-16",
+      "eventUrl": "https://techstl.com/techweek",
+      "location": "St. Louis, Missouri, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "sreday-san-francisco-2026-q2",
+      "name": "SREday San Francisco 2026 Q2",
+      "cfpUrl": "https://papercall.io/cfps/6496/submissions/new",
+      "cfpClosingDate": "2026-03-16",
+      "eventUrl": "https://sreday.com/2026-san-francisco-q2",
+      "location": "Harness, San Francisco",
+      "tags": [
+        "Sre",
+        "Devops",
+        "Security",
+        "Cloud",
+        "Ai",
+        "Platforms",
+        "Architecture"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "sreday-seattle-2026-q2",
+      "name": "SREday Seattle 2026 Q2",
+      "cfpUrl": "https://papercall.io/cfps/6500/submissions/new",
+      "cfpClosingDate": "2026-03-16",
+      "eventUrl": "https://sreday.com/2026-seattle-q2",
+      "location": "Gable.ai, Seattle",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "bsides-prishtina-2026",
+      "name": "BSides Prishtina 2026",
+      "cfpUrl": "https://sessionize.com/bsides-prishtina-2026",
+      "cfpClosingDate": "2026-03-17",
+      "eventUrl": "https://www.bsidesprishtina.org",
+      "location": "Pristina (Kosovo)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "jconf-dominicana-2026",
+      "name": "JConf Dominicana 2026",
+      "cfpUrl": "https://papercall.io/cfps/6529/submissions/new",
+      "cfpClosingDate": "2026-03-18",
+      "eventUrl": "https://jconfdominicana.org",
+      "location": "Santiago, Dominican Republic",
+      "tags": [
+        "Java plaftorm",
+        "Alternative languages",
+        "Server side development",
+        "Client side development",
+        "Machine learning with java",
+        "Java platform",
+        "Client-side development",
+        "Cloud and containers",
+        "Databases",
+        "Big data with java"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "cloud-native-rabat-from-code-to-cloud-an-end-to-end-journey",
+      "name": "Cloud Native Rabat: From Code to Cloud, An End-to-End Journey",
+      "cfpUrl": "https://sessionize.com/cloud-native-rabat-From-code-to-cloud",
+      "cfpClosingDate": "2026-03-20",
+      "eventUrl": "https://community.cncf.io/events/details/cncf-cloud-native-rabat-presents-from-code-to-cloud-an-end-to-end-journey/",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "lextalk-tech-spring",
+      "name": "LexTalk Tech Spring",
+      "cfpUrl": "https://sessionize.com/lextalk-tech-spring-2025",
+      "cfpClosingDate": "2026-03-20",
+      "eventUrl": "https://lextalk.tech",
+      "location": "Lexington, KY (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "leap-2026",
+      "name": "Leap 2026",
+      "cfpUrl": "https://airtable.com/app3m0ZoYr0hKSqCi/pagDiFnR7HIQe6MRX/form",
+      "cfpClosingDate": "2026-03-20",
+      "eventUrl": "https://onegiantleap.com/",
+      "location": "Riyadh (Saudi Arabia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "global-azure-athens-greece-2026",
+      "name": "Global Azure Athens Greece 2026",
+      "cfpUrl": "https://sessionize.com/global-azure-athens-greece-2026",
+      "cfpClosingDate": "2026-03-20",
+      "eventUrl": "https://globalazure.gr",
+      "location": "Athens (Greece)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "aws-community-day-chile-2025",
+      "name": "AWS Community Day Chile 2025",
+      "cfpUrl": "https://sessionize.com/aws-community-day-chile-2025-speakers",
+      "cfpClosingDate": "2026-03-20",
+      "eventUrl": "https://awscommunitydaychile.com/",
+      "location": "Santiago (Chile)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "christchurch-ai-techweek-conference",
+      "name": "Christchurch AI Techweek Conference",
+      "cfpUrl": "https://sessionize.com/christchurch-ai-techweek-conference",
+      "cfpClosingDate": "2026-03-20",
+      "eventUrl": "https://www.meetup.com/christchurch-ai/events/",
+      "location": "Christchurch (New Zealand)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "pwnterrey-2026",
+      "name": "Pwnterrey 2026",
+      "cfpUrl": "https://sessionize.com/pwnterrey-2026",
+      "cfpClosingDate": "2026-03-20",
+      "eventUrl": "https://pwnterrey.net/",
+      "location": "Monterrey (Mexico)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "explore-ddd-2026",
+      "name": "Explore DDD 2026",
+      "cfpUrl": "https://sessionize.com/explore-ddd-2026",
+      "cfpClosingDate": "2026-03-20",
+      "eventUrl": "http://exploreddd.com",
+      "location": "Denver, CO (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "lextalk-tech-spring-2026",
+      "name": "LexTalk Tech Spring 2026",
+      "cfpUrl": "https://sessionize.com/lextalk-tech-spring-2026",
+      "cfpClosingDate": "2026-03-21",
+      "eventUrl": "https://lextalk.tech",
+      "location": "Lexington, Kentucky, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "austrian-plattform-engineering-community-2026",
+      "name": "Austrian Plattform Engineering Community 2026",
+      "cfpUrl": "https://sessionize.com/austrian-plattform-engineering-community",
+      "cfpClosingDate": "2026-03-22",
+      "eventUrl": "https://www.brz.gv.at/wie-wir-arbeiten/Kontakt-aufnehmen/veranstaltungen/20260507-austrian-plattform-engineering-community-2026.html",
+      "location": "Vienna (Austria)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "automotive-grade-linux-all-member-meeting-japan-2026",
+      "name": "Automotive Grade Linux All Member Meeting Japan 2026",
+      "cfpUrl": "https://sessionize.com/agl_amm_japan_2026",
+      "cfpClosingDate": "2026-03-22",
+      "eventUrl": "https://events.linuxfoundation.org/agl-amm/",
+      "location": "Tokyo (Japan)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "api-platform-conference-2026",
+      "name": "API Platform Conference 2026",
+      "cfpUrl": "https://api-platform.com/fr/con/2026/call-for-papers/",
+      "cfpClosingDate": "2026-03-22",
+      "eventUrl": "https://api-platform.com/fr/con/",
+      "location": "Lille (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "conf42-cloud-native-2026",
+      "name": "Conf42 Cloud Native 2026",
+      "cfpUrl": "https://www.papercall.io/conf42-cloud-native-2026",
+      "cfpClosingDate": "2026-03-23",
+      "eventUrl": "https://www.conf42.com/cloud2026",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "sloss-tech-2026",
+      "name": "Sloss Tech 2026",
+      "cfpUrl": "https://sessionize.com/sloss-tech-2026",
+      "cfpClosingDate": "2026-03-23",
+      "eventUrl": "https://sloss.tech",
+      "location": "Birmingham, AL (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "live-360-tech-con-orlando-2026",
+      "name": "Live! 360 Tech Con Orlando 2026",
+      "cfpUrl": "https://sessionize.com/live-360-tech-con-orlando-2026",
+      "cfpClosingDate": "2026-03-23",
+      "eventUrl": "https://live360events.com",
+      "location": "Orlando, FL (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "conf42-cloud-native-2026",
+      "name": "Conf42 Cloud Native 2026",
+      "cfpUrl": "https://papercall.io/cfps/6470/submissions/new",
+      "cfpClosingDate": "2026-03-23",
+      "eventUrl": "https://www.conf42.com/cloud2026",
+      "location": "Online",
+      "tags": [
+        "Containers",
+        "Microservices",
+        "Kubernetes",
+        "Scalability",
+        "Orchestration",
+        "Observability",
+        "Deployment",
+        "Resilience",
+        "Networking",
+        "Automation"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "breizhcamp-2026",
+      "name": "BreizhCamp 2026",
+      "cfpUrl": "https://sessionize.com/breizhcamp-2026",
+      "cfpClosingDate": "2026-03-24",
+      "eventUrl": "https://www.breizhcamp.org",
+      "location": "Rennes (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "mn-microsoft-365-user-group-in-person-workshop-day-spring-2026",
+      "name": "MN Microsoft 365 User Group - In person Workshop Day Spring 2026",
+      "cfpUrl": "https://sessionize.com/MN365-Spring-2026-WorkshopDay",
+      "cfpClosingDate": "2026-03-24",
+      "eventUrl": "https://mn365.org",
+      "location": "Edina, Minnesota, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "european-microsoft-fabric-community-conference-sqlcon-2026-workshops",
+      "name": "European Microsoft Fabric Community Conference & SQLCon 2026 - Workshops",
+      "cfpUrl": "https://sessionize.com/fabcon26workshops",
+      "cfpClosingDate": "2026-03-24",
+      "eventUrl": "https://www.sharepointeurope.com/european-microsoft-fabric-community-conference",
+      "location": "Barcelona, Spain",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "agile-tour-rennes-2026",
+      "name": "Agile Tour Rennes 2026",
+      "cfpUrl": "https://sessionize.com/agile-tour-rennes-2026",
+      "cfpClosingDate": "2026-03-26",
+      "eventUrl": "https://agiletour.agilerennes.org",
+      "location": "Rennes, France",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "ai-devsummit-new-york-2026",
+      "name": "AI DevSummit New York 2026",
+      "cfpUrl": "https://sessionize.com/ai-devsummit-new-york-2026/",
+      "cfpClosingDate": "2026-03-27",
+      "eventUrl": "https://aidevsummit.co/new-york",
+      "location": "New York, NY (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "developerweek-new-york-2026",
+      "name": "DeveloperWeek New York 2026",
+      "cfpUrl": "https://sessionize.com/developerweek-new-york-2026",
+      "cfpClosingDate": "2026-03-27",
+      "eventUrl": "https://www.developerweek.com/newyork/",
+      "location": "New York, NY (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "beam-summit-2026",
+      "name": "Beam Summit 2026",
+      "cfpUrl": "https://sessionize.com/beamsummit-2026",
+      "cfpClosingDate": "2026-03-27",
+      "eventUrl": "https://beamsummit.org/",
+      "location": "New York, NY (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "p99-conf-2026",
+      "name": "P99 CONF 2026",
+      "cfpUrl": "https://sessionize.com/p99-conf-2026",
+      "cfpClosingDate": "2026-03-27",
+      "eventUrl": "https://www.p99conf.io/",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "3t-tourism-travel-tech-26",
+      "name": "3T - Tourism, Travel & Tech 26",
+      "cfpUrl": "https://sessionize.com/3t-tourism-travel-tech-26",
+      "cfpClosingDate": "2026-03-28",
+      "eventUrl": "https://3t.bug.hr/",
+      "location": "Zagreb (Croatia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "lakehouse-day-eu-2026",
+      "name": "Lakehouse Day EU 2026",
+      "cfpUrl": "https://sessionize.com/lakehouse-day-2026",
+      "cfpClosingDate": "2026-03-28",
+      "eventUrl": "https://communityovercode.org",
+      "location": "Glasgow, United Kingdom",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "infrastructure-as-a-saturday-2026-pordenone",
+      "name": "Infrastructure as a Saturday 2026 Pordenone",
+      "cfpUrl": "https://sessionize.com/iaasat2026pn/",
+      "cfpClosingDate": "2026-03-29",
+      "eventUrl": "https://iaasat2026pn.1nn0va.it/",
+      "location": "Pordenone (Italy)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "j-spring-2026",
+      "name": "J-Spring 2026",
+      "cfpUrl": "https://sessionize.com/jspring26",
+      "cfpClosingDate": "2026-03-29",
+      "eventUrl": "https://jspring.nl",
+      "location": "Utrecht (Netherlands)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "data-saturday-rheinland-2026",
+      "name": "Data Saturday Rheinland 2026",
+      "cfpUrl": "https://sessionize.com/data-saturday-rheinland-2026",
+      "cfpClosingDate": "2026-03-29",
+      "eventUrl": "https://datasaturdays.com/Event/20260711-datasaturday0084",
+      "location": "Augustin (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "kubecon-cloudnativecon-japan-2026",
+      "name": "KubeCon + CloudNativeCon Japan 2026",
+      "cfpUrl": "https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/program/cfp/",
+      "cfpClosingDate": "2026-03-29",
+      "eventUrl": "https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/",
+      "location": "Yokohama (Japan)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "global-azure-veneto-2026",
+      "name": "Global Azure Veneto 2026",
+      "cfpUrl": "https://sessionize.com/global-azure-veneto-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://veneto.globalazure.it",
+      "location": "Vicenza (Italy)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "gophercamp-cz-2026",
+      "name": "Gophercamp.cz 2026",
+      "cfpUrl": "https://sessionize.com/gophercamp",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://gophercamp.cz/",
+      "location": "Brno (Czechia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "day-of-data-jacksonville-2026",
+      "name": "Day of Data Jacksonville 2026",
+      "cfpUrl": "https://sessionize.com/dayofdatajax",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://dayofdata.org/jax",
+      "location": "Jacksonville, FL (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "m365-philly-2026",
+      "name": "M365 Philly 2026",
+      "cfpUrl": "https://sessionize.com/m365-philly-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://communitydays.org/event/2026-05-08/m365-philly-2026",
+      "location": "Malvern, PA (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "kcd-czech-slovak-2026",
+      "name": "KCD Czech & Slovak 2026",
+      "cfpUrl": "https://sessionize.com/kcd-czech-slovak-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://community.cncf.io/events/details/cncf-kcd-czech-slovak-presents-kcd-czech-amp-slovak-prague-2026/",
+      "location": "Prague (Czechia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "ai-power-agents-2026",
+      "name": "AI Power Agents 2026",
+      "cfpUrl": "https://sessionize.com/ai-power-agents-2026/",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://aipoweragentsconf.com",
+      "location": "Herzliya (Israel)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "agentic-summit",
+      "name": "Agentic Summit",
+      "cfpUrl": "https://sessionize.com/agentic-summit",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://agenticsummit.org",
+      "location": "Toronto (Canada)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "bsides-buffalo-2026",
+      "name": "BSides Buffalo 2026",
+      "cfpUrl": "https://sessionize.com/bsides-buffalo-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://www.bsidesbuffalo.org",
+      "location": "New York, NY (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devlille-2026",
+      "name": "DevLille 2026",
+      "cfpUrl": "https://conference-hall.io/devlille-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://devlille.fr/",
+      "location": "Lille (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "cloud-native-summit-2026",
+      "name": "Cloud Native Summit 2026",
+      "cfpUrl": "https://sessionize.com/cloud-native-summit-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://cloudnativesummit.de/",
+      "location": "Munich (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "api-conf-lagos-2026",
+      "name": "API Conf Lagos 2026",
+      "cfpUrl": "https://sessionize.com/api-conf-lagos-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://apiconf.net/",
+      "location": "Lagos (Nigeria)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "carolina-code-conference-2026",
+      "name": "Carolina Code Conference 2026",
+      "cfpUrl": "https://sessionize.com/carolina-code-conference-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://carolina.codes",
+      "location": "Greenville, SC (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "data-saturday-oslo-2026",
+      "name": "Data Saturday Oslo  2026",
+      "cfpUrl": "https://sessionize.com/data-saturday-oslo-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://datasaturday.no",
+      "location": "Oslo (Norway)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "poug-2026",
+      "name": "POUG 2026",
+      "cfpUrl": "https://sessionize.com/poug-2026/",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://poug.org/",
+      "location": "Krakow (Poland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "amtso-cyber-research-conference",
+      "name": "AMTSO Cyber Research Conference",
+      "cfpUrl": "https://sessionize.com/amtso-cyber-research-conference-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://www.amtso.org/special-events/amtso-cyber-research-conference-2026",
+      "location": "Brussels (Belgium)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "wearedevelopers-world-congress-2026-north-america",
+      "name": "WeAreDevelopers World Congress 2026 - North America",
+      "cfpUrl": "https://sessionize.com/wearedevelopers-world-congress-2026-us",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://www.wearedevelopers.com/world-congress-us",
+      "location": "San Jose, CA (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "iiba-poland-summit-2026",
+      "name": "IIBA Poland Summit 2026",
+      "cfpUrl": "https://sessionize.com/iiba-poland-summit-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://iibapolandsummit.org/",
+      "location": "Warsaw (Poland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "lambda-world",
+      "name": "Lambda World",
+      "cfpUrl": "https://confeti.app/events/lambda-world-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://www.lambda.world",
+      "location": "Malaga (Spain)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "wey-wey-web",
+      "name": "Wey Wey Web",
+      "cfpUrl": "https://confeti.app/events/weyweyweb-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://weyweyweb.com",
+      "location": "Malaga (Spain)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "code-blue-2026",
+      "name": "CODE BLUE 2026",
+      "cfpUrl": "https://sessionize.com/CB26-TRAINING",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://codeblue.jp/",
+      "location": "Tokyo (Japan)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "swiftsonic-26",
+      "name": "Swiftsonic '26",
+      "cfpUrl": "https://sessionize.com/swiftsonic-26",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://www.swiftsonicconf.com",
+      "location": "Tennessee (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "dragonjar-security-conference-2026-presencial-medell-n",
+      "name": "DragonJAR Security Conference 2026 - Presencial - Medellín",
+      "cfpUrl": "https://papercall.io/cfps/6596/submissions/new",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://www.dragonjarcon.org",
+      "location": "Medellin",
+      "tags": [
+        "Vulnerabilidades 0-day",
+        "Pentesting",
+        "Seguridad en redes",
+        "Seguridad web",
+        "Inteligencia artificial",
+        "Criptografía",
+        "Programas de recompensas por errores (bug bounty)",
+        "Seguridad física",
+        "Seguridad en dispositivos móviles",
+        "Computación forense",
+        "Seguridad en entornos industriales",
+        "Seguridad en la nube",
+        "Seguridad en tecnologías emergentes",
+        "Desarrollo de software seguro",
+        "Hardware hacking",
+        "Exploiting",
+        "Seguridad en iot"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "civo-navigate-india-2026",
+      "name": "Civo Navigate India 2026",
+      "cfpUrl": "https://sessionize.com/civo-navigate-india-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://www.civo.com/navigate/india/2026",
+      "location": "Bengaluru, India",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "cloud-native-z-rich-2026",
+      "name": "Cloud Native Zürich 2026",
+      "cfpUrl": "https://sessionize.com/cloud-native-zurich-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://cloudnativezurich.ch",
+      "location": "Zürich, Switzerland",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "directions-community-italian-bc-day-2026",
+      "name": "Directions Community Italian BC Day 2026",
+      "cfpUrl": "https://sessionize.com/directions-community-italian-bc-day-2026",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://www.directionsforpartners.com/bc-italian-day2026",
+      "location": "Milan, Italy",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "sysadminday-2026-in-leipzig",
+      "name": "SysAdminDay 2026 in Leipzig ",
+      "cfpUrl": "https://sessionize.com/sysadminday-2026-in-leipzig",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://www.sysadminday.it",
+      "location": "Leipzig, Germany",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "j-on-the-beach",
+      "name": "J On The Beach",
+      "cfpUrl": "https://confeti.app",
+      "cfpClosingDate": "2026-03-31",
+      "eventUrl": "https://www.jonthebeach.com",
+      "location": "Malaga",
+      "tags": [
+        "data"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "devfest-georgia-2026",
+      "name": "Devfest Georgia 2026",
+      "cfpUrl": "https://sessionize.com/devfest-georgia-2026",
+      "cfpClosingDate": "2026-04-01",
+      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-akhaltsikhe-presents-devfest-georgia-2026/cohost-gdg-akhaltsikhe/",
+      "location": "Kutaisi (Georgia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devopsdays-feira-de-santana",
+      "name": "Devopsdays Feira de Santana",
+      "cfpUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeo2KAYtXixtuEQWbqWrc-5IhAYnZ3G8Zz1CJxM4HmzZrTn-Q/viewform",
+      "cfpClosingDate": "2026-04-01",
+      "eventUrl": "https://devopsdays.org/events/2026-feira-de-santana/welcome/",
+      "location": "Feira de Santana (Brazil)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "ethconf",
+      "name": "ETHConf",
+      "cfpUrl": "https://ethconf.com/partner",
+      "cfpClosingDate": "2026-04-01",
+      "eventUrl": "https://ethconf.com/r/CTECONF",
+      "location": "New York, NY (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "working-software-2026",
+      "name": "Working Software 2026",
+      "cfpUrl": "https://sessionize.com/working-software-2026",
+      "cfpClosingDate": "2026-04-01",
+      "eventUrl": "https://www.agilemovement.it/workingsoftware",
+      "location": "Reggio nell'Emilia (Italy)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "swampup-2026",
+      "name": "swampUP 2026",
+      "cfpUrl": "https://sessionize.com/swampup-2026",
+      "cfpClosingDate": "2026-04-01",
+      "eventUrl": "http://swampup.jfrog.com",
+      "location": "New York, NY (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "zurichjs-conf-2026",
+      "name": "ZurichJS Conf 2026",
+      "cfpUrl": "https://conf.zurichjs.com/cfp",
+      "cfpClosingDate": "2026-04-01",
+      "eventUrl": "https://conf.zurichjs.com/",
+      "location": "Zurich (Switzerland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "zurich-js-conf",
+      "name": "Zurich JS Conf",
+      "cfpUrl": "https://sessionize.com/infobip-shift-2026",
+      "cfpClosingDate": "2026-04-01",
+      "eventUrl": "https://conf.zurichjs.com/",
+      "location": "Zurich (Switzerland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "tech-passion-day-2026",
+      "name": "Tech passion day 2026",
+      "cfpUrl": "https://sessionize.com/tech-passion-day-2026",
+      "cfpClosingDate": "2026-04-01",
+      "eventUrl": "https://techpassionday.com/",
+      "location": "Copenhagen (Denmark)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "sfk-2026",
+      "name": "SFK 2026",
+      "cfpUrl": "https://sessionize.com/sfk-2026",
+      "cfpClosingDate": "2026-04-01",
+      "eventUrl": "https://sfk.flossk.org",
+      "location": "Pristina (Kosovo)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "owasp-global-appsec-usa-sf-2026-cft",
+      "name": "OWASP Global AppSec USA (SF) 2026 - CFT",
+      "cfpUrl": "https://sessionize.com/owasp-global-appsec-USA-SF-2026-c",
+      "cfpClosingDate": "2026-04-01",
+      "eventUrl": "https://owasp.glueup.com/event/owasp-2026-global-appsec-usa-san-francisco-ca-167174/",
+      "location": "San Francisco, CA (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "fast-flow-conf-uk-2026",
+      "name": "Fast Flow Conf UK 2026",
+      "cfpUrl": "https://sessionize.com/fast-flow-conf-uk-26",
+      "cfpClosingDate": "2026-04-01",
+      "eventUrl": "https://www.fastflowconf.com",
+      "location": "London, United Kingdom",
+      "tags": [
+        "",
+        "general"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "msna-2026-annual-conference-one-in-a-melon-celebrating-skills-learning-together-sharing-success",
+      "name": "MSNA 2026 Annual Conference: One in a Melon, Celebrating Skills, Learning Together, Sharing Success ",
+      "cfpUrl": "https://sessionize.com/msna-2026-annual-conference",
+      "cfpClosingDate": "2026-04-01",
+      "eventUrl": "https://www.mnsna.org",
+      "location": "Rochester, Minnesota, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "global-azure-2026",
+      "name": "Global Azure 2026",
+      "cfpUrl": "https://sessionize.com/globalazure2026",
+      "cfpClosingDate": "2026-04-01",
+      "eventUrl": "https://www.meetup.com/virtualdevshow/events/312478870",
+      "location": "",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "bsides-albany",
+      "name": "BSides Albany",
+      "cfpUrl": "https://sessionize.com/bsides-albany",
+      "cfpClosingDate": "2026-04-01",
+      "eventUrl": "https://bsidesalbany.org",
+      "location": "Albany, New York, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "2026-dental-entrepreneur-woman-retreat",
+      "name": "2026 Dental Entrepreneur Woman Retreat",
+      "cfpUrl": "https://sessionize.com/2026-dental-entrepreneur-woman-retreat",
+      "cfpClosingDate": "2026-04-01",
+      "eventUrl": "https://dew.life/retreat",
+      "location": "Charlotte, North Carolina, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "espc26",
+      "name": "ESPC26",
+      "cfpUrl": "https://sessionize.com/espc26",
+      "cfpClosingDate": "2026-04-02",
+      "eventUrl": "https://www.sharepointeurope.com",
+      "location": "Amsterdam, The Netherlands",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "agile-tour-strasbourg-2026",
+      "name": "Agile Tour Strasbourg 2026",
+      "cfpUrl": "https://sessionize.com/agile-tour-strasbourg-2026",
+      "cfpClosingDate": "2026-04-03",
+      "eventUrl": "https://agilestrasbourg.fr/",
+      "location": "Strasbourg (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "c-aen-tech",
+      "name": "C:\\aen\\Tech",
+      "cfpUrl": "https://conference-hall.io/caen-tech",
+      "cfpClosingDate": "2026-04-03",
+      "eventUrl": "https://caen.tech/",
+      "location": "Caen (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devcon-27-i-a-vibe-coding",
+      "name": "DevCon 27 : I.A. & Vibe Coding",
+      "cfpUrl": "https://forms.gle/27JdJx38nTNnJYT16",
+      "cfpClosingDate": "2026-04-05",
+      "eventUrl": "https://www.programmez.com",
+      "location": "Paris (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "bc-techdays-2026",
+      "name": "BC TechDays 2026",
+      "cfpUrl": "https://sessionize.com/bctechdays2026",
+      "cfpClosingDate": "2026-04-05",
+      "eventUrl": "https://bctechdays.com",
+      "location": "Antwerp (Belgium)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "8-8-unreal-per",
+      "name": "8.8 Unreal Perú",
+      "cfpUrl": "https://www.papercall.io/8dot8-unreal-peru",
+      "cfpClosingDate": "2026-04-06",
+      "eventUrl": "https://8dot8.org",
+      "location": "Miraflores (Peru)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "mobilis-in-mobile-2026",
+      "name": "Mobilis In Mobile 2026",
+      "cfpUrl": "https://conference-hall.io/mobilis-in-mobile-2026",
+      "cfpClosingDate": "2026-04-06",
+      "eventUrl": "https://mobilis-in-mobile.io/",
+      "location": "Nantes (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "days-of-knowledge-central-2026",
+      "name": "Days of Knowledge Central 2026",
+      "cfpUrl": "https://sessionize.com/days-of-knowledge-central-2026",
+      "cfpClosingDate": "2026-04-07",
+      "eventUrl": "https://www.directionsforpartners.com/dokce2026",
+      "location": "Darmstadt, Germany",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "sreday-barcelona-2026-q2",
+      "name": "SREday Barcelona 2026 Q2",
+      "cfpUrl": "https://www.papercall.io/sreday-2026-barcelona-q2",
+      "cfpClosingDate": "2026-04-08",
+      "eventUrl": "https://sreday.com/2026-barcelona-q2/",
+      "location": "Barcelona (Spain)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "sreday-barcelona-2026-q2",
+      "name": "SREday Barcelona 2026 Q2",
+      "cfpUrl": "https://papercall.io/cfps/6594/submissions/new",
+      "cfpClosingDate": "2026-04-08",
+      "eventUrl": "https://sreday.com/2026-barcelona-q2",
+      "location": "Dynatrace, Barcelona, Spain",
+      "tags": [
+        "Sre",
+        "Devops",
+        "Cloud",
+        "Ai",
+        "Agents",
+        "K8s",
+        "Containers",
+        "Clusters",
+        "Docker",
+        "Azure",
+        "Aws",
+        "Resilience",
+        "Post mortems",
+        "Documentation",
+        "Testing",
+        "Security",
+        "Observability",
+        "Metrics"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "ignite-summit-2026",
+      "name": "Ignite Summit 2026",
+      "cfpUrl": "https://sessionize.com/ignite-summit-2026",
+      "cfpClosingDate": "2026-04-10",
+      "eventUrl": "https://ignite-summit.org",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "bsides-aarhus-2026",
+      "name": "BSides Aarhus 2026",
+      "cfpUrl": "https://sessionize.com/bsides-aarhus-2026",
+      "cfpClosingDate": "2026-04-10",
+      "eventUrl": "https://bsidesaarhus.dk",
+      "location": "Aarhus (Denmark)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "tokyo-test-fest",
+      "name": "Tokyo Test Fest",
+      "cfpUrl": "https://tokyotestfest.com/en/cfp_2026/",
+      "cfpClosingDate": "2026-04-10",
+      "eventUrl": "https://tokyotestfest.com/en/",
+      "location": "Tokyo (Japan)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "global-azure-2026-indonesia",
+      "name": "Global Azure 2026 Indonesia",
+      "cfpUrl": "https://sessionize.com/global-azure-2026-indonesia",
+      "cfpClosingDate": "2026-04-11",
+      "eventUrl": "https://www.eventbrite.com/e/global-azure-bootcamp-2026-indonesia-tickets-1982553837898?aff=oddtdtcreator",
+      "location": "Purwokerto (Indonesia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "beer-js-summit-2026",
+      "name": "Beer.JS Summit 2026",
+      "cfpUrl": "https://sessionize.com/beer-js-summit-2026",
+      "cfpClosingDate": "2026-04-11",
+      "eventUrl": "https://beerjssummit2025.eventbrite.nl",
+      "location": "Sofia (Bulgaria)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "global-azure-anz-2026",
+      "name": "global-azure-anz-2026",
+      "cfpUrl": "https://sessionize.com/global-azure-anz-2026",
+      "cfpClosingDate": "2026-04-11",
+      "eventUrl": "https://globalazure.net",
+      "location": "",
+      "tags": [
+        "",
+        "dotnet"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "sreday-austin-2026-q2",
+      "name": "SREday Austin 2026 Q2",
+      "cfpUrl": "https://www.papercall.io/sreday-2026-austin-q2",
+      "cfpClosingDate": "2026-04-12",
+      "eventUrl": "https://sreday.com/2026-austin-q2/",
+      "location": "Austin, TX (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "sreday-austin-2026-q2",
+      "name": "SREday Austin 2026 Q2",
+      "cfpUrl": "https://papercall.io/cfps/6547/submissions/new",
+      "cfpClosingDate": "2026-04-12",
+      "eventUrl": "https://sreday.com/2026-austin-q2",
+      "location": "Austin, Texas, United States",
+      "tags": [
+        "Sre",
+        "Devops",
+        "Cloud",
+        "O11y",
+        "K8s"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "goatmire-elixir-2026",
+      "name": "Goatmire Elixir 2026",
+      "cfpUrl": "https://sessionize.com/goatmire-elixir-2026",
+      "cfpClosingDate": "2026-04-12",
+      "eventUrl": "https://2026.goatmire.com",
+      "location": "Varberg, Sweden",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "the-diana-initiative-2026-online-event",
+      "name": "The Diana Initiative 2026 (Online Event)",
+      "cfpUrl": "https://sessionize.com/tdi-online-2026",
+      "cfpClosingDate": "2026-04-13",
+      "eventUrl": "https://www.dianainitiative.org",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "drupalcon-rotterdam-2026",
+      "name": "DrupalCon Rotterdam 2026",
+      "cfpUrl": "https://sessionize.com/drupalcon-rotterdam-2026",
+      "cfpClosingDate": "2026-04-13",
+      "eventUrl": "https://events.drupal.org/rotterdam2026",
+      "location": "Rotterdam, The Netherlands",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "manchester-data-hive-data-ai-community-day",
+      "name": "Manchester Data Hive - Data & AI Community Day",
+      "cfpUrl": "https://sessionize.com/manchester-data-hive-data",
+      "cfpClosingDate": "2026-04-13",
+      "eventUrl": "https://www.manchesterdatahive.co.uk",
+      "location": "",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "elixirconf-us-2026",
+      "name": "ElixirConf® US 2026",
+      "cfpUrl": "https://sessionize.com/elixirconf-us-2026",
+      "cfpClosingDate": "2026-04-13",
+      "eventUrl": "https://elixirconf.com",
+      "location": "Chicago, Illinois, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "aws-community-day-midwest-2026",
+      "name": "AWS Community Day Midwest 2026",
+      "cfpUrl": "https://sessionize.com/aws-community-day-midwest-2026",
+      "cfpClosingDate": "2026-04-15",
+      "eventUrl": "https://www.midwestcommunityday.com",
+      "location": "Indianapolis (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "bsides-porto-2026-2nd",
+      "name": "BSides Porto - 2026 - 2nd",
+      "cfpUrl": "https://sessionize.com/bsides-porto-2026",
+      "cfpClosingDate": "2026-04-15",
+      "eventUrl": "https://bsidesporto.org",
+      "location": "Porto (Portugal)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "ng-conf-per-2026",
+      "name": "Ng Conf Perú 2026",
+      "cfpUrl": "https://sessionize.com/ng-conf-peru-2026",
+      "cfpClosingDate": "2026-04-15",
+      "eventUrl": "https://ngconf.angular-peru.com/",
+      "location": "Lima (Peru)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "targeting-quality-2026",
+      "name": "Targeting Quality 2026",
+      "cfpUrl": "https://www.papercall.io/tq2026",
+      "cfpClosingDate": "2026-04-15",
+      "eventUrl": "https://targetingquality.ca/",
+      "location": "Cambridge, ON (Canada)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "agentcon-rome",
+      "name": " AgentCon Rome",
+      "cfpUrl": "https://sessionize.com/agentcon-rome",
+      "cfpClosingDate": "2026-04-15",
+      "eventUrl": "https://globalai.community/chapters/rome/events/agentcon-rome",
+      "location": "Rome, Italy",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "targeting-quality-2026",
+      "name": "Targeting Quality 2026",
+      "cfpUrl": "https://papercall.io/cfps/6532/submissions/new",
+      "cfpClosingDate": "2026-04-15",
+      "eventUrl": "https://kwsqa.org/past-conferences/tq2025",
+      "location": "Cambridge, ON",
+      "tags": [
+        "Automation",
+        "Leadership",
+        "Communication",
+        "Specialization",
+        "Process",
+        "Tools",
+        "Quality",
+        "Testing",
+        "Software",
+        "Continuous integration",
+        "Continuous delivery",
+        "Continuous deployment",
+        "Software delivery",
+        "Software testing",
+        "Agile",
+        "Quality assurance",
+        "Qa",
+        "Delivery",
+        "Software leadership"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "g-summit-19-mai-2026",
+      "name": "G-Summit 19. Mai 2026",
+      "cfpUrl": "https://sessionize.com/g-summit",
+      "cfpClosingDate": "2026-04-17",
+      "eventUrl": "https://events.m365-summits.de/G-Summit19Mai2026#/",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "agentcon-nairobi",
+      "name": "AgentCon Nairobi",
+      "cfpUrl": "https://sessionize.com/agentcon-nairobi-2026",
+      "cfpClosingDate": "2026-04-18",
+      "eventUrl": "https://globalai.community/chapters/nairobi/events/agentcon-nairobi/",
+      "location": "Nairobi (Kenya)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "jconf-dominicana-2026",
+      "name": "JConf Dominicana 2026",
+      "cfpUrl": "https://cfp.jconfdominicana.org/jconfdominicana-2026/cfp",
+      "cfpClosingDate": "2026-04-18",
+      "eventUrl": "https://jconfdominicana.org",
+      "location": "Santiago (Dominican Republic)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "bsidespgh-2026",
+      "name": "BSidesPGH 2026",
+      "cfpUrl": "https://sessionize.com/bsidespgh-2026",
+      "cfpClosingDate": "2026-04-18",
+      "eventUrl": "https://www.bsidespgh.com",
+      "location": "Pittsburgh, Pennsylvania, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "ndc-oslo",
+      "name": "NDC Oslo",
+      "cfpUrl": "https://sessionize.com/ndc-oslo-2026/",
+      "cfpClosingDate": "2026-04-19",
+      "eventUrl": "https://ndcoslo.com",
+      "location": "Oslo (Norway)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "open-conf-2026-speeches-and-workshops",
+      "name": "Open Conf 2026 - SPEECHES and WORKSHOPS",
+      "cfpUrl": "https://sessionize.com/open-conf-2026",
+      "cfpClosingDate": "2026-04-19",
+      "eventUrl": "https://open-conf.gr/",
+      "location": "Athens (Greece)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "fork-it",
+      "name": "Fork it!",
+      "cfpUrl": "https://conference-hall.io/fork-it-community-france-rouen-2026",
+      "cfpClosingDate": "2026-04-19",
+      "eventUrl": "https://www.forkit.community/events/2026-france-rouen",
+      "location": "Rouen",
+      "tags": [
+        "general"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "conf42-golang-2026",
+      "name": "Conf42 Golang 2026",
+      "cfpUrl": "https://www.papercall.io/conf42-golang-2026",
+      "cfpClosingDate": "2026-04-20",
+      "eventUrl": "https://www.conf42.com/golang2026",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "llmday-london-2026-q2",
+      "name": "LLMday London 2026 Q2",
+      "cfpUrl": "https://www.papercall.io/llmday-2026-london-q2",
+      "cfpClosingDate": "2026-04-20",
+      "eventUrl": "https://llmday.com/2026-london-q2/",
+      "location": "London (UK)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "collabdays-madrid-2026",
+      "name": "CollabDays Madrid 2026",
+      "cfpUrl": "https://sessionize.com/collabdays-madrid-2026",
+      "cfpClosingDate": "2026-04-20",
+      "eventUrl": "https://www.collabdays.org/2026-madrid/",
+      "location": "Pozuelo de Alarcón (Spain)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "llmday-london-2026-q2",
+      "name": "LLMday London 2026 Q2",
+      "cfpUrl": "https://papercall.io/cfps/6502/submissions/new",
+      "cfpClosingDate": "2026-04-20",
+      "eventUrl": "https://llmday.com/2026-london-q2",
+      "location": "Everyman Canary Wharf, London, UK",
+      "tags": [
+        "Llms",
+        "Prompting",
+        "Ai",
+        "Ml",
+        "Mlops",
+        "Iot"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "conf42-golang-2026",
+      "name": "Conf42 Golang 2026",
+      "cfpUrl": "https://papercall.io/cfps/6471/submissions/new",
+      "cfpClosingDate": "2026-04-20",
+      "eventUrl": "https://www.conf42.com/golang2026",
+      "location": "Online",
+      "tags": [
+        "Concurrency",
+        "Simplicity",
+        "Goroutines",
+        "Channels",
+        "Performance",
+        "Testing",
+        "Refactoring",
+        "Interfaces",
+        "Tooling",
+        "Community"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "sreday-munich-2026-q2",
+      "name": "SREday Munich 2026 Q2",
+      "cfpUrl": "https://www.papercall.io/sreday-2026-munich-q2",
+      "cfpClosingDate": "2026-04-21",
+      "eventUrl": "https://sreday.com/2026-munich-q2/",
+      "location": "Munich (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "sreday-munich-2026-q2",
+      "name": "SREday Munich 2026 Q2",
+      "cfpUrl": "https://papercall.io/cfps/6521/submissions/new",
+      "cfpClosingDate": "2026-04-21",
+      "eventUrl": "https://sreday.com/2026-munich-q2",
+      "location": "MaibornWolff, Munich, Germany",
+      "tags": [
+        "Sre",
+        "Devops",
+        "Cloud",
+        "O11y",
+        "K8s"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "devopsdays-graz-2026",
+      "name": "DevOpsDays Graz 2026",
+      "cfpUrl": "https://pretalx.com/devopsdays-graz-2026/cfp",
+      "cfpClosingDate": "2026-04-30",
+      "eventUrl": "https://www.devopsdays.at/",
+      "location": "Graz (Austria)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "goforit-kunstig-intelligens-i-offentlig-sektor-2026",
+      "name": "GoforIT: Kunstig intelligens i offentlig sektor 2026",
+      "cfpUrl": "https://sessionize.com/goforit-kunstig-intelligens-i-offentlig",
+      "cfpClosingDate": "2026-04-30",
+      "eventUrl": "https://tankesmiengoforit.no/nettverk/generativ-ai-i-offentlig-sektor/",
+      "location": "Oslo (Norway)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "swiss-cloud-native-day-2026",
+      "name": "Swiss Cloud Native Day 2026",
+      "cfpUrl": "https://sessionize.com/swiss-cloud-native-day-2026",
+      "cfpClosingDate": "2026-04-30",
+      "eventUrl": "https://cloudnativeday.ch/",
+      "location": "Bern (Switzerland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "cloud-native-days-austria",
+      "name": "Cloud Native Days Austria",
+      "cfpUrl": "https://sessionize.com/cloud-native-days-austria-2026",
+      "cfpClosingDate": "2026-04-30",
+      "eventUrl": "https://cloudnativedays.at/",
+      "location": "Vienna (Austria)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "wax-2026",
+      "name": "WAX 2026",
+      "cfpUrl": "https://conference-hall.io/wax-2026-conference-tech-au-stade-velodrome",
+      "cfpClosingDate": "2026-04-30",
+      "eventUrl": "https://www.waxconf.fr/",
+      "location": "Marseille (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "experts-live-saudi-2026",
+      "name": "Experts Live Saudi 2026",
+      "cfpUrl": "https://sessionize.com/experts-live-saudi-2026",
+      "cfpClosingDate": "2026-04-30",
+      "eventUrl": "https://expertslive.sa",
+      "location": "Riyadh (Saudi Arabia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "frontmania-2026",
+      "name": "Frontmania 2026",
+      "cfpUrl": "https://sessionize.com/frontmania-2026",
+      "cfpClosingDate": "2026-04-30",
+      "eventUrl": "https://frontmania.com/",
+      "location": "Utrecht (Netherlands)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "cms-conf-2026",
+      "name": "CMS Conf 2026",
+      "cfpUrl": "https://cmsconf.com/call-for-papers/",
+      "cfpClosingDate": "2026-04-30",
+      "eventUrl": "https://cmsconf.com",
+      "location": "Gdynia (Poland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "it-tage",
+      "name": "IT-Tage",
+      "cfpUrl": "https://www.ittage.informatik-aktuell.de/index.html",
+      "cfpClosingDate": "2026-04-30",
+      "eventUrl": "https://www.it-tage.org",
+      "location": "Frankfurt (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "techorama-2026-netherlands",
+      "name": "Techorama 2026 Netherlands  ",
+      "cfpUrl": "https://sessionize.com/techorama-2026-netherlands",
+      "cfpClosingDate": "2026-04-30",
+      "eventUrl": "https://www.techorama.nl",
+      "location": "Utrecht, The Netherlands",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "devdays-europe",
+      "name": "DevDays Europe",
+      "cfpUrl": "https://airtable.com/app2OG5hAK2bnFPRu/shr6c86jsxcZNDu13",
+      "cfpClosingDate": "2026-05-01",
+      "eventUrl": "https://devdays.lt",
+      "location": "Vilnius (Lithuania)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "sreday-nyc-2026-q2",
+      "name": "SREday NYC 2026 Q2",
+      "cfpUrl": "https://www.papercall.io/sreday-2026-nyc-q2",
+      "cfpClosingDate": "2026-05-01",
+      "eventUrl": "https://sreday.com/2026-nyc-q2/",
+      "location": "New York, NY (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "cajusec-2026",
+      "name": "Cajusec 2026",
+      "cfpUrl": "https://www.papercall.io/cajusec2026",
+      "cfpClosingDate": "2026-05-01",
+      "eventUrl": "https://www.cajusec.com.br/",
+      "location": "Aracaju (Brazil)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "day-of-data-baton-rouge-2026",
+      "name": "Day of Data Baton Rouge 2026",
+      "cfpUrl": "https://sessionize.com/sqlsatbr26",
+      "cfpClosingDate": "2026-05-01",
+      "eventUrl": "http://www.sqlsatbr.com",
+      "location": "Baton Rouge, LA (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "droidcon-orlando",
+      "name": "droidCon Orlando ",
+      "cfpUrl": "https://sessionize.com/droidcon-orlando-2026",
+      "cfpClosingDate": "2026-05-01",
+      "eventUrl": "https://usa.droidcon.com",
+      "location": "Orlando, Florida, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "sreday-nyc-2026-q2",
+      "name": "SREday NYC 2026 Q2",
+      "cfpUrl": "https://papercall.io/cfps/6553/submissions/new",
+      "cfpClosingDate": "2026-05-01",
+      "eventUrl": "https://sreday.com/2026-nyc-q2",
+      "location": "DataDog, New York City, United States",
+      "tags": [
+        "Sre",
+        "Devops",
+        "Cloud",
+        "O11y",
+        "K8s"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "planview-connect-2026",
+      "name": "Planview Connect 2026",
+      "cfpUrl": "https://sessionize.com/planview-connect-2026",
+      "cfpClosingDate": "2026-05-01",
+      "eventUrl": "https://www.planviewconnect.com",
+      "location": "Hollywood, Florida, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "fluttercon-usa-2026",
+      "name": "flutterCon USA 2026",
+      "cfpUrl": "https://sessionize.com/fluttercon-usa-2026",
+      "cfpClosingDate": "2026-05-01",
+      "eventUrl": "https://www.flutterconusa.dev",
+      "location": "Orlando, Florida, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "cajusec-2026",
+      "name": "Cajusec 2026",
+      "cfpUrl": "https://papercall.io/cfps/6592/submissions/new",
+      "cfpClosingDate": "2026-05-02",
+      "eventUrl": "https://www.cajusec.com.br",
+      "location": "Aracaju, Sergipe",
+      "tags": [
+        "Hacking",
+        "Evasion",
+        "Bypass",
+        "Offsec",
+        "Mobile hacking",
+        "Android",
+        "Ios",
+        "Edr evasion",
+        "Defensive",
+        "Pentest",
+        "Mobile",
+        "Web",
+        "Api",
+        "Ad",
+        "Activedirectory"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "c1b3rtr4cks",
+      "name": "C1B3RTR4CKS",
+      "cfpUrl": "https://www.papercall.io/c1b3rtr4cks26",
+      "cfpClosingDate": "2026-05-03",
+      "eventUrl": "https://www.c1b3rtr4cks.es/",
+      "location": "Madrid (Spain)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "cyber-security-for-critical-assets-canada",
+      "name": "Cyber Security for Critical Assets Canada",
+      "cfpUrl": "https://canada.cs4ca.com/submit-speaking-proposal/",
+      "cfpClosingDate": "2026-05-03",
+      "eventUrl": "https://canada.cs4ca.com/",
+      "location": "Calgary (Canada)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "tdc-2026",
+      "name": "TDC 2026",
+      "cfpUrl": "https://sessionize.com/tdc-2026/",
+      "cfpClosingDate": "2026-05-03",
+      "eventUrl": "https://2026.trondheimdc.no",
+      "location": "Trondheim (Norway)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "product-management-day-2026",
+      "name": "Product Management Day 2026",
+      "cfpUrl": "https://sessionize.com/product-management-day-2026",
+      "cfpClosingDate": "2026-05-03",
+      "eventUrl": "https://www.productmanagementday.com/",
+      "location": "Bologna (Italy)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "ndc-techtown-2026",
+      "name": "NDC TechTown 2026",
+      "cfpUrl": "https://sessionize.com/ndc-techtown-2026",
+      "cfpClosingDate": "2026-05-03",
+      "eventUrl": "https://ndctechtown.com",
+      "location": "Kongsberg, Norway",
+      "tags": [
+        "general"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "hellostavanger-2026",
+      "name": "HelloStavanger 2026",
+      "cfpUrl": "https://sessionize.com/hellostavanger-2026",
+      "cfpClosingDate": "2026-05-03",
+      "eventUrl": "https://www.hellostavanger.no",
+      "location": "Stavanger, Norway",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "c1b3rtr4cks",
+      "name": "C1B3RTR4CKS",
+      "cfpUrl": "https://papercall.io/cfps/6538/submissions/new",
+      "cfpClosingDate": "2026-05-03",
+      "eventUrl": "https://www.c1b3rtr4cks.es",
+      "location": "Madrid",
+      "tags": [
+        "Security",
+        "Cyber",
+        "Hacking",
+        "Intel",
+        "Cibersecurity",
+        "Ciber",
+        "Forensics",
+        "Research",
+        "Dfir",
+        "Osint",
+        "Hardware"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "emberfest-2026-prague-czechia",
+      "name": "EmberFest 2026 – Prague, Czechia",
+      "cfpUrl": "https://papercall.io/cfps/6598/submissions/new",
+      "cfpClosingDate": "2026-05-03",
+      "eventUrl": "https://emberfest.eu",
+      "location": "Prague, Czechia",
+      "tags": [
+        "javascript"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "conf42-database-devops-2026",
+      "name": "Conf42 Database DevOps 2026",
+      "cfpUrl": "https://www.papercall.io/conf42-database-devops-2026",
+      "cfpClosingDate": "2026-05-04",
+      "eventUrl": "https://www.conf42.com/dbd2026",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "daten-wg-2026",
+      "name": "Daten-WG 2026",
+      "cfpUrl": "https://sessionize.com/daten-wg-2026/",
+      "cfpClosingDate": "2026-05-04",
+      "eventUrl": "https://www.daten-wg.com/details-registrierung/daten-wg-2026",
+      "location": "Köln (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "conf42-database-devops-2026",
+      "name": "Conf42 Database DevOps 2026",
+      "cfpUrl": "https://papercall.io/cfps/6472/submissions/new",
+      "cfpClosingDate": "2026-05-04",
+      "eventUrl": "https://www.conf42.com/dbd2026",
+      "location": "Online",
+      "tags": [
+        "Schema",
+        "Automation",
+        "Pipelines",
+        "Versioning",
+        "Migration",
+        "Observability",
+        "Scalability",
+        "Resilience",
+        "Replication",
+        "Compliance"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "devtalks-romania-2026",
+      "name": "DevTalks Romania 2026",
+      "cfpUrl": "https://www.papercall.io/devtalksbucharest-2026",
+      "cfpClosingDate": "2026-05-15",
+      "eventUrl": "https://www.devtalks.ro/",
+      "location": "Bucharest (Romania)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devtalks-romania-2026",
+      "name": "DevTalks Romania 2026",
+      "cfpUrl": "https://papercall.io/cfps/6545/submissions/new",
+      "cfpClosingDate": "2026-05-15",
+      "eventUrl": "https://www.devtalks.ro",
+      "location": "Romexpo, B1 Pavillion, Bucharest",
+      "tags": [
+        "Java",
+        "Devops",
+        "Web",
+        "Mobile",
+        "Security",
+        "Iot",
+        "Ml",
+        "Ai",
+        "Gaming",
+        "Big data",
+        "Cloud",
+        "Developing",
+        "Programming",
+        "Bigdata",
+        "Qa",
+        "Testing",
+        "Cybersecurity",
+        "Women in tech",
+        "Stem",
+        "Devlead",
+        "Future of engineering"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "drupalcamp-colorado-2026",
+      "name": "DrupalCamp Colorado 2026",
+      "cfpUrl": "https://sessionize.com/drupalcamp-colorado-2026",
+      "cfpClosingDate": "2026-05-16",
+      "eventUrl": "https://drupal-colorado.org",
+      "location": "Denver, Colorado, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "gdevcon-7",
+      "name": "GDevCon#7",
+      "cfpUrl": "https://www.papercall.io/gdevcon7",
+      "cfpClosingDate": "2026-05-17",
+      "eventUrl": "http://www.gdevcon.com",
+      "location": "Brussels (Belgium)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "conf42-large-language-models-llms-2026",
+      "name": "Conf42 Large Language Models (LLMs) 2026",
+      "cfpUrl": "https://www.papercall.io/conf42-large-language-models-llms-2026",
+      "cfpClosingDate": "2026-05-18",
+      "eventUrl": "https://www.conf42.com/llms2026",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "dynamicscon-regional-ohio-valley-2026",
+      "name": "DynamicsCon Regional: Ohio Valley 2026",
+      "cfpUrl": "https://sessionize.com/dynamicscon-regional-ohio-valley",
+      "cfpClosingDate": "2026-05-18",
+      "eventUrl": "https://www.eventbrite.com/e/1981189370740?aff=oddtdtcreator",
+      "location": "Columbus, OH (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "volcamp",
+      "name": "Volcamp",
+      "cfpUrl": "https://conference-hall.io/volcamp-2026",
+      "cfpClosingDate": "2026-05-18",
+      "eventUrl": "https://www.volcamp.io",
+      "location": "Clermont-Ferrand (France)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "conf42-large-language-models-llms-2026",
+      "name": "Conf42 Large Language Models (LLMs) 2026",
+      "cfpUrl": "https://papercall.io/cfps/6473/submissions/new",
+      "cfpClosingDate": "2026-05-18",
+      "eventUrl": "https://www.conf42.com/llms2026",
+      "location": "Online",
+      "tags": [
+        "Tokenization",
+        "Context",
+        "Inference",
+        "Alignment",
+        "Prompting",
+        "Embeddings",
+        "Reasoning",
+        "Fine-tuning",
+        "Latency",
+        "Hallucination"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "chicago-women-in-technology-conference-2026",
+      "name": "Chicago Women in Technology Conference 2026",
+      "cfpUrl": "https://papercall.io/cfps/6597/submissions/new",
+      "cfpClosingDate": "2026-05-20",
+      "eventUrl": "https://www.chiwomenintech.com",
+      "location": "Chicago, Il",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "devops-midwest-2026",
+      "name": "DevOps Midwest 2026",
+      "cfpUrl": "https://www.papercall.io/devopsmidwest2026",
+      "cfpClosingDate": "2026-05-31",
+      "eventUrl": "http://www.devopsmidwest.com",
+      "location": "St. Louis, MO (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "ai-industrial-summit-2026",
+      "name": "AI Industrial Summit 2026",
+      "cfpUrl": "https://sessionize.com/ai-industrial-summit-2026",
+      "cfpClosingDate": "2026-05-31",
+      "eventUrl": "https://www.iotsummit.tech/",
+      "location": "Sofia (Bulgaria)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "bsides-krakow-2026",
+      "name": "BSides Krakow 2026",
+      "cfpUrl": "https://sessionize.com/bsides-Krakow-2026",
+      "cfpClosingDate": "2026-05-31",
+      "eventUrl": "https://bsidesKrakow.pl",
+      "location": "Krakow (Poland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devfest-hamburg-2026",
+      "name": "DevFest Hamburg 2026",
+      "cfpUrl": "https://sessionize.com/devfest-hamburg-2026",
+      "cfpClosingDate": "2026-05-31",
+      "eventUrl": "https://hamburg.devfest.de/",
+      "location": "Hamburg (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "cybermarketingcon-cyberceo-summit-2026",
+      "name": "CyberMarketingCon & CyberCEO Summit 2026",
+      "cfpUrl": "https://sessionize.com/cybermarketingcon-2026",
+      "cfpClosingDate": "2026-05-31",
+      "eventUrl": "https://cybermarketingconference.com/",
+      "location": "Austin, TX (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "manage-agile-2026",
+      "name": "Manage Agile 2026",
+      "cfpUrl": "https://sessionize.com/manage-agile-2026",
+      "cfpClosingDate": "2026-05-31",
+      "eventUrl": "https://www.manage-agile.de/",
+      "location": "Leipzig (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devops-midwest-2026",
+      "name": "DevOps Midwest 2026",
+      "cfpUrl": "https://papercall.io/cfps/6537/submissions/new",
+      "cfpClosingDate": "2026-05-31",
+      "eventUrl": "https://www.sketchdev.io/devopsmidwest",
+      "location": "St. Louis, MO ",
+      "tags": [
+        "Aws",
+        "Azure",
+        "Gcp",
+        "Jenkins",
+        "Serverless",
+        "Cdk",
+        "Terraform",
+        "Containers",
+        "Test automation",
+        "Pipelines",
+        "Ci",
+        "Cd",
+        "Automation",
+        "Devsecops",
+        "Ai",
+        "Livecoding"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "devopsdays-istanbul-2026",
+      "name": "DevOpsDays Istanbul 2026",
+      "cfpUrl": "https://papercall.io/cfps/6535/submissions/new",
+      "cfpClosingDate": "2026-05-31",
+      "eventUrl": "https://devopsdays.istanbul",
+      "location": "Istanbul",
+      "tags": [
+        "",
+        "Devops",
+        "Culture",
+        "Infrastructure as code",
+        "Containerization",
+        "Continuous delivery",
+        "Microservices",
+        "Continuous integration",
+        "Devsecops",
+        "Platform engineering",
+        "Sre"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "devopsdays-dallas-2026",
+      "name": "DevOpsDays Dallas 2026",
+      "cfpUrl": "https://www.papercall.io/dod-dfw-2026",
+      "cfpClosingDate": "2026-06-01",
+      "eventUrl": "https://devopsdays.org/events/2026-dallas/welcome/",
+      "location": "Dallas, TX (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "serverlessdays-milano-2026",
+      "name": "ServerlessDays Milano 2026",
+      "cfpUrl": "https://www.papercall.io/serverlessdays-milano-2026",
+      "cfpClosingDate": "2026-06-01",
+      "eventUrl": "http://milan.serverlessdays.io",
+      "location": "Milan (Italy)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "data-saturdays-sofia-2026",
+      "name": "Data Saturdays Sofia 2026",
+      "cfpUrl": "https://sessionize.com/data-saturdays-sofia-2026",
+      "cfpClosingDate": "2026-06-01",
+      "eventUrl": "https://datasaturday-2025.eventbrite.nl",
+      "location": "Sofia (Bulgaria)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "heapcon-2026",
+      "name": "Heapcon 2026",
+      "cfpUrl": "https://forms.gle/QBM1aqkL8yS4c6YM8",
+      "cfpClosingDate": "2026-06-01",
+      "eventUrl": "https://heapcon.io/2026/",
+      "location": "Belgrade (Serbia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "ai-for-developers",
+      "name": "AI for Developers",
+      "cfpUrl": "https://aiconference.dev/cfp",
+      "cfpClosingDate": "2026-06-01",
+      "eventUrl": "https://aiconference.dev/",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "cybersecurity-conference-csc-26",
+      "name": "Cybersecurity conference - CSC 26",
+      "cfpUrl": "https://sessionize.com/cybersecurity-conference-csc-26",
+      "cfpClosingDate": "2026-06-01",
+      "eventUrl": "https://www.hiks.hr",
+      "location": "Osijek, Croatia",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "serverlessdays-milano-2026",
+      "name": "ServerlessDays Milano 2026",
+      "cfpUrl": "https://papercall.io/cfps/6593/submissions/new",
+      "cfpClosingDate": "2026-06-01",
+      "eventUrl": "https://milan.serverlessdays.io",
+      "location": "Milan",
+      "tags": [
+        "Aws",
+        "Azure",
+        "Gcp",
+        "Other",
+        "Opensource",
+        "general",
+        "Serverless",
+        "Ai"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "unhacked-360-international-cybersecurity-conference",
+      "name": "Unhacked 360 International Cybersecurity Conference",
+      "cfpUrl": "https://momentera.org",
+      "cfpClosingDate": "2026-06-08",
+      "eventUrl": "https://momentera.org/conferences/unhacked360conference",
+      "location": "Atlanta, GA (USA)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "workplace-security-ninja-user-group-switzerland-2603",
+      "name": "Workplace & Security Ninja User Group Switzerland 2603",
+      "cfpUrl": "https://sessionize.com/wpninja-ug-ch/",
+      "cfpClosingDate": "2026-06-12",
+      "eventUrl": "https://www.meetup.com/wpninjasugswitzerland/events/312794038/?eventOrigin=group_upcoming_events",
+      "location": "Zurich (Switzerland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "cloud-native-denmark-2026",
+      "name": "Cloud Native Denmark 2026",
+      "cfpUrl": "https://sessionize.com/cloud-native-denmark-2026",
+      "cfpClosingDate": "2026-06-14",
+      "eventUrl": "https://cloudnativedenmark.dk",
+      "location": "Copenhagen (Denmark)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "fabfest-2026",
+      "name": "FabFest 2026",
+      "cfpUrl": "https://sessionize.com/fabfest2026",
+      "cfpClosingDate": "2026-06-15",
+      "eventUrl": "https://fabfestconf.com/",
+      "location": "Birmingham (UK)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "dynamics-summit-08-09-dezember-2026",
+      "name": "Dynamics Summit 08.-09. Dezember 2026",
+      "cfpUrl": "https://sessionize.com/dynamics-summit-08-09-dezember-2026",
+      "cfpClosingDate": "2026-06-15",
+      "eventUrl": "https://events.m365-summits.de/DynamicsSummit0809Dezember2026#/",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "mct-summit-2026",
+      "name": "MCT Summit 2026",
+      "cfpUrl": "https://sessionize.com/mct-26",
+      "cfpClosingDate": "2026-06-18",
+      "eventUrl": "https://mctsummit.org",
+      "location": "Riyadh (Saudi Arabia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "directions-for-enterprise-2026",
+      "name": "Directions for Enterprise 2026",
+      "cfpUrl": "https://sessionize.com/directions-enterprise-2026",
+      "cfpClosingDate": "2026-06-30",
+      "eventUrl": "https://www.directionsforpartners.com/enterprise2026",
+      "location": "Copenhagen (Denmark)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "ispe-nordic-affiliate-baltic-conference",
+      "name": "ISPE Nordic Affiliate - Baltic Conference",
+      "cfpUrl": "https://sessionize.com/ispe-baltics-event",
+      "cfpClosingDate": "2026-07-01",
+      "eventUrl": "https://ispe-nordic.easysignup.com/9/",
+      "location": "Jurmala (Latvia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "symfonycon-warsaw-2026",
+      "name": "SymfonyCon Warsaw 2026",
+      "cfpUrl": "https://live.symfony.com/2026-warsaw-con/cfp",
+      "cfpClosingDate": "2026-07-01",
+      "eventUrl": "https://live.symfony.com/2026-warsaw-con",
+      "location": "Warsaw (Poland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devopsday-prague-2026",
+      "name": "DevopsDay Prague 2026",
+      "cfpUrl": "https://papercall.io/cfps/6453/submissions/new",
+      "cfpClosingDate": "2026-07-01",
+      "eventUrl": "https://devopsdays.org/events/2026-prague/welcome",
+      "location": "Prague",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "usecaseconf-2026",
+      "name": "UseCaseConf 2026",
+      "cfpUrl": "https://sessionize.com/usecaseconf-2026",
+      "cfpClosingDate": "2026-07-06",
+      "eventUrl": "https://usecaseconf.tech",
+      "location": "Verona, Italy",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "xtremej",
+      "name": "XtremeJ",
+      "cfpUrl": "https://tinyurl.com/xtreme2026",
+      "cfpClosingDate": "2026-07-10",
+      "eventUrl": "https://xtremej.dev",
+      "location": "",
+      "tags": [
+        "java"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "hands-on-testing-2026",
+      "name": "Hands-On Testing 2026",
+      "cfpUrl": "https://sessionize.com/hands-on-testing-2026",
+      "cfpClosingDate": "2026-07-15",
+      "eventUrl": "https://handsontesting.com/",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "python-marche-season-2025-26",
+      "name": "Python Marche season 2025-26",
+      "cfpUrl": "https://sessionize.com/python-marche",
+      "cfpClosingDate": "2026-07-23",
+      "eventUrl": "https://marche.python.it",
+      "location": "",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "bsides-brighton",
+      "name": "BSides Brighton",
+      "cfpUrl": "https://sessionize.com/bsides-brighton",
+      "cfpClosingDate": "2026-08-01",
+      "eventUrl": "https://bsidesbrighton.co.uk/",
+      "location": "Brighton (UK)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "4th-tech-summit-on-ai-robotics",
+      "name": "4th Tech Summit on AI & Robotics",
+      "cfpUrl": "https://artificialintelligence.averconferences.com/scientific_session.php",
+      "cfpClosingDate": "2026-08-02",
+      "eventUrl": "https://artificialintelligence.averconferences.com/",
+      "location": "Paris (France) & Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "bsides-zadar-2026",
+      "name": "BSides Zadar 2026",
+      "cfpUrl": "https://sessionize.com/bsideszadar-2026",
+      "cfpClosingDate": "2026-08-05",
+      "eventUrl": "https://bsideszadar.org/",
+      "location": "Zadar (Croatia)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "conf42-observability-2026",
+      "name": "Conf42 Observability 2026",
+      "cfpUrl": "https://www.papercall.io/conf42-observability-2026",
+      "cfpClosingDate": "2026-08-10",
+      "eventUrl": "https://www.conf42.com/obs2026",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "8-8-unreal",
+      "name": "8.8 Unreal",
+      "cfpUrl": "https://papercall.io/cfps/6558/submissions/new",
+      "cfpClosingDate": "2026-08-10",
+      "eventUrl": "https://8dot8.org",
+      "location": "Teatro de Fundación CorpArtes CA660, Rosario Norte 660, Las Condes, Santiago",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "conf42-observability-2026",
+      "name": "Conf42 Observability 2026",
+      "cfpUrl": "https://papercall.io/cfps/6474/submissions/new",
+      "cfpClosingDate": "2026-08-10",
+      "eventUrl": "https://www.conf42.com/obs2026",
+      "location": "Online",
+      "tags": [
+        "Telemetry",
+        "Tracing",
+        "Metrics",
+        "Logging",
+        "Instrumentation",
+        "Correlation",
+        "Dashboards",
+        "Anomaly",
+        "Alerting",
+        "Context"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "devtalks-cluj-napoca-2026",
+      "name": "DevTalks Cluj Napoca 2026",
+      "cfpUrl": "https://www.papercall.io/devtalks-2026",
+      "cfpClosingDate": "2026-08-16",
+      "eventUrl": "https://www.devtalks.ro/10-devtalks-cluj-napoca-2025",
+      "location": "Cluj-Napoca (Romania)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devtalks-cluj-napoca-2026",
+      "name": "DevTalks Cluj Napoca 2026",
+      "cfpUrl": "https://papercall.io/cfps/6544/submissions/new",
+      "cfpClosingDate": "2026-08-16",
+      "eventUrl": "https://www.devtalks.ro/10-devtalks-cluj-napoca-2025",
+      "location": "Cluj Innovation Park, Cluj-Napoca, Romania",
+      "tags": [
+        "Java",
+        "Ai",
+        "Ml",
+        "Chatgpt",
+        "Iot",
+        "Generative ai",
+        "Security",
+        "Open ai",
+        "Cybersecurity"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "governance-security-summit-19-20-januar-2027",
+      "name": "Governance & Security Summit 19.-20. Januar 2027",
+      "cfpUrl": "https://sessionize.com/governance-security-summit-19-20-j",
+      "cfpClosingDate": "2026-08-20",
+      "eventUrl": "https://events.m365-summits.de/GovernanceSecuritySummit1920Januar2027",
+      "location": "",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "global-data-ai-virtual-tech-conference-2026",
+      "name": "Global Data & AI Virtual Tech Conference 2026",
+      "cfpUrl": "https://sessionize.com/dataglobalhub-gdai-2026",
+      "cfpClosingDate": "2026-08-22",
+      "eventUrl": "https://dataglobalhub.org",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "conf42-ai-agents-2026",
+      "name": "Conf42 AI Agents 2026",
+      "cfpUrl": "https://www.papercall.io/conf42-ai-agents-2026",
+      "cfpClosingDate": "2026-08-24",
+      "eventUrl": "https://www.conf42.com/agents2026",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "conf42-ai-agents-2026",
+      "name": "Conf42 AI Agents 2026",
+      "cfpUrl": "https://papercall.io/cfps/6475/submissions/new",
+      "cfpClosingDate": "2026-08-24",
+      "eventUrl": "https://www.conf42.com/agents2026",
+      "location": "Online",
+      "tags": [
+        "Autonomy",
+        "Orchestration",
+        "Reasoning",
+        "Planning",
+        "Coordination",
+        "Memory",
+        "Actions",
+        "Adaptation",
+        "Simulation",
+        "Agency"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "austin-issa-october-quarterly-meeting",
+      "name": "Austin ISSA October Quarterly Meeting",
+      "cfpUrl": "https://sessionize.com/austin-issa-october25-quarterly-meeting",
+      "cfpClosingDate": "2026-08-30",
+      "eventUrl": "https://www.austinissa.org/event-details/austin-issa-october-quarterly-meeting",
+      "location": "Austin, Texas, United States",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "valusignal-2026",
+      "name": "ValuSignal 2026",
+      "cfpUrl": "https://sessionize.com/valusignal-2026",
+      "cfpClosingDate": "2026-08-31",
+      "eventUrl": "http://www.valusignal.com",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "a-call-for-guest-writers-for-the-wearedevelopers-magazine",
+      "name": "A call for Guest Writers for the WeAreDevelopers Magazine",
+      "cfpUrl": "https://sessionize.com/wearedevelopers-magazine",
+      "cfpClosingDate": "2026-09-12",
+      "eventUrl": "https://www.wearedevelopers.com/en/magazine",
+      "location": "",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "conf42-devsecops-2026",
+      "name": "Conf42 DevSecOps 2026",
+      "cfpUrl": "https://www.papercall.io/conf42-devsecops-2026",
+      "cfpClosingDate": "2026-09-14",
+      "eventUrl": "https://www.conf42.com/devsecops2026",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "conf42-devsecops-2026",
+      "name": "Conf42 DevSecOps 2026",
+      "cfpUrl": "https://papercall.io/cfps/6476/submissions/new",
+      "cfpClosingDate": "2026-09-14",
+      "eventUrl": "https://www.conf42.com/devsecops2026",
+      "location": "Online",
+      "tags": [
+        "Compliance",
+        "Automation",
+        "Shiftleft",
+        "Governance",
+        "Pipeline",
+        "Vulnerability",
+        "Encryption",
+        "Identity",
+        "Remediation",
+        "Visibility"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "ai-poland",
+      "name": "AI Poland",
+      "cfpUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeVsK-OA9HudBjk7CpkKNCK8M_DD4_DF-AsFLAP8wdHeZ3O-g/viewform",
+      "cfpClosingDate": "2026-09-15",
+      "eventUrl": "https://ai-poland.pl",
+      "location": "Warsaw (Poland)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "power-bi-summit-16-17-februar-2027",
+      "name": "Power BI Summit 16. - 17. Februar 2027 ",
+      "cfpUrl": "https://sessionize.com/power-bi-summit-16-17-februar-2027",
+      "cfpClosingDate": "2026-09-17",
+      "eventUrl": "https://events.m365-summits.de/PowerBISummit1617Februar2027",
+      "location": "",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "conf42-prompt-engineering-2026",
+      "name": "Conf42 Prompt Engineering 2026",
+      "cfpUrl": "https://www.papercall.io/conf42-prompt-engineering-2026",
+      "cfpClosingDate": "2026-09-28",
+      "eventUrl": "https://www.conf42.com/prompt2026",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "conf42-prompt-engineering-2026",
+      "name": "Conf42 Prompt Engineering 2026",
+      "cfpUrl": "https://papercall.io/cfps/6477/submissions/new",
+      "cfpClosingDate": "2026-09-28",
+      "eventUrl": "https://www.conf42.com/prompt2026",
+      "location": "Online",
+      "tags": [
+        "Context",
+        "Intent",
+        "Tokens",
+        "Refinement",
+        "Iteration",
+        "Bias",
+        "Clarity",
+        "Constraints",
+        "Structure",
+        "Interpretation"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "the-ai-conf",
+      "name": "The AI Conf",
+      "cfpUrl": "https://theconf.ai/call-for-papers",
+      "cfpClosingDate": "2026-09-30",
+      "eventUrl": "https://theconf.ai/",
+      "location": "Barcelona (Spain)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "sreday-amsterdam-2026-q4",
+      "name": "SREday Amsterdam 2026 Q4",
+      "cfpUrl": "https://www.papercall.io/sreday-amsterdam-2026-q4",
+      "cfpClosingDate": "2026-10-01",
+      "eventUrl": "https://sreday.com/2026-amsterdam-q4/",
+      "location": "Amsterdam (Netherlands)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "push-ux",
+      "name": "PUSH UX",
+      "cfpUrl": "https://push-conference.com/#calls",
+      "cfpClosingDate": "2026-10-01",
+      "eventUrl": "https://push-conference.com",
+      "location": "Munich (Germany)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "sreday-amsterdam-2026-q4",
+      "name": "SREday Amsterdam 2026 Q4",
+      "cfpUrl": "https://papercall.io/cfps/6550/submissions/new",
+      "cfpClosingDate": "2026-10-01",
+      "eventUrl": "https://sreday.com/2026-amsterdam-q4",
+      "location": "ING Cedar, Amsterdam, Netherlands",
+      "tags": [
+        "Sre",
+        "Devops",
+        "Cloud",
+        "Agents",
+        "O11y",
+        "K8s",
+        "Containers",
+        "Clusters",
+        "Docker",
+        "Azure",
+        "Aws",
+        "Resilience",
+        "Post mortems",
+        "Documentation"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "conf42-platform-engineering-2026",
+      "name": "Conf42 Platform Engineering 2026",
+      "cfpUrl": "https://www.papercall.io/conf42-platform-engineering-2026",
+      "cfpClosingDate": "2026-10-05",
+      "eventUrl": "https://www.conf42.com/platform2026",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "conf42-platform-engineering-2026",
+      "name": "Conf42 Platform Engineering 2026",
+      "cfpUrl": "https://papercall.io/cfps/6478/submissions/new",
+      "cfpClosingDate": "2026-10-05",
+      "eventUrl": "https://www.conf42.com/platform2026",
+      "location": "Online",
+      "tags": [
+        "Scalability",
+        "Abstraction",
+        "Selfservice",
+        "Pipelines",
+        "Automation",
+        "Integration",
+        "Infrastructure",
+        "Reliability",
+        "Governance",
+        "Experience"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "global-summit-on-data-science-and-cloud-computing",
+      "name": "Global Summit on Data Science and Cloud Computing",
+      "cfpUrl": "https://datascience.novelticsconferences.com/register",
+      "cfpClosingDate": "2026-10-15",
+      "eventUrl": "https://datascience.novelticsconferences.com",
+      "location": "Rome (Italy)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "north-american-m365-summit-16-17-march-2027",
+      "name": "North American M365 Summit 16.- 17. March 2027 ",
+      "cfpUrl": "https://sessionize.com/north-american-m365-summit-16-17-march",
+      "cfpClosingDate": "2026-10-17",
+      "eventUrl": "https://events.m365-summits.de/NorthAmericanM365Summit1618Mrz2027",
+      "location": "",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "devcon-2026",
+      "name": "DevCon 2026",
+      "cfpUrl": "https://www.papercall.io/devcon2026",
+      "cfpClosingDate": "2026-10-18",
+      "eventUrl": "https://www.dev-con.ro/",
+      "location": "Bucharest (Romania)",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "devcon-2026-bucharest-romania",
+      "name": "DevCon 2026 | Bucharest, Romania",
+      "cfpUrl": "https://papercall.io/cfps/6546/submissions/new",
+      "cfpClosingDate": "2026-10-18",
+      "eventUrl": "https://www.dev-con.ro",
+      "location": "NORD Events Center by Globalworth, Bucharest, Romania",
+      "tags": [
+        "Java",
+        "Devops",
+        "Ai",
+        "Ml",
+        "Data",
+        "Cybersecurity",
+        "Security",
+        "Web",
+        "Mobile",
+        "Qa",
+        "Testing",
+        "Artificial",
+        "Intelligence",
+        "Chat",
+        "Automation",
+        "Bigdata",
+        "Cloud",
+        "Java html5-dom-document-internal-entity1-amp-end go",
+        "Deeptech"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "conf42-mlops-2026",
+      "name": "Conf42 MLOps 2026",
+      "cfpUrl": "https://www.papercall.io/conf42-mlops-2026",
+      "cfpClosingDate": "2026-10-19",
+      "eventUrl": "https://www.conf42.com/mlops2026",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "conf42-mlops-2026",
+      "name": "Conf42 MLOps 2026",
+      "cfpUrl": "https://papercall.io/cfps/6479/submissions/new",
+      "cfpClosingDate": "2026-10-19",
+      "eventUrl": "https://www.conf42.com/mlops2026",
+      "location": "Online",
+      "tags": [
+        "Deployment",
+        "Monitoring",
+        "Pipelines",
+        "Drift",
+        "Versioning",
+        "Retraining",
+        "Automation",
+        "Scalability",
+        "Governance",
+        "Reproducibility"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "conf42-chaos-engineering-2026",
+      "name": "Conf42: Chaos Engineering 2026",
+      "cfpUrl": "https://www.papercall.io/conf42-chaos-engineering-2026",
+      "cfpClosingDate": "2026-11-02",
+      "eventUrl": "https://www.conf42.com/ce2026",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "conf42-chaos-engineering-2026",
+      "name": "Conf42: Chaos Engineering 2026",
+      "cfpUrl": "https://papercall.io/cfps/6480/submissions/new",
+      "cfpClosingDate": "2026-11-02",
+      "eventUrl": "https://www.conf42.com/ce2026",
+      "location": "Online",
+      "tags": [
+        "Resilience",
+        "Failure",
+        "Experimentation",
+        "Faults",
+        "Recovery",
+        "Turbulence",
+        "Steadystate",
+        "Hypothesis",
+        "Outage",
+        "Learning"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "devon-and-cornwall-power-platform-user-group-q4-virtual",
+      "name": " Devon and Cornwall Power Platform User Group | Q4 | Virtual",
+      "cfpUrl": "https://sessionize.com/devon-and-cornwall-ppug-q4",
+      "cfpClosingDate": "2026-11-20",
+      "eventUrl": "https://community.powerplatform.com/usergroups/eventdetails",
+      "location": "",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "gittogether-delhi-ncr-2025-26-submissions",
+      "name": "GitTogether Delhi NCR 2025-26 Submissions ",
+      "cfpUrl": "https://sessionize.com/gittogether-delhi-ncr-september-2025",
+      "cfpClosingDate": "2026-11-22",
+      "eventUrl": "https://www.meetup.com/gittogether-delhi",
+      "location": "",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "12-reasons-why-with-tech-experts-season-2",
+      "name": "\"12 Reasons Why\" with Tech Experts  - Season 2",
+      "cfpUrl": "https://sessionize.com/12-reasons-why-with-tech-experts-co",
+      "cfpClosingDate": "2026-11-30",
+      "eventUrl": "https://12reasons.theazway.com",
+      "location": "Online",
+      "tags": [],
+      "source": "developers.events"
+    },
+    {
+      "id": "ai-copilot-summit-01-02-juni-2027",
+      "name": "AI & Copilot Summit 01.-02. Juni 2027",
+      "cfpUrl": "https://sessionize.com/ai-copilot-summit-01-02-juni-2027",
+      "cfpClosingDate": "2026-12-20",
+      "eventUrl": "https://events.m365-summits.de/AICopilotSummit0102Juni2027",
+      "location": "",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "open-source-talks-montpellier",
+      "name": "Open-Source Talks Montpellier",
+      "cfpUrl": "https://papercall.io/cfps/1331/submissions/new",
+      "cfpClosingDate": "2028-07-25",
+      "eventUrl": "https://www.meetup.com/fr-FR/Open-Source_Talks",
+      "location": "Montpellier, FRANCE",
+      "tags": [
+        "Open-source",
+        "Programmer",
+        "Devops",
+        "Linux",
+        "Tools",
+        "Framework",
+        "Java",
+        "Php",
+        "Javascript",
+        "React",
+        "Angular",
+        "Code",
+        "Pmf",
+        "Geek",
+        "It",
+        "Iot",
+        "Raspberry",
+        "Arduino",
+        "Fablab",
+        "Diy",
+        "Web apps",
+        "Agile"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "web3-london",
+      "name": "Web3 London",
+      "cfpUrl": "https://papercall.io/cfps/4324/submissions/new",
+      "cfpClosingDate": "2050-01-01",
+      "eventUrl": "https://twitter.com/web3_london",
+      "location": "London, UK",
+      "tags": [
+        "Web3",
+        "London",
+        "Nfts",
+        "Distributed apps",
+        "Blockchain",
+        "Defi",
+        "Daos",
+        "Ai",
+        "Metaverse",
+        "Gaming"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "cambridge-area-julia-user-network",
+      "name": "Cambridge Area Julia User Network",
+      "cfpUrl": "https://papercall.io/cfps/1382/submissions/new",
+      "cfpClosingDate": "2050-04-15",
+      "eventUrl": "https://www.meetup.com/julia-cajun",
+      "location": "Cambridge, MA",
+      "tags": [
+        "Julialang"
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "baltimore-go",
+      "name": "Baltimore Go",
+      "cfpUrl": "https://papercall.io/cfps/174/submissions/new",
+      "cfpClosingDate": "2050-07-16",
+      "eventUrl": "http://baltimoregolang.org",
+      "location": "Baltimore, MD",
+      "tags": [
+        ""
+      ],
+      "source": "callingallpapers"
+    },
+    {
+      "id": "bostonrb-monthly-meeting",
+      "name": "BostonRB - Monthly Meeting",
+      "cfpUrl": "https://papercall.io/cfps/93/submissions/new",
+      "cfpClosingDate": "2050-12-31",
+      "eventUrl": "https://www.meetup.com/bostonrb",
+      "location": "Boston, MA",
+      "tags": [
+        "Ruby",
+        "Rails",
+        "Ecosystem"
+      ],
+      "source": "callingallpapers"
+    }
+  ]
+}

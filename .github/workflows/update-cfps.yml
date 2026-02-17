@@ -1,0 +1,27 @@
+name: Update CFP Data
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Every Monday at 6am UTC
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Fetch CFP data
+        run: node scripts/fetch-cfps.mjs
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update CFP data'
+          file_pattern: data/cfps.json

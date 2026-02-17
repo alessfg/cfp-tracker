@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FilterBar from '../components/FilterBar.astro';
+import CFPTable from '../components/CFPTable.astro';
+
+import cfpData from '../../data/cfps.json';
+
+const { cfps, lastUpdated } = cfpData;
+---
+
+<BaseLayout lastUpdated={lastUpdated}>
+  <div class="mb-6 flex flex-col gap-4">
+    <p class="text-lg text-gray-300">
+      <span class="font-semibold text-white">{cfps.length}</span> open CFPs
+    </p>
+    <FilterBar />
+  </div>
+  <CFPTable cfps={cfps} />
+</BaseLayout>

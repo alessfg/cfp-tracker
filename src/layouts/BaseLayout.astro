@@ -1,0 +1,41 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  lastUpdated?: string;
+}
+
+const { title = 'Open Source CFP Tracker', lastUpdated = '' } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Automatically updated list of open Call for Papers for open-source conferences." />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen bg-gray-950 text-gray-100 flex flex-col">
+    <header class="border-b border-gray-800 px-6 py-8 text-center">
+      <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">Open Source CFP Tracker</h1>
+      <p class="mt-2 text-gray-400">Open Call for Papers for open-source conferences, updated weekly.</p>
+    </header>
+
+    <main class="flex-1 w-full max-w-6xl mx-auto px-4 py-8">
+      <slot />
+    </main>
+
+    <footer class="border-t border-gray-800 px-6 py-6 text-center text-sm text-gray-500">
+      {lastUpdated && <p>Last updated: {lastUpdated}</p>}
+      <p class="mt-1">
+        Data sourced from
+        <a href="https://developers.events" class="underline hover:text-gray-300">developers.events</a>,
+        <a href="https://github.com/tech-conferences/conference-data" class="underline hover:text-gray-300">conference-data</a>, and
+        <a href="https://callingallpapers.com" class="underline hover:text-gray-300">CallingAllPapers</a>.
+      </p>
+    </footer>
+  </body>
+</html>

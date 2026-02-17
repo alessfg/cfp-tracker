@@ -1,0 +1,91 @@
+---
+interface CFP {
+  id: string;
+  name: string;
+  cfpUrl: string;
+  cfpClosingDate: string;
+  eventUrl: string;
+  location: string;
+  tags: string[];
+  source: string;
+}
+
+interface Props {
+  cfps: CFP[];
+}
+
+const { cfps } = Astro.props;
+const today = new Date();
+const soonMs = 14 * 24 * 60 * 60 * 1000;
+
+function isClosingSoon(dateStr: string) {
+  const closing = new Date(dateStr + 'T23:59:59');
+  return closing.getTime() - today.getTime() <= soonMs && closing >= today;
+}
+
+function formatDate(dateStr: string) {
+  return new Date(dateStr + 'T00:00:00').toLocaleDateString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+  });
+}
+---
+
+<div class="overflow-x-auto rounded-lg border border-gray-800">
+  <table class="w-full text-left text-sm">
+    <thead class="border-b border-gray-800 bg-gray-900 text-xs uppercase tracking-wider text-gray-400">
+      <tr>
+        <th class="px-4 py-3">Conference</th>
+        <th class="px-4 py-3">Closing Date</th>
+        <th class="px-4 py-3 hidden sm:table-cell">Location</th>
+        <th class="px-4 py-3 text-right">Link</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-gray-800">
+      {cfps.map((cfp) => {
+        const soon = isClosingSoon(cfp.cfpClosingDate);
+        return (
+          <tr
+            data-cfp
+            data-name={cfp.name}
+            data-soon={soon}
+            class="hover:bg-gray-900/50 transition-colors"
+          >
+            <td class="px-4 py-3 font-medium">
+              {cfp.eventUrl ? (
+                <a href={cfp.eventUrl} target="_blank" rel="noopener noreferrer" class="hover:text-indigo-400">
+                  {cfp.name}
+                </a>
+              ) : (
+                cfp.name
+              )}
+            </td>
+            <td class="px-4 py-3 whitespace-nowrap">
+              {formatDate(cfp.cfpClosingDate)}
+              {soon && (
+                <span class="ml-2 inline-flex items-center rounded-full bg-yellow-900/50 px-2 py-0.5 text-xs font-medium text-yellow-300 border border-yellow-700/50">
+                  Closing soon
+                </span>
+              )}
+            </td>
+            <td class="px-4 py-3 text-gray-400 hidden sm:table-cell">{cfp.location || '—'}</td>
+            <td class="px-4 py-3 text-right">
+              <a
+                href={cfp.cfpUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-1 rounded-md bg-indigo-600 px-3 py-1 text-xs font-medium text-white hover:bg-indigo-500 transition-colors"
+              >
+                Submit
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,63 @@
+---
+
+---
+
+<div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+  <div class="flex gap-2">
+    <button
+      id="filter-all"
+      class="filter-btn rounded-md bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-900"
+      data-filter="all"
+    >
+      All
+    </button>
+    <button
+      id="filter-soon"
+      class="filter-btn rounded-md bg-gray-800 px-3 py-1.5 text-sm font-medium text-gray-300 hover:bg-gray-700"
+      data-filter="soon"
+    >
+      Closing Soon
+    </button>
+  </div>
+  <input
+    id="search-input"
+    type="text"
+    placeholder="Search conferences..."
+    class="rounded-md border border-gray-700 bg-gray-900 px-3 py-1.5 text-sm text-gray-100 placeholder-gray-500 focus:border-indigo-500 focus:outline-none w-full sm:w-64"
+  />
+</div>
+
+<script>
+  const allBtn = document.getElementById('filter-all');
+  const soonBtn = document.getElementById('filter-soon');
+  const searchInput = document.getElementById('search-input');
+  const rows = document.querySelectorAll('tr[data-cfp]');
+
+  let activeFilter = 'all';
+
+  function applyFilters() {
+    const query = searchInput.value.toLowerCase();
+    rows.forEach((row) => {
+      const name = (row.getAttribute('data-name') || '').toLowerCase();
+      const soon = row.getAttribute('data-soon') === 'true';
+
+      const matchesFilter = activeFilter === 'all' || soon;
+      const matchesSearch = !query || name.includes(query);
+
+      row.style.display = matchesFilter && matchesSearch ? '' : 'none';
+    });
+  }
+
+  function setActive(filter) {
+    activeFilter = filter;
+    const active = 'rounded-md bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-900';
+    const inactive = 'rounded-md bg-gray-800 px-3 py-1.5 text-sm font-medium text-gray-300 hover:bg-gray-700';
+    allBtn.className = 'filter-btn ' + (filter === 'all' ? active : inactive);
+    soonBtn.className = 'filter-btn ' + (filter === 'soon' ? active : inactive);
+    applyFilters();
+  }
+
+  allBtn.addEventListener('click', () => setActive('all'));
+  soonBtn.addEventListener('click', () => setActive('soon'));
+  searchInput.addEventListener('input', applyFilters);
+</script>
