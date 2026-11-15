@@ -2,11 +2,16 @@ name: Update CFP Data
 
 on:
   schedule:
-    - cron: '0 6 * * 1' # Every Monday at 6am UTC
+    - cron: '17 5 * * *' # Daily at 05:17 UTC
   workflow_dispatch: # Allow manual trigger
 
 permissions:
   contents: write
+  actions: write # to start the deploy workflow
+
+concurrency:
+  group: update-cfps
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -24,7 +29,16 @@ jobs:
         run: node scripts/fetch-cfps.mjs
 
       - name: Commit updated data
+        id: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: update CFP data'
           file_pattern: data/cfps.json
+
+      # Pushes made with GITHUB_TOKEN don't trigger other workflows, so the
+      # deploy has to be started explicitly.
+      - name: Deploy site
+        if: steps.commit.outputs.changes_detected == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref ${{ github.ref_name }}
