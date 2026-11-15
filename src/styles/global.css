@@ -1,1 +1,61 @@
 @import "tailwindcss";
+
+/* F5 brand theme. Tailwind's default palette is removed so only F5 colors can be used. */
+@theme {
+  --color-*: initial;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-transparent: transparent;
+  --color-current: currentColor;
+
+  /* Neutral ramps */
+  --color-paper: #faf9f7;
+  --color-fog: #f5f5f5;
+  --color-mist: #e6e6e6;
+  --color-cloud: #cccccc;
+  --color-stone: #999999;
+  --color-slate: #666666;
+  --color-graphite: #343434;
+  --color-ink: #222222;
+
+  /* Base colors and the ramp steps in use (1-4 tints, 5-8 shades) */
+  --color-f5-red: #e4002b;
+  --color-f5-red-5: #b30013;
+  --color-bay: #0072b0;
+  --color-bay-1: #ade4ff;
+  --color-bay-5: #045b91;
+  --color-bay-7: #003155;
+  --color-river: #0e41aa;
+  --color-tangerine: #f29a36;
+  --color-raspberry: #ab2782;
+  --color-jade: #009639;
+  --color-eggplant: #933dcc;
+  --color-surf: #009c93;
+
+  --font-sans: "Proxima Nova", Arial, sans-serif;
+  --font-display: "Neusa Next Pro Wide", "Neusa Next Wide", Arial, sans-serif;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    @apply bg-paper font-sans text-ink antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-bay);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      transition-duration: 0s !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

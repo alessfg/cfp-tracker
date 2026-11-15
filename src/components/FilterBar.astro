@@ -1,63 +1,247 @@
 ---
+import { ORGANIZER_TYPES, REGIONS, type CFP } from '../lib/cfp';
 
+interface Props {
+  cfps: CFP[];
+}
+
+const { cfps } = Astro.props;
+
+function countBy(values: string[]) {
+  const counts = new Map<string, number>();
+  for (const v of values) counts.set(v, (counts.get(v) || 0) + 1);
+  return counts;
+}
+
+const regionCounts = countBy(cfps.map((c) => c.region));
+const regions = REGIONS.filter((r) => regionCounts.has(r));
+
+// "Meetups" has its own toggle, so it's left out of the category list.
+const categoryCounts = countBy(cfps.flatMap((c) => c.categories));
+const categories = [...categoryCounts.keys()]
+  .filter((c) => c !== 'Other' && c !== 'Meetups')
+  .sort((a, b) => a.localeCompare(b))
+  .concat(categoryCounts.has('Other') ? ['Other'] : []);
+
+// Counts include events run by member organizations (CNCF counts toward Linux Foundation).
+const organizerCounts = countBy(cfps.flatMap((c) => [c.organizer.name, ...c.organizer.parents].filter(Boolean)));
+const typeCounts = countBy(cfps.map((c) => c.organizer.type));
+const foundationNames = new Set(cfps.filter((c) => c.organizer.type === 'foundation').map((c) => c.organizer.name));
+const organizersOfType = (type: string) =>
+  [...new Set(cfps.filter((c) => c.organizer.type === type).flatMap((c) => [c.organizer.name, ...c.organizer.parents]))]
+    .filter((name) => name && (type === 'foundation' || !foundationNames.has(name)))
+    .sort((a, b) => a.localeCompare(b));
+const organizerGroups = [
+  { label: 'Foundations', type: 'foundation', names: organizersOfType('foundation') },
+  { label: 'Community programs', type: 'community', names: organizersOfType('community') },
+  { label: 'Companies', type: 'vendor', names: organizersOfType('vendor') },
+];
+
+const meetupCount = categoryCounts.get('Meetups') || 0;
+const views = [
+  { value: 'all', label: 'All' },
+  { value: 'soon', label: 'Closing in 2 weeks' },
+  { value: 'conferences', label: 'Conferences', count: cfps.length - meetupCount },
+  { value: 'meetups', label: 'Meetups', count: meetupCount },
+];
+
+const selectClass =
+  'w-full appearance-none rounded-[5px] border border-slate bg-white bg-[length:16px] bg-[right_10px_center] bg-no-repeat py-2.5 pl-3 pr-9 text-base text-ink hover:border-ink';
+const chevron =
+  "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23222222' stroke-width='1.5'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E\")";
+const labelClass = 'mb-1.5 block font-display text-sm font-bold';
 ---
 
-<div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-  <div class="flex gap-2">
-    <button
-      id="filter-all"
-      class="filter-btn rounded-md bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-900"
-      data-filter="all"
-    >
-      All
-    </button>
-    <button
-      id="filter-soon"
-      class="filter-btn rounded-md bg-gray-800 px-3 py-1.5 text-sm font-medium text-gray-300 hover:bg-gray-700"
-      data-filter="soon"
-    >
-      Closing Soon
+<section aria-label="Filters" class="flex flex-col gap-6">
+  <div class="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+    <div class="grid grid-cols-2 gap-1 rounded-[5px] border border-slate bg-white p-1 sm:inline-flex sm:w-auto" role="group" aria-label="Show">
+      {views.map((view) => (
+        <button
+          type="button"
+          data-view={view.value}
+          aria-pressed={view.value === 'all' ? 'true' : 'false'}
+          class="view-btn whitespace-nowrap rounded-[4px] px-4 py-2 text-[15px] font-semibold text-ink transition-colors hover:bg-fog aria-pressed:bg-ink aria-pressed:text-white"
+        >
+          {view.label}
+          {view.count !== undefined && <span class="ml-1 font-normal opacity-75">{view.count}</span>}
+        </button>
+      ))}
+    </div>
+    <label class="w-full lg:w-80">
+      <span class={labelClass}>Search</span>
+      <input
+        id="search-input"
+        type="search"
+        placeholder="Conference, city, or topic"
+        class="w-full rounded-[5px] border border-slate bg-white px-3 py-2.5 text-base text-ink placeholder:text-slate hover:border-ink"
+      />
+    </label>
+  </div>
+
+  <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+    <label>
+      <span class={labelClass}>Region</span>
+      <select id="filter-region" data-filter="region" class={selectClass} style={`background-image:${chevron}`}>
+        <option value="">All regions</option>
+        {regions.map((r) => <option value={r}>{r} ({regionCounts.get(r)})</option>)}
+      </select>
+    </label>
+    <label>
+      <span class={labelClass}>Category</span>
+      <select id="filter-category" data-filter="category" class={selectClass} style={`background-image:${chevron}`}>
+        <option value="">All categories</option>
+        {categories.map((c) => <option value={c}>{c} ({categoryCounts.get(c)})</option>)}
+      </select>
+    </label>
+    <label>
+      <span class={labelClass}>Organizer</span>
+      <select id="filter-organizer" data-filter="organizer" class={selectClass} style={`background-image:${chevron}`}>
+        <option value="">All organizers</option>
+        {organizerGroups.map((group) => (
+          <optgroup label={group.label}>
+            <option value={group.type}>{ORGANIZER_TYPES[group.type as keyof typeof ORGANIZER_TYPES]} ({typeCounts.get(group.type) || 0})</option>
+            {group.names.map((name) => <option value={name}>{name} ({organizerCounts.get(name)})</option>)}
+          </optgroup>
+        ))}
+        <option value="independent">{ORGANIZER_TYPES.independent} ({typeCounts.get('independent') || 0})</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="flex items-baseline justify-between gap-4 border-b border-ink pb-3">
+    <p aria-live="polite" class="text-slate">
+      <span id="visible-count" class="font-display text-2xl font-bold text-ink">{cfps.length}</span>
+      <span id="count-label">open calls</span>
+    </p>
+    <button type="button" data-clear-filters hidden class="font-semibold text-bay hover:text-bay-5 hover:underline">
+      Clear filters
     </button>
   </div>
-  <input
-    id="search-input"
-    type="text"
-    placeholder="Search conferences..."
-    class="rounded-md border border-gray-700 bg-gray-900 px-3 py-1.5 text-sm text-gray-100 placeholder-gray-500 focus:border-indigo-500 focus:outline-none w-full sm:w-64"
-  />
-</div>
+</section>
 
 <script>
-  const allBtn = document.getElementById('filter-all');
-  const soonBtn = document.getElementById('filter-soon');
-  const searchInput = document.getElementById('search-input');
-  const rows = document.querySelectorAll('tr[data-cfp]');
+  const SOON_DAYS = 14;
+  const rows = [...document.querySelectorAll<HTMLTableRowElement>('tr[data-cfp]')];
+  const searchInput = document.getElementById('search-input') as HTMLInputElement;
+  const selects = [...document.querySelectorAll<HTMLSelectElement>('select[data-filter]')];
+  const viewButtons = [...document.querySelectorAll<HTMLButtonElement>('button[data-view]')];
+  const clearButtons = [...document.querySelectorAll<HTMLButtonElement>('[data-clear-filters]')];
+  const visibleCount = document.getElementById('visible-count')!;
+  const countLabel = document.getElementById('count-label')!;
+  const emptyState = document.getElementById('empty-state');
+  const table = document.getElementById('cfp-table');
 
-  let activeFilter = 'all';
+  // The page is rebuilt when the data changes, but closing dates are checked
+  // here so expired CFPs disappear even if a visitor's copy is a few days old.
+  const pad = (n: number) => String(n).padStart(2, '0');
+  const isoDate = (d: Date) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  const now = new Date();
+  const today = isoDate(now);
+  const soonCutoff = isoDate(new Date(now.getFullYear(), now.getMonth(), now.getDate() + SOON_DAYS));
 
-  function applyFilters() {
-    const query = searchInput.value.toLowerCase();
-    rows.forEach((row) => {
-      const name = (row.getAttribute('data-name') || '').toLowerCase();
-      const soon = row.getAttribute('data-soon') === 'true';
+  const openRows = rows.filter((row) => {
+    const closing = row.dataset.closing!;
+    if (closing < today) {
+      row.remove();
+      return false;
+    }
+    if (closing <= soonCutoff) {
+      row.dataset.soon = 'true';
+      row.querySelector<HTMLElement>('[data-soon-badge]')!.hidden = false;
+    }
+    return true;
+  });
 
-      const matchesFilter = activeFilter === 'all' || soon;
-      const matchesSearch = !query || name.includes(query);
+  const VIEWS = ['all', 'soon', 'conferences', 'meetups'];
+  let view = 'all';
 
-      row.style.display = matchesFilter && matchesSearch ? '' : 'none';
-    });
+  const tokens = (value = '') => value.split(' ').filter(Boolean).map(decodeURIComponent);
+
+  function matches(row: HTMLTableRowElement, query: string) {
+    const [region, category, organizer] = selects.map((s) => s.value);
+    const meetup = row.dataset.meetup === 'true';
+    if (view === 'soon' && row.dataset.soon !== 'true') return false;
+    if (view === 'conferences' && meetup) return false;
+    if (view === 'meetups' && !meetup) return false;
+    if (region && row.dataset.region !== region) return false;
+    if (category && !tokens(row.dataset.categories).includes(category)) return false;
+    if (organizer && !tokens(row.dataset.organizer).includes(organizer)) return false;
+    return !query || row.dataset.search!.includes(query);
   }
 
-  function setActive(filter) {
-    activeFilter = filter;
-    const active = 'rounded-md bg-gray-100 px-3 py-1.5 text-sm font-medium text-gray-900';
-    const inactive = 'rounded-md bg-gray-800 px-3 py-1.5 text-sm font-medium text-gray-300 hover:bg-gray-700';
-    allBtn.className = 'filter-btn ' + (filter === 'all' ? active : inactive);
-    soonBtn.className = 'filter-btn ' + (filter === 'soon' ? active : inactive);
-    applyFilters();
+  function apply() {
+    const query = searchInput.value.trim().toLowerCase();
+    let visible = 0;
+    for (const row of openRows) {
+      const show = matches(row, query);
+      row.hidden = !show;
+      if (show) visible++;
+    }
+    visibleCount.textContent = String(visible);
+    countLabel.textContent = visible === 1 ? 'open call' : 'open calls';
+    if (emptyState) emptyState.hidden = visible > 0;
+    if (table) table.hidden = visible === 0;
+    const filtered = view !== 'all' || query !== '' || selects.some((s) => s.value);
+    clearButtons.forEach((b) => (b.hidden = !filtered && b.closest('#empty-state') === null));
+    syncUrl(query);
   }
 
-  allBtn.addEventListener('click', () => setActive('all'));
-  soonBtn.addEventListener('click', () => setActive('soon'));
-  searchInput.addEventListener('input', applyFilters);
+  function renderView() {
+    for (const button of viewButtons) button.setAttribute('aria-pressed', String(button.dataset.view === view));
+  }
+
+  // Keep filters in the URL so a filtered view can be shared or bookmarked.
+  function syncUrl(query: string) {
+    const params = new URLSearchParams();
+    for (const s of selects) if (s.value) params.set(s.dataset.filter!, s.value);
+    if (view !== 'all') params.set('show', view);
+    if (query) params.set('q', query);
+    const search = params.toString();
+    history.replaceState(null, '', search ? `?${search}` : location.pathname);
+  }
+
+  function setSelect(select: HTMLSelectElement, value: string) {
+    select.value = [...select.options].some((o) => o.value === value) ? value : '';
+  }
+
+  function readUrl() {
+    const params = new URLSearchParams(location.search);
+    for (const s of selects) setSelect(s, params.get(s.dataset.filter!) || '');
+    const requested = params.get('show') || '';
+    view = VIEWS.includes(requested) ? requested : 'all';
+    searchInput.value = params.get('q') || '';
+  }
+
+  selects.forEach((s) => s.addEventListener('change', apply));
+  searchInput.addEventListener('input', apply);
+  viewButtons.forEach((b) =>
+    b.addEventListener('click', () => {
+      view = b.dataset.view!;
+      renderView();
+      apply();
+    }),
+  );
+  clearButtons.forEach((b) =>
+    b.addEventListener('click', () => {
+      selects.forEach((s) => (s.value = ''));
+      searchInput.value = '';
+      view = 'all';
+      renderView();
+      apply();
+    }),
+  );
+  // Organizer and category tags in the table act as shortcuts into the filters.
+  document.querySelectorAll<HTMLButtonElement>('[data-set-filter]').forEach((tag) =>
+    tag.addEventListener('click', () => {
+      const select = selects.find((s) => s.dataset.filter === tag.dataset.setFilter);
+      if (!select) return;
+      setSelect(select, tag.dataset.value!);
+      apply();
+      select.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    }),
+  );
+
+  readUrl();
+  renderView();
+  apply();
 </script>

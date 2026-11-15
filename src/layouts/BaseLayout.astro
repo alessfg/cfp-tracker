@@ -6,36 +6,69 @@ interface Props {
   lastUpdated?: string;
 }
 
-const { title = 'Open Source CFP Tracker', lastUpdated = '' } = Astro.props;
+const { title = 'Open source CFP tracker', lastUpdated = '' } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// Palette sequence for the color code bar along the bottom of the header.
+const codeBar = ['bg-f5-red', 'bg-tangerine', 'bg-jade', 'bg-surf', 'bg-bay', 'bg-river', 'bg-eggplant', 'bg-raspberry'];
+
+function formatUpdated(date: string) {
+  return new Date(date + 'T00:00:00Z').toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
+}
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Automatically updated list of open Call for Papers for open-source conferences." />
+    <meta name="description" content="Open Call for Papers for tech and open-source conferences, filterable by region, category, and organizer." />
+    <meta name="theme-color" content="#222222" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body class="min-h-screen bg-gray-950 text-gray-100 flex flex-col">
-    <header class="border-b border-gray-800 px-6 py-8 text-center">
-      <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">Open Source CFP Tracker</h1>
-      <p class="mt-2 text-gray-400">Open Call for Papers for open-source conferences, updated weekly.</p>
+  <body class="flex min-h-screen flex-col">
+    <header class="bg-ink text-white">
+      <div class="mx-auto flex w-full max-w-[1140px] flex-col gap-4 px-4 pb-10 pt-12 sm:px-6 md:flex-row md:items-end md:justify-between md:pb-12 md:pt-16">
+        <div class="max-w-2xl">
+          <h1 class="font-display text-[34px] font-bold leading-[1.1] md:text-[56px]">Open source CFP tracker</h1>
+          <p class="mt-4 text-lg leading-relaxed text-cloud">
+            Every open call for papers we can find for tech and open-source conferences, checked daily.
+          </p>
+        </div>
+        {lastUpdated && (
+          <p class="text-sm text-cloud md:pb-1 md:text-right">
+            Updated <time datetime={lastUpdated} class="font-semibold text-white">{formatUpdated(lastUpdated)}</time>
+          </p>
+        )}
+      </div>
+      <div class="grid h-1.5 grid-cols-8" aria-hidden="true">
+        {codeBar.map((color) => <span class={color} />)}
+      </div>
     </header>
 
-    <main class="flex-1 w-full max-w-6xl mx-auto px-4 py-8">
+    <main class="mx-auto w-full max-w-[1140px] flex-1 px-4 py-8 sm:px-6 md:py-12">
       <slot />
     </main>
 
-    <footer class="border-t border-gray-800 px-6 py-6 text-center text-sm text-gray-500">
-      {lastUpdated && <p>Last updated: {lastUpdated}</p>}
-      <p class="mt-1">
-        Data sourced from
-        <a href="https://developers.events" class="underline hover:text-gray-300">developers.events</a>,
-        <a href="https://github.com/tech-conferences/conference-data" class="underline hover:text-gray-300">conference-data</a>, and
-        <a href="https://callingallpapers.com" class="underline hover:text-gray-300">CallingAllPapers</a>.
-      </p>
+    <footer class="border-t border-mist bg-white">
+      <div class="mx-auto flex w-full max-w-[1140px] flex-col gap-2 px-4 py-8 text-sm text-slate sm:px-6">
+        <p>
+          Data from
+          <a href="https://developers.events" class="text-bay underline-offset-2 hover:underline">developers.events</a>,
+          <a href="https://callingallpapers.com" class="text-bay underline-offset-2 hover:underline">CallingAllPapers</a>,
+          <a href="https://github.com/1kevgriff/OpenTechCFPs" class="text-bay underline-offset-2 hover:underline">OpenTechCFPs</a>
+          (<a href="https://creativecommons.org/licenses/by/4.0/" class="text-bay underline-offset-2 hover:underline">CC BY 4.0</a>),
+          and the
+          <a href="https://events.linuxfoundation.org" class="text-bay underline-offset-2 hover:underline">Linux Foundation events calendar</a>.
+        </p>
+        <p>Regions, categories, and organizers are assigned automatically and may be wrong.</p>
+      </div>
     </footer>
   </body>
 </html>

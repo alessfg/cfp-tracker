@@ -1,91 +1,141 @@
 ---
-interface CFP {
-  id: string;
-  name: string;
-  cfpUrl: string;
-  cfpClosingDate: string;
-  eventUrl: string;
-  location: string;
-  tags: string[];
-  source: string;
-}
+import type { CFP } from '../lib/cfp';
 
 interface Props {
   cfps: CFP[];
 }
 
 const { cfps } = Astro.props;
-const today = new Date();
-const soonMs = 14 * 24 * 60 * 60 * 1000;
 
-function isClosingSoon(dateStr: string) {
-  const closing = new Date(dateStr + 'T23:59:59');
-  return closing.getTime() - today.getTime() <= soonMs && closing >= today;
+const dayMonth = (d: string) =>
+  new Date(d + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+const year = (d: string) => d.slice(0, 4);
+
+function formatRange(start: string | null, end: string | null) {
+  if (!start) return '';
+  if (!end || end === start) return `${dayMonth(start)}, ${year(start)}`;
+  if (year(start) !== year(end)) return `${dayMonth(start)}, ${year(start)} – ${dayMonth(end)}, ${year(end)}`;
+  if (start.slice(0, 7) === end.slice(0, 7)) return `${dayMonth(start)}–${Number(end.slice(8))}, ${year(end)}`;
+  return `${dayMonth(start)} – ${dayMonth(end)}, ${year(end)}`;
 }
 
-function formatDate(dateStr: string) {
-  return new Date(dateStr + 'T00:00:00').toLocaleDateString('en-US', {
-    month: 'short',
-    day: 'numeric',
-    year: 'numeric',
-  });
+// Space-separated tokens for the organizer filter: the organizer, its umbrella
+// organizations, and its type, so "Linux Foundation" also matches CNCF events.
+function organizerTokens(cfp: CFP) {
+  const { name, type, parents } = cfp.organizer;
+  return [type, name, ...parents].filter(Boolean).map((v) => encodeURIComponent(v)).join(' ');
 }
+
+const place = (location: string) => (location === 'Virtual' ? 'Online' : location || 'Location not listed');
+
+const tagClass = 'rounded-[4px] px-2 py-0.5 text-[13px] leading-5 transition-colors';
 ---
 
-<div class="overflow-x-auto rounded-lg border border-gray-800">
-  <table class="w-full text-left text-sm">
-    <thead class="border-b border-gray-800 bg-gray-900 text-xs uppercase tracking-wider text-gray-400">
-      <tr>
-        <th class="px-4 py-3">Conference</th>
-        <th class="px-4 py-3">Closing Date</th>
-        <th class="px-4 py-3 hidden sm:table-cell">Location</th>
-        <th class="px-4 py-3 text-right">Link</th>
+<div class="mt-2">
+  <table id="cfp-table" class="block w-full text-left sm:table">
+    <thead class="sr-only sm:not-sr-only">
+      <tr class="font-display text-[13px] font-bold text-slate">
+        <th scope="col" class="w-36 py-3 pr-4 font-bold">Call closes</th>
+        <th scope="col" class="py-3 pr-4 font-bold">Event</th>
+        <th scope="col" class="hidden py-3 pr-4 font-bold md:table-cell">Dates and location</th>
+        <th scope="col" class="py-3 font-bold"><span class="sr-only">Submit</span></th>
       </tr>
     </thead>
-    <tbody class="divide-y divide-gray-800">
-      {cfps.map((cfp) => {
-        const soon = isClosingSoon(cfp.cfpClosingDate);
-        return (
-          <tr
-            data-cfp
-            data-name={cfp.name}
-            data-soon={soon}
-            class="hover:bg-gray-900/50 transition-colors"
-          >
-            <td class="px-4 py-3 font-medium">
+    <tbody class="block sm:table-row-group">
+      {cfps.map((cfp) => (
+        <tr
+          data-cfp
+          data-search={[cfp.name, cfp.location, cfp.organizer.name, ...cfp.categories].join(' ').toLowerCase()}
+          data-closing={cfp.cfpClosingDate}
+          data-region={cfp.region}
+          data-meetup={String(cfp.categories.includes('Meetups'))}
+          data-categories={cfp.categories.map((c) => encodeURIComponent(c)).join(' ')}
+          data-organizer={organizerTokens(cfp)}
+          class="grid grid-cols-1 gap-3 border-b border-mist py-5 align-top data-[soon=true]:[&_.deadline]:text-f5-red-5 sm:table-row sm:py-0"
+        >
+          <td class="block sm:table-cell sm:py-5 sm:pr-4">
+            <span class="sr-only sm:hidden">Call closes </span>
+            <time datetime={cfp.cfpClosingDate} class="deadline font-display text-base font-bold leading-tight text-ink sm:block sm:text-lg">
+              {dayMonth(cfp.cfpClosingDate)}<span class="sm:hidden">, </span>
+              <span class="sm:block sm:text-sm sm:font-normal sm:text-slate">{year(cfp.cfpClosingDate)}</span>
+            </time>
+            <span data-soon-badge hidden class="ml-2 text-[13px] font-semibold text-f5-red-5 sm:ml-0 sm:mt-1 sm:block">Closing soon</span>
+          </td>
+          <td class="block sm:table-cell sm:py-5 sm:pr-4">
+            <h2 class="text-lg font-semibold leading-snug">
               {cfp.eventUrl ? (
-                <a href={cfp.eventUrl} target="_blank" rel="noopener noreferrer" class="hover:text-indigo-400">
+                <a href={cfp.eventUrl} target="_blank" rel="noopener noreferrer" class="hover:text-bay hover:underline underline-offset-2">
                   {cfp.name}
                 </a>
               ) : (
                 cfp.name
               )}
-            </td>
-            <td class="px-4 py-3 whitespace-nowrap">
-              {formatDate(cfp.cfpClosingDate)}
-              {soon && (
-                <span class="ml-2 inline-flex items-center rounded-full bg-yellow-900/50 px-2 py-0.5 text-xs font-medium text-yellow-300 border border-yellow-700/50">
-                  Closing soon
-                </span>
+            </h2>
+            <p class="mt-1 text-[15px] text-slate md:hidden">
+              {[formatRange(cfp.eventStartDate, cfp.eventEndDate) || 'Dates vary', place(cfp.location)].join(cfp.location === 'Virtual' ? ', ' : ' in ')}
+            </p>
+            <div class="mt-2.5 flex flex-wrap gap-1.5">
+              {cfp.organizer.name && (
+                <button
+                  type="button"
+                  data-set-filter="organizer"
+                  data-value={cfp.organizer.name}
+                  title={`Show only ${cfp.organizer.name} events`}
+                  class:list={[
+                    tagClass,
+                    'font-semibold',
+                    cfp.organizer.type === 'foundation'
+                      ? 'bg-bay-1 text-bay-7 hover:bg-bay hover:text-white'
+                      : 'border border-cloud text-graphite hover:border-ink hover:text-ink',
+                  ]}
+                >
+                  {cfp.organizer.name}
+                </button>
               )}
-            </td>
-            <td class="px-4 py-3 text-gray-400 hidden sm:table-cell">{cfp.location || '—'}</td>
-            <td class="px-4 py-3 text-right">
-              <a
-                href={cfp.cfpUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="inline-flex items-center gap-1 rounded-md bg-indigo-600 px-3 py-1 text-xs font-medium text-white hover:bg-indigo-500 transition-colors"
-              >
-                Submit
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
-            </td>
-          </tr>
-        );
-      })}
+              {cfp.categories.map((category) => (
+                <button
+                  type="button"
+                  data-set-filter={category === 'Meetups' ? undefined : 'category'}
+                  data-value={category}
+                  title={category === 'Meetups' ? 'A call for talks at a recurring meetup or user group' : `Show only ${category} events`}
+                  class:list={[
+                    tagClass,
+                    category === 'Meetups' ? 'cursor-default bg-ink text-white' : 'bg-fog text-graphite hover:bg-mist hover:text-ink',
+                  ]}
+                >
+                  {category}
+                </button>
+              ))}
+            </div>
+          </td>
+          <td class="hidden py-5 pr-4 text-[15px] md:table-cell">
+            {cfp.eventStartDate ? (
+              <time datetime={cfp.eventStartDate} class="block text-ink">{formatRange(cfp.eventStartDate, cfp.eventEndDate)}</time>
+            ) : (
+              <span class="block text-slate">Dates vary</span>
+            )}
+            <span class="mt-0.5 block text-slate">{place(cfp.location)}</span>
+          </td>
+          <td class="block sm:table-cell sm:py-5 sm:text-right">
+            <a
+              href={cfp.cfpUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Submit a talk to ${cfp.name} (opens in a new tab)`}
+              class="flex items-center justify-center gap-1.5 whitespace-nowrap rounded-[5px] bg-bay px-4 py-2.5 sm:inline-flex sm:py-2 text-[15px] font-semibold text-white transition-colors hover:bg-bay-5"
+            >
+              Submit <span aria-hidden="true">›</span>
+            </a>
+          </td>
+        </tr>
+      ))}
     </tbody>
   </table>
+  <div id="empty-state" hidden class="border-b border-mist py-16 text-center">
+    <p class="font-display text-xl font-bold">No open calls match these filters</p>
+    <p class="mt-2 text-slate">Try another region or category, or clear the filters to see everything.</p>
+    <button type="button" data-clear-filters class="mt-5 rounded-[5px] bg-bay px-5 py-2.5 font-semibold text-white hover:bg-bay-5">
+      Clear filters <span aria-hidden="true">›</span>
+    </button>
+  </div>
 </div>
