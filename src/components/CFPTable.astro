@@ -26,6 +26,9 @@ function organizerTokens(cfp: CFP) {
   return [type, name, ...parents].filter(Boolean).map((v) => encodeURIComponent(v)).join(' ');
 }
 
+// Defense in depth: the data is already filtered, but never render a non-web link.
+const webUrl = (url: string) => (/^https?:\/\//i.test(url) ? url : '');
+
 const place = (location: string) => (location === 'Virtual' ? 'Online' : location || 'Location not listed');
 
 const tagClass = 'rounded-[4px] px-2 py-0.5 text-[13px] leading-5 transition-colors';
@@ -42,7 +45,7 @@ const tagClass = 'rounded-[4px] px-2 py-0.5 text-[13px] leading-5 transition-col
       </tr>
     </thead>
     <tbody class="block sm:table-row-group">
-      {cfps.map((cfp) => (
+      {cfps.filter((cfp) => webUrl(cfp.cfpUrl)).map((cfp) => (
         <tr
           data-cfp
           data-search={[cfp.name, cfp.location, cfp.organizer.name, ...cfp.categories].join(' ').toLowerCase()}
@@ -63,8 +66,8 @@ const tagClass = 'rounded-[4px] px-2 py-0.5 text-[13px] leading-5 transition-col
           </td>
           <td class="block sm:table-cell sm:py-5 sm:pr-4">
             <h2 class="text-lg font-semibold leading-snug">
-              {cfp.eventUrl ? (
-                <a href={cfp.eventUrl} target="_blank" rel="noopener noreferrer" class="hover:text-bay hover:underline underline-offset-2">
+              {webUrl(cfp.eventUrl) ? (
+                <a href={webUrl(cfp.eventUrl)} target="_blank" rel="noopener noreferrer" class="hover:text-bay hover:underline underline-offset-2">
                   {cfp.name}
                 </a>
               ) : (
@@ -118,7 +121,7 @@ const tagClass = 'rounded-[4px] px-2 py-0.5 text-[13px] leading-5 transition-col
           </td>
           <td class="block sm:table-cell sm:py-5 sm:text-right">
             <a
-              href={cfp.cfpUrl}
+              href={webUrl(cfp.cfpUrl)}
               target="_blank"
               rel="noopener noreferrer"
               aria-label={`Submit a talk to ${cfp.name} (opens in a new tab)`}

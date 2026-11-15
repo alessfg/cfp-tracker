@@ -103,6 +103,16 @@ function makeId(name) {
     .replace(/(^-|-$)/g, '');
 }
 
+// Feeds are user-submitted; only plain web links may reach the page's hrefs.
+function safeUrl(url) {
+  try {
+    const u = new URL(String(url || '').trim());
+    return u.protocol === 'https:' || u.protocol === 'http:' ? u.href : '';
+  } catch {
+    return '';
+  }
+}
+
 function urlKey(url) {
   try {
     const u = new URL(url.trim());
@@ -413,15 +423,17 @@ async function main() {
   console.log(`\nResults: ${counts}, manual=${manual.length}`);
 
   const minClosingDate = addDays(today, -CLOSED_GRACE_DAYS);
-  const candidates = [...manual, ...results.flat()].filter(
-    (c) =>
-      c.name &&
-      c.cfpUrl &&
-      c.cfpClosingDate &&
-      c.cfpClosingDate >= minClosingDate &&
-      c.cfpClosingDate <= maxClosingDate &&
-      !DEAD_HOSTS.has(urlKey(c.cfpUrl).split('/')[0]),
-  );
+  const candidates = [...manual, ...results.flat()]
+    .map((c) => ({ ...c, cfpUrl: safeUrl(c.cfpUrl), eventUrl: safeUrl(c.eventUrl) }))
+    .filter(
+      (c) =>
+        c.name &&
+        c.cfpUrl &&
+        c.cfpClosingDate &&
+        c.cfpClosingDate >= minClosingDate &&
+        c.cfpClosingDate <= maxClosingDate &&
+        !DEAD_HOSTS.has(urlKey(c.cfpUrl).split('/')[0]),
+    );
   const merged = dedupe(candidates)
     .filter((c) => c.cfpClosingDate >= today && (!c.eventEndDate || c.eventEndDate >= today))
     .map((c) => ({ ...c, meetup: isMeetup(c, today) }))
