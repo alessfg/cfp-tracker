@@ -1,579 +1,6 @@
 {
-  "lastUpdated": "2026-11-15",
+  "lastUpdated": "2026-11-16",
   "cfps": [
-    {
-      "id": "adaptive-organizations-meet-architecture-2027",
-      "name": "Adaptive Organizations meet Architecture 2027",
-      "cfpUrl": "https://sessionize.com/adaptive-organizations-meet-architecture/",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2027-03-06",
-      "eventEndDate": "2027-03-07",
-      "eventUrl": "https://agile-meets-architecture.com/",
-      "location": "Berlin, Germany",
-      "region": "Europe",
-      "categories": [
-        "Software Engineering",
-        "Agile & Leadership"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers"
-      ]
-    },
-    {
-      "id": "agile-on-the-beach-2027",
-      "name": "Agile On The Beach 2027",
-      "cfpUrl": "https://sessionize.com/agile-on-the-beach-2027",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2027-07-01",
-      "eventEndDate": "2027-07-02",
-      "eventUrl": "https://agileonthebeach.com",
-      "location": "Falmouth, United Kingdom",
-      "region": "Europe",
-      "categories": [
-        "Agile & Leadership"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "ai-agents-day",
-      "name": "AI Agents Day",
-      "cfpUrl": "https://sessionize.com/ai-agents-day",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2026-12-04",
-      "eventEndDate": "2026-12-04",
-      "eventUrl": "https://aiagents.day",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "AI & ML"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "alexandria-devfest-2026",
-      "name": "Alexandria DevFest 2026",
-      "cfpUrl": "https://app.advocu.com/events/6aa7b71cd69910521dd03d4a",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2026-12-26",
-      "eventEndDate": "2026-12-26",
-      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-alexandria-presents-alexandria-devfest-2026/",
-      "location": "Alexandria, Egypt",
-      "region": "Middle East & Africa",
-      "categories": [
-        "General Developer"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events"
-      ]
-    },
-    {
-      "id": "bsides-galway-2027",
-      "name": "Bsides Galway 2027",
-      "cfpUrl": "https://sessionize.com/bsides-galway-2027",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2027-02-20",
-      "eventEndDate": "2027-02-20",
-      "eventUrl": "https://bsidesgalway.com",
-      "location": "Galway, Ireland",
-      "region": "Europe",
-      "categories": [
-        "Security"
-      ],
-      "organizer": {
-        "name": "Security BSides",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "bsides-tirol",
-      "name": "BSides Tirol",
-      "cfpUrl": "https://pretalx.com/bsides-tirol-2027/cfp",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2027-02-25",
-      "eventEndDate": "2027-02-25",
-      "eventUrl": "https://www.bsides.tirol/",
-      "location": "Innsbruck, Austria",
-      "region": "Europe",
-      "categories": [
-        "Security"
-      ],
-      "organizer": {
-        "name": "Security BSides",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events"
-      ]
-    },
-    {
-      "id": "codebuzz-2027",
-      "name": "CodeBuzz 2027",
-      "cfpUrl": "https://sessionize.com/codebuzz-2027",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2027-06-02",
-      "eventEndDate": "2027-06-02",
-      "eventUrl": "https://summit-community.de/veranstaltung/codebuzz",
-      "location": "Leipzig, Germany",
-      "region": "Europe",
-      "categories": [
-        "AI & ML",
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "containerdays-ai-context-london-2027",
-      "name": "ContainerDays & AI Context London 2027",
-      "cfpUrl": "https://sessionize.com/london-containerdays-and-ai-context-2027",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2027-02-10",
-      "eventEndDate": "2027-02-11",
-      "eventUrl": "https://pretix.eu/docklandmedia/cdsaicontextlondon27/",
-      "location": "London, UK",
-      "region": "Europe",
-      "categories": [
-        "AI & ML",
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "datatune-2027",
-      "name": "DataTune 2027",
-      "cfpUrl": "https://sessionize.com/datatune-2027/",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2027-03-12",
-      "eventEndDate": "2027-03-13",
-      "eventUrl": "https://DataTuneConf.com/",
-      "location": "Nashville, TN, USA",
-      "region": "North America",
-      "categories": [
-        "Data & Databases"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "devfest-2026-nova-scotia-edition",
-      "name": "DevFest 2026: Nova Scotia Edition",
-      "cfpUrl": "https://app.advocu.com/events/6ac253183b5fb933c2607baf",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2026-12-05",
-      "eventEndDate": "2026-12-05",
-      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-halifax-presents-devfest-2026-nova-scotia-edition/",
-      "location": "Halifax, NS, Canada",
-      "region": "North America",
-      "categories": [
-        "Web & Mobile"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events"
-      ]
-    },
-    {
-      "id": "devfest-hatay-2026",
-      "name": "DevFest Hatay 2026",
-      "cfpUrl": "https://app.advocu.com/events/6adf172e435b38fd62c2318d",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2026-11-28",
-      "eventEndDate": "2026-11-28",
-      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-hatay-presents-devfest-hatay-2026/",
-      "location": "İskenderun, Turkey",
-      "region": "Europe",
-      "categories": [
-        "General Developer"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events"
-      ]
-    },
-    {
-      "id": "devfest-istanbul-2026",
-      "name": "DevFest Istanbul 2026",
-      "cfpUrl": "https://app.advocu.com/events/6abc22659716fe1c1a4f408f",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2026-12-19",
-      "eventEndDate": "2026-12-19",
-      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-istanbul-presents-devfest-istanbul-2026/",
-      "location": "Şişli, Turkey",
-      "region": "Europe",
-      "categories": [
-        "General Developer"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events"
-      ]
-    },
-    {
-      "id": "devfest-luanda-2026",
-      "name": "DevFest Luanda 2026",
-      "cfpUrl": "https://sessionize.com/devfest-luanda-2026/",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2026-12-12",
-      "eventEndDate": "2026-12-12",
-      "eventUrl": "",
-      "location": "Luanda, Angola",
-      "region": "Middle East & Africa",
-      "categories": [
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "devfest-zagreb-2026",
-      "name": "DevFest Zagreb 2026",
-      "cfpUrl": "https://app.advocu.com/events/6ada1f362cc193a61d33316a",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2026-12-05",
-      "eventEndDate": "2026-12-05",
-      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-zagreb-presents-devfest-2026-developers-and-builders-in-the-agentic-era/",
-      "location": "Zagreb, Croatia",
-      "region": "Europe",
-      "categories": [
-        "AI & ML"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events"
-      ]
-    },
-    {
-      "id": "drupal-4-gov-2027",
-      "name": "Drupal 4 Gov 2027",
-      "cfpUrl": "https://pretalx.com/drupal-4-gov-2027-2026/cfp",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2027-01-28",
-      "eventEndDate": "2027-01-28",
-      "eventUrl": "http://drupal4gov.eu/",
-      "location": "Brussels, Belgium",
-      "region": "Europe",
-      "categories": [
-        "Web & Mobile"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events"
-      ]
-    },
-    {
-      "id": "global-healthcare-cloud-ai-community-boston",
-      "name": "Global Healthcare Cloud & AI Community - Boston",
-      "cfpUrl": "https://sessionize.com/boston-healthcare-cloud-and-ai-community-cfs/",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2026-11-19",
-      "eventEndDate": "2026-11-19",
-      "eventUrl": "http://www.boshug.com",
-      "location": "Boston, MA, USA",
-      "region": "North America",
-      "categories": [
-        "AI & ML",
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "global-power-platform-bootcamp-2027-northern-germany-hamburg",
-      "name": "Global Power Platform Bootcamp 2027 | Northern Germany (Hamburg)",
-      "cfpUrl": "https://sessionize.com/gppb-ng2027",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2027-02-19",
-      "eventEndDate": "2027-02-20",
-      "eventUrl": "https://www.gppb.info",
-      "location": "Hamburg, Germany",
-      "region": "Europe",
-      "categories": [
-        "Microsoft Ecosystem"
-      ],
-      "organizer": {
-        "name": "Microsoft Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "guatemala-sinergia-digital-2027",
-      "name": "Guatemala Sinergia Digital 2027",
-      "cfpUrl": "https://sessionize.com/sinergiadigital2027",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2027-04-22",
-      "eventEndDate": "2027-04-24",
-      "eventUrl": "https://sinergiadigital-gt.com",
-      "location": "Guatemala City, Guatemala",
-      "region": "Latin America",
-      "categories": [
-        "AI & ML",
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "ila-women-and-leadership-conference-2027",
-      "name": "ILA Women and Leadership Conference 2027",
-      "cfpUrl": "https://sessionize.com/ila-8th-women-and-leadership-conference/",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2027-06-14",
-      "eventEndDate": "2027-06-16",
-      "eventUrl": "https://ilaglobalnetwork.org/events/8th-women-and-leadership-conference/",
-      "location": "Saint Paul, MN, USA",
-      "region": "North America",
-      "categories": [
-        "Agile & Leadership"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "pyday-lima-2026",
-      "name": "PyDay Lima 2026",
-      "cfpUrl": "https://sessionize.com/pyday-lima-2026",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2026-12-11",
-      "eventEndDate": "2026-12-11",
-      "eventUrl": "https://www.pylimaperu.org/pyday",
-      "location": "Lima, Peru",
-      "region": "Latin America",
-      "categories": [
-        "Programming Languages"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "pyday-sdq-2026",
-      "name": "PyDay SDQ 2026",
-      "cfpUrl": "https://sessionize.com/pyday-sdq-2026/",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2026-12-05",
-      "eventEndDate": "2026-12-05",
-      "eventUrl": "https://pyday.do",
-      "location": "Santo Domingo, Dominican Republic",
-      "region": "Latin America",
-      "categories": [
-        "Programming Languages"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "so-con-2027",
-      "name": "SO-CON 2027",
-      "cfpUrl": "https://sessionize.com/so-con-2027",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2027-04-26",
-      "eventEndDate": "2027-05-01",
-      "eventUrl": "https://specterops.io/company/events/so-con-2027",
-      "location": "Arlington, Virginia, United States",
-      "region": "North America",
-      "categories": [
-        "AI & ML",
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "soahr-2027-shrm-atlanta-s-annual-conference",
-      "name": "SOAHR 2027 - SHRM-Atlanta's Annual Conference",
-      "cfpUrl": "https://sessionize.com/soahr2027",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2027-03-31",
-      "eventEndDate": "2027-04-01",
-      "eventUrl": "https://www.shrmatlanta.org/conference",
-      "location": "College Park, Georgia, United States",
-      "region": "North America",
-      "categories": [
-        "Other"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "teaching-prevention-2027-a-legacy-of-learning-a-future-of-leadership",
-      "name": "Teaching Prevention 2027: A Legacy of Learning. A Future of Leadership",
-      "cfpUrl": "https://sessionize.com/teachingprevention-2027",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2027-04-11",
-      "eventEndDate": "2027-04-13",
-      "eventUrl": "https://www.teachingprevention.org",
-      "location": "Philadelphia, Pennsylvania, United States",
-      "region": "North America",
-      "categories": [
-        "Agile & Leadership"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "toulouse-postgresql-user-group",
-      "name": "Toulouse PostgreSQL User Group",
-      "cfpUrl": "https://sessionize.com/tls-pug-session/",
-      "cfpClosingDate": "2026-11-15",
-      "eventStartDate": "2026-12-01",
-      "eventEndDate": "2026-12-01",
-      "eventUrl": "https://www.meetup.com/postgres-toulouse/",
-      "location": "Toulouse, France",
-      "region": "Europe",
-      "categories": [
-        "Meetups",
-        "Data & Databases"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
     {
       "id": "net-conf-2026-my-agents-latam-lima",
       "name": ".NET Conf 2026 - My Agents LATAM / Lima",
@@ -699,7 +126,7 @@
       "cfpClosingDate": "2026-11-16",
       "eventStartDate": "2026-12-14",
       "eventEndDate": "2026-12-18",
-      "eventUrl": "https://igf2026.intgovforum.org",
+      "eventUrl": "https://igf2026.intgovforum.org/",
       "location": "Nairobi, Kenya",
       "region": "Middle East & Africa",
       "categories": [
@@ -744,7 +171,7 @@
       "cfpClosingDate": "2026-11-16",
       "eventStartDate": "2027-02-10",
       "eventEndDate": "2027-02-11",
-      "eventUrl": "https://summit.openvt.eu",
+      "eventUrl": "https://summit.openvt.eu/",
       "location": "Virtual",
       "region": "Virtual",
       "categories": [
@@ -827,6 +254,28 @@
       },
       "sources": [
         "developers.events",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "pdug-2026-in-cracow",
+      "name": "PDUG 2026 in Cracow",
+      "cfpUrl": "https://sessionize.com/pdug-2026-in-cracow/",
+      "cfpClosingDate": "2026-11-17",
+      "eventStartDate": "2026-11-19",
+      "eventEndDate": "2026-11-20",
+      "eventUrl": "https://www.pdug.pl/event/pdug-2026-in-krakow",
+      "location": "Kraków, Poland",
+      "region": "Europe",
+      "categories": [
+        "Other"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
         "opentechcfps"
       ]
     },
@@ -976,7 +425,7 @@
       "cfpClosingDate": "2026-11-20",
       "eventStartDate": "2027-02-24",
       "eventEndDate": "2027-02-26",
-      "eventUrl": "http://aprescyber.com",
+      "eventUrl": "http://aprescyber.com/",
       "location": "Park City, UT, USA",
       "region": "North America",
       "categories": [
@@ -1023,7 +472,7 @@
       "cfpClosingDate": "2026-11-20",
       "eventStartDate": "2026-12-11",
       "eventEndDate": "2026-12-11",
-      "eventUrl": "https://torino.azuremeetup.it",
+      "eventUrl": "https://torino.azuremeetup.it/",
       "location": "Turin, Italy",
       "region": "Europe",
       "categories": [
@@ -1046,7 +495,7 @@
       "cfpClosingDate": "2026-11-20",
       "eventStartDate": "2026-12-12",
       "eventEndDate": "2026-12-12",
-      "eventUrl": "http://www.awswomensusergroupportharcourt.org",
+      "eventUrl": "http://www.awswomensusergroupportharcourt.org/",
       "location": "Port Harcourt, Nigeria",
       "region": "Middle East & Africa",
       "categories": [
@@ -1211,7 +660,7 @@
       "cfpClosingDate": "2026-11-20",
       "eventStartDate": "2027-01-17",
       "eventEndDate": "2027-01-17",
-      "eventUrl": "https://virtual.sugcon.events",
+      "eventUrl": "https://virtual.sugcon.events/",
       "location": "Virtual",
       "region": "Virtual",
       "categories": [
@@ -1259,7 +708,7 @@
       "cfpClosingDate": "2026-11-21",
       "eventStartDate": "2026-12-12",
       "eventEndDate": "2026-12-12",
-      "eventUrl": "https://agileenmed.com",
+      "eventUrl": "https://agileenmed.com/",
       "location": "Casablanca, Morocco",
       "region": "Middle East & Africa",
       "categories": [
@@ -1320,6 +769,7 @@
       },
       "sources": [
         "developers.events",
+        "callingallpapers",
         "opentechcfps"
       ]
     },
@@ -1423,7 +873,7 @@
       "cfpClosingDate": "2026-11-22",
       "eventStartDate": "2026-11-27",
       "eventEndDate": "2026-11-27",
-      "eventUrl": "https://devfest.hu",
+      "eventUrl": "https://devfest.hu/",
       "location": "Budapest, Hungary",
       "region": "Europe",
       "categories": [
@@ -1471,7 +921,7 @@
       "cfpClosingDate": "2026-11-22",
       "eventStartDate": "2027-03-08",
       "eventEndDate": "2027-03-12",
-      "eventUrl": "https://fabriccon.com",
+      "eventUrl": "https://fabriccon.com/",
       "location": "Atlanta, GA, USA",
       "region": "North America",
       "categories": [
@@ -1589,7 +1039,7 @@
       "cfpClosingDate": "2026-11-23",
       "eventStartDate": "2026-11-24",
       "eventEndDate": "2026-11-27",
-      "eventUrl": "https://bigdataconference.eu",
+      "eventUrl": "https://bigdataconference.eu/",
       "location": "Vilnius, Lithuania",
       "region": "Europe",
       "categories": [
@@ -1634,7 +1084,7 @@
       "cfpClosingDate": "2026-11-23",
       "eventStartDate": "2027-01-08",
       "eventEndDate": "2027-01-09",
-      "eventUrl": "https://dekaigi.org",
+      "eventUrl": "https://dekaigi.org/",
       "location": "Tokyo, Japan",
       "region": "Asia-Pacific",
       "categories": [
@@ -1794,37 +1244,13 @@
       ]
     },
     {
-      "id": "net-conf-2026-torino",
-      "name": ".NET Conf 2026 Torino",
-      "cfpUrl": "https://sessionize.com/dotnet-conf-torino-2026",
-      "cfpClosingDate": "2026-11-26",
-      "eventStartDate": "2026-12-15",
-      "eventEndDate": "2026-12-15",
-      "eventUrl": "https://www.meetup.com/torino-net-user-group/events/317282839",
-      "location": "Turin, Italy",
-      "region": "Europe",
-      "categories": [
-        "Programming Languages",
-        "Microsoft Ecosystem"
-      ],
-      "organizer": {
-        "name": "Microsoft Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
       "id": "apac-microsoft-fabric-microsoft-sql-community-conference",
       "name": "Apac Microsoft Fabric + Microsoft SQL Community Conference",
       "cfpUrl": "https://sessionize.com/apac-microsoft-fabric-sql-conf",
       "cfpClosingDate": "2026-11-26",
       "eventStartDate": "2027-04-06",
       "eventEndDate": "2027-04-09",
-      "eventUrl": "https://fabricsqlconf.com",
+      "eventUrl": "https://fabricsqlconf.com/",
       "location": "Sydney, Australia",
       "region": "Asia-Pacific",
       "categories": [
@@ -1871,7 +1297,7 @@
       "cfpClosingDate": "2026-11-27",
       "eventStartDate": "2027-03-02",
       "eventEndDate": "2027-03-05",
-      "eventUrl": "https://2027SalesandLeadershipConf.com",
+      "eventUrl": "https://2027salesandleadershipconf.com/",
       "location": "Tampa, FL, USA",
       "region": "North America",
       "categories": [
@@ -1893,7 +1319,7 @@
       "cfpClosingDate": "2026-11-27",
       "eventStartDate": "2027-02-25",
       "eventEndDate": "2027-02-25",
-      "eventUrl": "https://data-ai-sovereignty.fr",
+      "eventUrl": "https://data-ai-sovereignty.fr/",
       "location": "Paris, France",
       "region": "Europe",
       "categories": [
@@ -2011,7 +1437,7 @@
       "cfpClosingDate": "2026-11-27",
       "eventStartDate": "2027-03-16",
       "eventEndDate": "2027-03-16",
-      "eventUrl": "https://programmable.tech",
+      "eventUrl": "https://programmable.tech/",
       "location": "Melbourne, Australia",
       "region": "Asia-Pacific",
       "categories": [
@@ -2035,7 +1461,7 @@
       "cfpClosingDate": "2026-11-27",
       "eventStartDate": "2027-03-18",
       "eventEndDate": "2027-03-18",
-      "eventUrl": "https://programmable.tech",
+      "eventUrl": "https://programmable.tech/",
       "location": "Sydney, Australia",
       "region": "Asia-Pacific",
       "categories": [
@@ -2060,7 +1486,7 @@
       "cfpClosingDate": "2026-11-27",
       "eventStartDate": "2026-12-10",
       "eventEndDate": "2026-12-10",
-      "eventUrl": "https://sfwit.org",
+      "eventUrl": "https://sfwit.org/",
       "location": "Virtual",
       "region": "Virtual",
       "categories": [
@@ -2248,7 +1674,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-01-02",
       "eventEndDate": "2027-01-02",
-      "eventUrl": "https://dnc.mscprpcem.tech",
+      "eventUrl": "https://dnc.mscprpcem.tech/",
       "location": "Amravati, India",
       "region": "Asia-Pacific",
       "categories": [
@@ -2265,13 +1691,37 @@
       ]
     },
     {
+      "id": "net-conf-2026-torino",
+      "name": ".NET Conf 2026 Torino",
+      "cfpUrl": "https://sessionize.com/dotnet-conf-torino-2026",
+      "cfpClosingDate": "2026-11-30",
+      "eventStartDate": "2026-12-15",
+      "eventEndDate": "2026-12-15",
+      "eventUrl": "https://www.meetup.com/torino-net-user-group/events/317282839",
+      "location": "Turin, Italy",
+      "region": "Europe",
+      "categories": [
+        "Programming Languages",
+        "Microsoft Ecosystem"
+      ],
+      "organizer": {
+        "name": "Microsoft Community",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "12-reasons-why-with-tech-experts-season-2",
       "name": "\"12 Reasons Why\" with Tech Experts - Season 2",
       "cfpUrl": "https://sessionize.com/12-reasons-why-with-tech-experts-co",
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2026-12-15",
       "eventEndDate": "2026-12-25",
-      "eventUrl": "https://12reasons.theazway.com",
+      "eventUrl": "https://12reasons.theazway.com/",
       "location": "Virtual",
       "region": "Virtual",
       "categories": [
@@ -2363,7 +1813,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-09-13",
       "eventEndDate": "2027-09-16",
-      "eventUrl": "https://www.aama-ntl.org",
+      "eventUrl": "https://www.aama-ntl.org/",
       "location": "Kansas City, Missouri, United States",
       "region": "North America",
       "categories": [
@@ -2432,7 +1882,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-03-11",
       "eventEndDate": "2027-03-11",
-      "eventUrl": "https://azureday.pl",
+      "eventUrl": "https://azureday.pl/",
       "location": "Warsaw, Poland",
       "region": "Europe",
       "categories": [
@@ -2457,7 +1907,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-05-18",
       "eventEndDate": "2027-05-28",
-      "eventUrl": "https://ba-beyond.eu",
+      "eventUrl": "https://ba-beyond.eu/",
       "location": "Virtual",
       "region": "Virtual",
       "categories": [
@@ -2479,7 +1929,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-05-20",
       "eventEndDate": "2027-05-20",
-      "eventUrl": "https://ba-beyond.eu",
+      "eventUrl": "https://ba-beyond.eu/",
       "location": "Budapest, Hungary",
       "region": "Europe",
       "categories": [
@@ -2504,7 +1954,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-05-21",
       "eventEndDate": "2027-05-21",
-      "eventUrl": "https://ba-beyond.eu",
+      "eventUrl": "https://ba-beyond.eu/",
       "location": "Cluj-Napoca, Romania",
       "region": "Europe",
       "categories": [
@@ -2529,7 +1979,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-05-25",
       "eventEndDate": "2027-05-25",
-      "eventUrl": "https://ba-beyond.eu",
+      "eventUrl": "https://ba-beyond.eu/",
       "location": "Copenhagen, Denmark",
       "region": "Europe",
       "categories": [
@@ -2554,7 +2004,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-05-18",
       "eventEndDate": "2027-05-18",
-      "eventUrl": "https://ba-beyond.eu",
+      "eventUrl": "https://ba-beyond.eu/",
       "location": "Luxembourg",
       "region": "Europe",
       "categories": [
@@ -2576,7 +2026,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-05-27",
       "eventEndDate": "2027-05-28",
-      "eventUrl": "https://ba-beyond.eu",
+      "eventUrl": "https://ba-beyond.eu/",
       "location": "Mechelen, Belgium",
       "region": "Europe",
       "categories": [
@@ -2601,7 +2051,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-05-24",
       "eventEndDate": "2027-05-24",
-      "eventUrl": "https://ba-beyond.eu",
+      "eventUrl": "https://ba-beyond.eu/",
       "location": "Stockholm, Sweden",
       "region": "Europe",
       "categories": [
@@ -2626,7 +2076,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-05-18",
       "eventEndDate": "2027-05-18",
-      "eventUrl": "https://ba-beyond.eu",
+      "eventUrl": "https://ba-beyond.eu/",
       "location": "Utrecht, Netherlands",
       "region": "Europe",
       "categories": [
@@ -2718,7 +2168,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-04-21",
       "eventEndDate": "2027-04-23",
-      "eventUrl": "https://color.cloud",
+      "eventUrl": "https://color.cloud/",
       "location": "Hamburg, Germany",
       "region": "Europe",
       "categories": [
@@ -2810,7 +2260,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2026-11-27",
       "eventEndDate": "2026-11-27",
-      "eventUrl": "https://dotnetfriday.nl",
+      "eventUrl": "https://dotnetfriday.nl/",
       "location": "Netherlands",
       "region": "Europe",
       "categories": [
@@ -2833,7 +2283,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-04-12",
       "eventEndDate": "2027-04-12",
-      "eventUrl": "https://dxday.it",
+      "eventUrl": "https://dxday.it/",
       "location": "Bologna, Italy",
       "region": "Europe",
       "categories": [
@@ -2858,7 +2308,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-05-18",
       "eventEndDate": "2027-05-20",
-      "eventUrl": "https://expertslive.co.uk",
+      "eventUrl": "https://expertslive.co.uk/",
       "location": "London, UK",
       "region": "Europe",
       "categories": [
@@ -2904,7 +2354,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2026-12-19",
       "eventEndDate": "2026-12-19",
-      "eventUrl": "http://www.awsscdrajkot.in",
+      "eventUrl": "http://www.awsscdrajkot.in/",
       "location": "Rājkot, India",
       "region": "Asia-Pacific",
       "categories": [
@@ -2971,7 +2421,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-03-20",
       "eventEndDate": "2027-03-20",
-      "eventUrl": "https://hackgdl.net",
+      "eventUrl": "https://hackgdl.net/",
       "location": "México, Mexico",
       "region": "Latin America",
       "categories": [
@@ -3045,7 +2495,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2026-12-19",
       "eventEndDate": "2026-12-19",
-      "eventUrl": "https://powerplatform.com",
+      "eventUrl": "https://powerplatform.com/",
       "location": "Virtual",
       "region": "Virtual",
       "categories": [
@@ -3139,7 +2589,7 @@
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2027-05-11",
       "eventEndDate": "2027-05-14",
-      "eventUrl": "https://ux-lx.com",
+      "eventUrl": "https://ux-lx.com/",
       "location": "Lisbon",
       "region": "Europe",
       "categories": [
@@ -3245,6 +2695,29 @@
       ]
     },
     {
+      "id": "containerdays-ai-context-london-2027",
+      "name": "ContainerDays & AI Context London 2027",
+      "cfpUrl": "https://sessionize.com/london-containerdays-and-ai-context-2027",
+      "cfpClosingDate": "2026-12-01",
+      "eventStartDate": "2027-02-10",
+      "eventEndDate": "2027-02-11",
+      "eventUrl": "https://pretix.eu/docklandmedia/cdsaicontextlondon27/",
+      "location": "London, UK",
+      "region": "Europe",
+      "categories": [
+        "AI & ML",
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events"
+      ]
+    },
+    {
       "id": "dev-fest-essen",
       "name": "Dev Fest Essen",
       "cfpUrl": "https://app.advocu.com/events/6af720c8b2c6df92d6cb562b",
@@ -3341,7 +2814,7 @@
       "cfpClosingDate": "2026-12-01",
       "eventStartDate": "2027-05-26",
       "eventEndDate": "2027-05-27",
-      "eventUrl": "https://conference.euctech.dk",
+      "eventUrl": "https://conference.euctech.dk/",
       "location": "Billund, Denmark",
       "region": "Europe",
       "categories": [
@@ -3417,7 +2890,7 @@
       "cfpClosingDate": "2026-12-01",
       "eventStartDate": "2027-04-15",
       "eventEndDate": "2027-04-16",
-      "eventUrl": "https://seaql.nl",
+      "eventUrl": "https://seaql.nl/",
       "location": "Ouddorp, Netherlands",
       "region": "Europe",
       "categories": [
@@ -3695,7 +3168,7 @@
       "cfpClosingDate": "2026-12-04",
       "eventStartDate": "2027-05-17",
       "eventEndDate": "2027-05-18",
-      "eventUrl": "https://synapsesummit.ai",
+      "eventUrl": "https://synapsesummit.ai/",
       "location": "Helsinki, Finland",
       "region": "Europe",
       "categories": [
@@ -3723,6 +3196,29 @@
       "region": "Europe",
       "categories": [
         "Meetups"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "aprende-business-central-summit-2026",
+      "name": "Aprende Business Central Summit 2026",
+      "cfpUrl": "https://sessionize.com/aprende-business-central-summit-2026/",
+      "cfpClosingDate": "2026-12-05",
+      "eventStartDate": "2026-12-16",
+      "eventEndDate": "2026-12-16",
+      "eventUrl": "https://aprendebusinesscentral.com/",
+      "location": "Virtual",
+      "region": "Virtual",
+      "categories": [
+        "AI & ML",
+        "Data & Databases"
       ],
       "organizer": {
         "name": "",
@@ -3854,7 +3350,7 @@
       "cfpClosingDate": "2026-12-05",
       "eventStartDate": "2026-12-12",
       "eventEndDate": "2026-12-12",
-      "eventUrl": "https://punedevcon.org",
+      "eventUrl": "https://punedevcon.org/",
       "location": "Pune, India",
       "region": "Asia-Pacific",
       "categories": [
@@ -3878,11 +3374,33 @@
       "cfpClosingDate": "2026-12-06",
       "eventStartDate": "2027-01-29",
       "eventEndDate": "2027-01-29",
-      "eventUrl": "https://mauiday.net",
+      "eventUrl": "https://mauiday.net/",
       "location": "London, United Kingdom",
       "region": "Europe",
       "categories": [
         "Programming Languages"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "agentic-coding-shorts-december-2026-call-for-clips",
+      "name": "Agentic Coding Shorts - December 2026 (Call for Clips)",
+      "cfpUrl": "https://sessionize.com/agentic-coding-shorts-december-2026/",
+      "cfpClosingDate": "2026-12-06",
+      "eventStartDate": "2026-12-09",
+      "eventEndDate": "2026-12-18",
+      "eventUrl": "",
+      "location": "Virtual",
+      "region": "Virtual",
+      "categories": [
+        "AI & ML"
       ],
       "organizer": {
         "name": "",
@@ -3947,7 +3465,7 @@
       "cfpClosingDate": "2026-12-06",
       "eventStartDate": "2027-04-13",
       "eventEndDate": "2027-04-15",
-      "eventUrl": "https://ocxconf.org",
+      "eventUrl": "https://ocxconf.org/",
       "location": "Brussels, Belgium",
       "region": "Europe",
       "categories": [
@@ -4016,7 +3534,7 @@
       "cfpClosingDate": "2026-12-07",
       "eventStartDate": "2027-01-23",
       "eventEndDate": "2027-01-23",
-      "eventUrl": "https://cloudengineeringsummit.org",
+      "eventUrl": "https://cloudengineeringsummit.org/",
       "location": "Casablanca, Morocco",
       "region": "Middle East & Africa",
       "categories": [
@@ -4039,7 +3557,7 @@
       "cfpClosingDate": "2026-12-07",
       "eventStartDate": "2027-01-28",
       "eventEndDate": "2027-01-28",
-      "eventUrl": "https://codeandcompliance.orcwg.org",
+      "eventUrl": "https://codeandcompliance.orcwg.org/",
       "location": "Brussels, Belgium",
       "region": "Europe",
       "categories": [
@@ -4110,7 +3628,7 @@
       "cfpClosingDate": "2026-12-08",
       "eventStartDate": "2027-05-27",
       "eventEndDate": "2027-05-28",
-      "eventUrl": "https://www.devsum.se",
+      "eventUrl": "https://www.devsum.se/",
       "location": "Stockholm, Sweden",
       "region": "Europe",
       "categories": [
@@ -4179,7 +3697,7 @@
       "cfpClosingDate": "2026-12-11",
       "eventStartDate": "2027-03-26",
       "eventEndDate": "2027-03-26",
-      "eventUrl": "https://www.bsidesredrocks.org",
+      "eventUrl": "https://www.bsidesredrocks.org/",
       "location": "Saint George, Utah, United States",
       "region": "North America",
       "categories": [
@@ -4389,7 +3907,7 @@
       "cfpClosingDate": "2026-12-13",
       "eventStartDate": "2027-06-21",
       "eventEndDate": "2027-06-24",
-      "eventUrl": "https://psconf.eu",
+      "eventUrl": "https://psconf.eu/",
       "location": "Kraków, Poland",
       "region": "Europe",
       "categories": [
@@ -4413,7 +3931,7 @@
       "cfpClosingDate": "2026-12-14",
       "eventStartDate": "2026-12-18",
       "eventEndDate": "2026-12-18",
-      "eventUrl": "https://dotnetliguria.net",
+      "eventUrl": "https://dotnetliguria.net/",
       "location": "Italy",
       "region": "Europe",
       "categories": [
@@ -4476,6 +3994,28 @@
       },
       "sources": [
         "developers.events",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "azure-heroes-retro",
+      "name": "Azure Heroes - Retro",
+      "cfpUrl": "https://sessionize.com/azure-heroes-retro/",
+      "cfpClosingDate": "2026-12-15",
+      "eventStartDate": "2027-04-15",
+      "eventEndDate": "2027-04-15",
+      "eventUrl": "https://azureheroes.online/azure-heroes-retro",
+      "location": "Netherlands",
+      "region": "Europe",
+      "categories": [
+        "Microsoft Ecosystem"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
         "opentechcfps"
       ]
     },
@@ -4559,7 +4099,7 @@
       "cfpClosingDate": "2026-12-15",
       "eventStartDate": "2027-02-19",
       "eventEndDate": "2027-02-20",
-      "eventUrl": "https://powerplatformbcn.cat",
+      "eventUrl": "https://powerplatformbcn.cat/",
       "location": "Barcelona, Spain",
       "region": "Europe",
       "categories": [
@@ -4606,7 +4146,7 @@
       "cfpClosingDate": "2026-12-15",
       "eventStartDate": "2027-05-04",
       "eventEndDate": "2027-05-07",
-      "eventUrl": "https://agiletrendsbr.com",
+      "eventUrl": "https://agiletrendsbr.com/",
       "location": "São Paulo, Brazil",
       "region": "Latin America",
       "categories": [
@@ -4629,7 +4169,7 @@
       "cfpClosingDate": "2026-12-18",
       "eventStartDate": "2027-03-16",
       "eventEndDate": "2027-03-19",
-      "eventUrl": "https://appdevcon.nl",
+      "eventUrl": "https://appdevcon.nl/",
       "location": "Amsterdam, Netherlands",
       "region": "Europe",
       "categories": [
@@ -4698,7 +4238,7 @@
       "cfpClosingDate": "2026-12-18",
       "eventStartDate": "2027-04-10",
       "eventEndDate": "2027-04-10",
-      "eventUrl": "https://devjvm.com",
+      "eventUrl": "https://devjvm.com/",
       "location": "Barranquilla, Colombia",
       "region": "Latin America",
       "categories": [
@@ -4722,7 +4262,7 @@
       "cfpClosingDate": "2026-12-18",
       "eventStartDate": "2027-03-16",
       "eventEndDate": "2027-03-19",
-      "eventUrl": "https://aiconference.nl",
+      "eventUrl": "https://aiconference.nl/",
       "location": "Amsterdam, Netherlands",
       "region": "Europe",
       "categories": [
@@ -4746,7 +4286,7 @@
       "cfpClosingDate": "2026-12-18",
       "eventStartDate": "2027-03-16",
       "eventEndDate": "2027-03-19",
-      "eventUrl": "https://phpconference.nl",
+      "eventUrl": "https://phpconference.nl/",
       "location": "Amsterdam",
       "region": "Europe",
       "categories": [
@@ -4768,7 +4308,7 @@
       "cfpClosingDate": "2026-12-18",
       "eventStartDate": "2027-06-19",
       "eventEndDate": "2027-06-22",
-      "eventUrl": "https://www.eduwebsummit.com",
+      "eventUrl": "https://www.eduwebsummit.com/",
       "location": "Charleston, SC, USA",
       "region": "North America",
       "categories": [
@@ -4837,7 +4377,7 @@
       "cfpClosingDate": "2026-12-18",
       "eventStartDate": "2027-03-16",
       "eventEndDate": "2027-03-19",
-      "eventUrl": "https://webdevcon.nl",
+      "eventUrl": "https://webdevcon.nl/",
       "location": "Amsterdam, Netherlands",
       "region": "Europe",
       "categories": [
@@ -4874,6 +4414,7 @@
       },
       "sources": [
         "developers.events",
+        "callingallpapers",
         "opentechcfps"
       ]
     },
@@ -4930,7 +4471,7 @@
       "cfpClosingDate": "2026-12-20",
       "eventStartDate": "2027-05-13",
       "eventEndDate": "2027-05-14",
-      "eventUrl": "https://datagrillen.com",
+      "eventUrl": "https://datagrillen.com/",
       "location": "Lingen, Germany",
       "region": "Europe",
       "categories": [
@@ -5069,7 +4610,7 @@
       "cfpClosingDate": "2026-12-23",
       "eventStartDate": "2027-06-23",
       "eventEndDate": "2027-06-25",
-      "eventUrl": "https://nebraskacode.amegala.com",
+      "eventUrl": "https://nebraskacode.amegala.com/",
       "location": "Lincoln, Nebraska, United States",
       "region": "North America",
       "categories": [
@@ -5093,7 +4634,7 @@
       "cfpClosingDate": "2026-12-23",
       "eventStartDate": "2027-04-01",
       "eventEndDate": "2027-04-02",
-      "eventUrl": "https://planetnix.com",
+      "eventUrl": "https://planetnix.com/",
       "location": "Pasadena, CA, USA",
       "region": "North America",
       "categories": [
@@ -5189,7 +4730,7 @@
       "cfpClosingDate": "2026-12-31",
       "eventStartDate": "2027-02-19",
       "eventEndDate": "2027-02-20",
-      "eventUrl": "https://www.rainbowventuressummit.com",
+      "eventUrl": "https://www.rainbowventuressummit.com/",
       "location": "Birmingham, Alabama, United States",
       "region": "North America",
       "categories": [
@@ -5236,7 +4777,7 @@
       "cfpClosingDate": "2026-12-31",
       "eventStartDate": "2026-12-10",
       "eventEndDate": "2026-12-10",
-      "eventUrl": "https://www.azurethursday.com",
+      "eventUrl": "https://www.azurethursday.com/",
       "location": "Netherlands",
       "region": "Europe",
       "categories": [
@@ -5258,7 +4799,7 @@
       "cfpClosingDate": "2026-12-31",
       "eventStartDate": "2026-12-03",
       "eventEndDate": "2026-12-03",
-      "eventUrl": "https://bellingham.codes",
+      "eventUrl": "https://bellingham.codes/",
       "location": "Virtual",
       "region": "Virtual",
       "categories": [
@@ -5280,7 +4821,7 @@
       "cfpClosingDate": "2026-12-31",
       "eventStartDate": "2027-04-07",
       "eventEndDate": "2027-04-08",
-      "eventUrl": "https://bsidesprg.cz",
+      "eventUrl": "https://bsidesprg.cz/",
       "location": "Prague, Czechia",
       "region": "Europe",
       "categories": [
@@ -5323,12 +4864,12 @@
     {
       "id": "bsides-tampa-2027",
       "name": "BSides Tampa 2027",
-      "cfpUrl": "https://sessionize.com/bsides-tampa-2027/",
+      "cfpUrl": "https://sessionize.com/bsides-tampa-2027",
       "cfpClosingDate": "2026-12-31",
       "eventStartDate": "2027-04-16",
       "eventEndDate": "2027-04-17",
-      "eventUrl": "https://bsidestampa.net",
-      "location": "Tampa, FL, USA",
+      "eventUrl": "https://bsidestampa.net/",
+      "location": "Tampa, Florida, United States",
       "region": "North America",
       "categories": [
         "Security"
@@ -5339,6 +4880,7 @@
         "parents": []
       },
       "sources": [
+        "callingallpapers",
         "opentechcfps"
       ]
     },
@@ -5422,7 +4964,7 @@
       "cfpClosingDate": "2026-12-31",
       "eventStartDate": "2026-11-28",
       "eventEndDate": "2026-11-28",
-      "eventUrl": "https://cloud-native.pe",
+      "eventUrl": "https://cloud-native.pe/",
       "location": "Lima, Peru",
       "region": "Latin America",
       "categories": [
@@ -5470,7 +5012,7 @@
       "cfpClosingDate": "2026-12-31",
       "eventStartDate": "2026-12-01",
       "eventEndDate": "2026-12-01",
-      "eventUrl": "https://debezium.io",
+      "eventUrl": "https://debezium.io/",
       "location": "Virtual",
       "region": "Virtual",
       "categories": [
@@ -5516,7 +5058,7 @@
       "cfpClosingDate": "2026-12-31",
       "eventStartDate": "2027-04-14",
       "eventEndDate": "2027-04-15",
-      "eventUrl": "https://www.devopsdays.ch",
+      "eventUrl": "https://www.devopsdays.ch/",
       "location": "Winterthur, Switzerland",
       "region": "Europe",
       "categories": [
@@ -5562,7 +5104,7 @@
       "cfpClosingDate": "2026-12-31",
       "eventStartDate": "2027-02-27",
       "eventEndDate": "2027-02-27",
-      "eventUrl": "https://europa-union-duesseldorf-neuss.de",
+      "eventUrl": "https://europa-union-duesseldorf-neuss.de/",
       "location": "Düsseldorf, Germany",
       "region": "Europe",
       "categories": [
@@ -5651,7 +5193,7 @@
       "cfpClosingDate": "2026-12-31",
       "eventStartDate": "2026-12-01",
       "eventEndDate": "2026-12-01",
-      "eventUrl": "https://materatech.it",
+      "eventUrl": "https://materatech.it/",
       "location": "Matera, Italy",
       "region": "Europe",
       "categories": [
@@ -5742,7 +5284,7 @@
       "cfpClosingDate": "2026-12-31",
       "eventStartDate": "2027-03-20",
       "eventEndDate": "2027-03-20",
-      "eventUrl": "https://socialdevelopersclub.de",
+      "eventUrl": "https://socialdevelopersclub.de/",
       "location": "Hamburg, Germany",
       "region": "Europe",
       "categories": [
@@ -5807,13 +5349,35 @@
       ]
     },
     {
+      "id": "the-search-party",
+      "name": "The Search Party",
+      "cfpUrl": "https://sessionize.com/opensearch-the-search-party/",
+      "cfpClosingDate": "2026-12-31",
+      "eventStartDate": "2026-12-01",
+      "eventEndDate": "2026-12-15",
+      "eventUrl": "https://opensearch.org/community/",
+      "location": "Virtual",
+      "region": "Virtual",
+      "categories": [
+        "Open Source & Linux"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "visug",
       "name": "Visug",
       "cfpUrl": "https://sessionize.com/visug/",
       "cfpClosingDate": "2026-12-31",
       "eventStartDate": "2026-11-17",
       "eventEndDate": "2026-11-17",
-      "eventUrl": "https://www.visug.be",
+      "eventUrl": "https://www.visug.be/",
       "location": "Virtual",
       "region": "Virtual",
       "categories": [
@@ -5905,7 +5469,7 @@
       "cfpClosingDate": "2027-01-01",
       "eventStartDate": "2027-04-08",
       "eventEndDate": "2027-04-09",
-      "eventUrl": "https://www.atlseccon.com",
+      "eventUrl": "https://www.atlseccon.com/",
       "location": "Halifax, NS, Canada",
       "region": "North America",
       "categories": [
@@ -6115,7 +5679,7 @@
       "cfpClosingDate": "2027-01-04",
       "eventStartDate": "2027-02-20",
       "eventEndDate": "2027-02-20",
-      "eventUrl": "https://GPPB-Bulgaria-2027.eventbrite.com",
+      "eventUrl": "https://gppb-bulgaria-2027.eventbrite.com/",
       "location": "Sofia, Bulgaria",
       "region": "Europe",
       "categories": [
@@ -6163,7 +5727,7 @@
       "cfpClosingDate": "2027-01-06",
       "eventStartDate": "2027-07-22",
       "eventEndDate": "2027-07-23",
-      "eventUrl": "http://www.sceniccitysummit.com",
+      "eventUrl": "http://www.sceniccitysummit.com/",
       "location": "Chattanooga, TN, USA",
       "region": "North America",
       "categories": [
@@ -6234,7 +5798,7 @@
       "cfpClosingDate": "2027-01-08",
       "eventStartDate": "2027-03-19",
       "eventEndDate": "2027-03-19",
-      "eventUrl": "https://umbracospark.com",
+      "eventUrl": "https://umbracospark.com/",
       "location": "Bristol, United Kingdom",
       "region": "Europe",
       "categories": [
@@ -6258,7 +5822,7 @@
       "cfpClosingDate": "2027-01-08",
       "eventStartDate": "2027-05-20",
       "eventEndDate": "2027-05-20",
-      "eventUrl": "https://wpninjas.no",
+      "eventUrl": "https://wpninjas.no/",
       "location": "Oslo, Norway",
       "region": "Europe",
       "categories": [
@@ -6282,7 +5846,7 @@
       "cfpClosingDate": "2027-01-09",
       "eventStartDate": "2027-03-24",
       "eventEndDate": "2027-03-25",
-      "eventUrl": "https://cyphercon.com",
+      "eventUrl": "https://cyphercon.com/",
       "location": "Milwaukee, WI, USA",
       "region": "North America",
       "categories": [
@@ -6307,7 +5871,7 @@
       "cfpClosingDate": "2027-01-10",
       "eventStartDate": "2027-03-18",
       "eventEndDate": "2027-03-19",
-      "eventUrl": "https://2027.conf.agile-france.org",
+      "eventUrl": "https://2027.conf.agile-france.org/",
       "location": "Paris, France",
       "region": "Europe",
       "categories": [
@@ -6352,7 +5916,7 @@
       "cfpClosingDate": "2027-01-10",
       "eventStartDate": "2027-05-19",
       "eventEndDate": "2027-05-20",
-      "eventUrl": "https://www.icebergsummit.org",
+      "eventUrl": "https://www.icebergsummit.org/",
       "location": "Santa Clara, California, United States",
       "region": "North America",
       "categories": [
@@ -6375,7 +5939,7 @@
       "cfpClosingDate": "2027-01-10",
       "eventStartDate": "2027-06-04",
       "eventEndDate": "2027-06-04",
-      "eventUrl": "https://newstarsofdata.com",
+      "eventUrl": "https://newstarsofdata.com/",
       "location": "Virtual",
       "region": "Virtual",
       "categories": [
@@ -6397,7 +5961,7 @@
       "cfpClosingDate": "2027-01-10",
       "eventStartDate": "2027-05-24",
       "eventEndDate": "2027-05-29",
-      "eventUrl": "https://2027.rustweek.org",
+      "eventUrl": "https://2027.rustweek.org/",
       "location": "Utrecht, Netherlands",
       "region": "Europe",
       "categories": [
@@ -6421,7 +5985,7 @@
       "cfpClosingDate": "2027-01-10",
       "eventStartDate": "2027-03-25",
       "eventEndDate": "2027-03-25",
-      "eventUrl": "https://www.webdayconf.it",
+      "eventUrl": "https://www.webdayconf.it/",
       "location": "Milan, Italy",
       "region": "Europe",
       "categories": [
@@ -6468,7 +6032,7 @@
       "cfpClosingDate": "2027-01-11",
       "eventStartDate": "2027-06-11",
       "eventEndDate": "2027-06-12",
-      "eventUrl": "https://2027.pg-data.org",
+      "eventUrl": "https://2027.pg-data.org/",
       "location": "Chicago, IL, USA",
       "region": "North America",
       "categories": [
@@ -6562,7 +6126,7 @@
       "cfpClosingDate": "2027-01-13",
       "eventStartDate": "2027-05-03",
       "eventEndDate": "2027-05-04",
-      "eventUrl": "https://dataplatformnextstep.com",
+      "eventUrl": "https://dataplatformnextstep.com/",
       "location": "Århus, Denmark",
       "region": "Europe",
       "categories": [
@@ -6631,7 +6195,7 @@
       "cfpClosingDate": "2027-01-14",
       "eventStartDate": "2027-04-30",
       "eventEndDate": "2027-05-01",
-      "eventUrl": "https://www.eoes.co.uk",
+      "eventUrl": "https://www.eoes.co.uk/",
       "location": "Norwich, UK",
       "region": "Europe",
       "categories": [
@@ -6656,7 +6220,7 @@
       "cfpClosingDate": "2027-01-15",
       "eventStartDate": "2027-04-21",
       "eventEndDate": "2027-04-23",
-      "eventUrl": "https://london.cityjsconf.org",
+      "eventUrl": "https://london.cityjsconf.org/",
       "location": "London, UK",
       "region": "Europe",
       "categories": [
@@ -6846,7 +6410,7 @@
       "cfpClosingDate": "2027-01-15",
       "eventStartDate": "2027-04-13",
       "eventEndDate": "2027-04-14",
-      "eventUrl": "https://swnomsec.org",
+      "eventUrl": "https://swnomsec.org/",
       "location": "Las Cruces, NM, USA",
       "region": "North America",
       "categories": [
@@ -6870,7 +6434,7 @@
       "cfpClosingDate": "2027-01-16",
       "eventStartDate": "2027-03-04",
       "eventEndDate": "2027-03-05",
-      "eventUrl": "https://collabrewired.com",
+      "eventUrl": "https://collabrewired.com/",
       "location": "Virtual",
       "region": "Virtual",
       "categories": [
@@ -6969,7 +6533,7 @@
       "cfpClosingDate": "2027-01-17",
       "eventStartDate": "2027-05-31",
       "eventEndDate": "2027-06-04",
-      "eventUrl": "https://ndcoslo.com",
+      "eventUrl": "https://ndcoslo.com/",
       "location": "Oslo, Norway",
       "region": "Europe",
       "categories": [
@@ -6992,7 +6556,7 @@
       "cfpClosingDate": "2027-01-17",
       "eventStartDate": "2027-01-23",
       "eventEndDate": "2027-01-23",
-      "eventUrl": "https://hackersmang.org",
+      "eventUrl": "https://hackersmang.org/",
       "location": "Mangaluru, India",
       "region": "Asia-Pacific",
       "categories": [
@@ -7015,7 +6579,7 @@
       "cfpClosingDate": "2027-01-17",
       "eventStartDate": "2027-01-16",
       "eventEndDate": "2027-01-16",
-      "eventUrl": "https://hackersmang.org",
+      "eventUrl": "https://hackersmang.org/",
       "location": "Mangaluru, India",
       "region": "Asia-Pacific",
       "categories": [
@@ -7039,7 +6603,7 @@
       "cfpClosingDate": "2027-01-18",
       "eventStartDate": "2027-02-01",
       "eventEndDate": "2027-02-03",
-      "eventUrl": "https://datascience.averconferences.com",
+      "eventUrl": "https://datascience.averconferences.com/",
       "location": "Dubai",
       "region": "Middle East & Africa",
       "categories": [
@@ -7230,7 +6794,7 @@
       "cfpClosingDate": "2027-01-20",
       "eventStartDate": "2026-12-15",
       "eventEndDate": "2026-12-15",
-      "eventUrl": "https://bari.python.it",
+      "eventUrl": "https://bari.python.it/",
       "location": "Bari, Italy",
       "region": "Europe",
       "categories": [
@@ -7270,13 +6834,36 @@
       ]
     },
     {
+      "id": "nerdearla-chile-2027",
+      "name": "Nerdearla Chile 2027",
+      "cfpUrl": "https://sessionize.com/nerdearla-chile-2027/",
+      "cfpClosingDate": "2027-01-24",
+      "eventStartDate": "2027-04-15",
+      "eventEndDate": "2027-04-17",
+      "eventUrl": "https://nerdearla.com/en/chile/",
+      "location": "Santiago, Chile",
+      "region": "Latin America",
+      "categories": [
+        "AI & ML",
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "platmosphere-2027",
       "name": "Platmosphere 2027",
       "cfpUrl": "https://sessionize.com/platmosphere-chapter-2027-beyond-the-loop/",
       "cfpClosingDate": "2027-01-24",
       "eventStartDate": "2027-05-18",
       "eventEndDate": "2027-05-18",
-      "eventUrl": "https://platmosphere.com",
+      "eventUrl": "https://platmosphere.com/",
       "location": "Milan, Italy",
       "region": "Europe",
       "categories": [
@@ -7347,7 +6934,7 @@
       "cfpClosingDate": "2027-01-29",
       "eventStartDate": "2027-06-10",
       "eventEndDate": "2027-06-11",
-      "eventUrl": "https://ai-in-production.jumpingrivers.com",
+      "eventUrl": "https://ai-in-production.jumpingrivers.com/",
       "location": "Newcastle upon Tyne, UK",
       "region": "Europe",
       "categories": [
@@ -7372,7 +6959,7 @@
       "cfpClosingDate": "2027-01-29",
       "eventStartDate": "2027-06-24",
       "eventEndDate": "2027-06-25",
-      "eventUrl": "https://owasp.org",
+      "eventUrl": "https://owasp.org/",
       "location": "Vienna, Austria",
       "region": "Europe",
       "categories": [
@@ -7557,7 +7144,7 @@
       "cfpClosingDate": "2027-01-31",
       "eventStartDate": "2027-05-19",
       "eventEndDate": "2027-05-20",
-      "eventUrl": "https://datapointprague.com",
+      "eventUrl": "https://datapointprague.com/",
       "location": "Prague, Czechia",
       "region": "Europe",
       "categories": [
@@ -7604,7 +7191,7 @@
       "cfpClosingDate": "2027-01-31",
       "eventStartDate": "2027-05-20",
       "eventEndDate": "2027-05-21",
-      "eventUrl": "https://dodnashville.com",
+      "eventUrl": "https://dodnashville.com/",
       "location": "Murfreesboro, TN, USA",
       "region": "North America",
       "categories": [
@@ -7698,7 +7285,7 @@
       "cfpClosingDate": "2027-01-31",
       "eventStartDate": "2027-05-17",
       "eventEndDate": "2027-05-19",
-      "eventUrl": "https://replay.temporal.io",
+      "eventUrl": "https://replay.temporal.io/",
       "location": "San Francisco, CA, USA",
       "region": "North America",
       "categories": [
@@ -7791,7 +7378,7 @@
       "cfpClosingDate": "2027-02-01",
       "eventStartDate": "2027-04-14",
       "eventEndDate": "2027-04-16",
-      "eventUrl": "https://spanarena.eu",
+      "eventUrl": "https://spanarena.eu/",
       "location": "Poreč, Croatia",
       "region": "Europe",
       "categories": [
@@ -7837,7 +7424,7 @@
       "cfpClosingDate": "2027-02-05",
       "eventStartDate": "2027-05-21",
       "eventEndDate": "2027-05-25",
-      "eventUrl": "https://reactsummit.com",
+      "eventUrl": "https://reactsummit.com/",
       "location": "Amsterdam",
       "region": "Europe",
       "categories": [
@@ -7883,7 +7470,7 @@
       "cfpClosingDate": "2027-02-07",
       "eventStartDate": "2027-02-20",
       "eventEndDate": "2027-02-20",
-      "eventUrl": "https://globalpowerplatformbootcamp2027alicante.eventbrite.es",
+      "eventUrl": "https://globalpowerplatformbootcamp2027alicante.eventbrite.es/",
       "location": "Alicante, Spain",
       "region": "Europe",
       "categories": [
@@ -7974,7 +7561,7 @@
       "cfpClosingDate": "2027-02-16",
       "eventStartDate": "2027-04-11",
       "eventEndDate": "2027-04-12",
-      "eventUrl": "https://pycon.at",
+      "eventUrl": "https://pycon.at/",
       "location": "Eisenstadt, Austria",
       "region": "Europe",
       "categories": [
@@ -7998,7 +7585,7 @@
       "cfpClosingDate": "2027-02-17",
       "eventStartDate": "2027-05-04",
       "eventEndDate": "2027-05-06",
-      "eventUrl": "https://innovateqaevents.com",
+      "eventUrl": "https://innovateqaevents.com/",
       "location": "Bellevue, WA, USA",
       "region": "North America",
       "categories": [
@@ -8046,7 +7633,7 @@
       "cfpClosingDate": "2027-02-28",
       "eventStartDate": "2027-06-24",
       "eventEndDate": "2027-06-25",
-      "eventUrl": "https://www.ieeecloudsummit.org",
+      "eventUrl": "https://www.ieeecloudsummit.org/",
       "location": "Washington, District of Columbia, United States",
       "region": "North America",
       "categories": [
@@ -8141,7 +7728,7 @@
       "cfpClosingDate": "2027-03-01",
       "eventStartDate": "2027-05-21",
       "eventEndDate": "2027-05-25",
-      "eventUrl": "https://jsnation.com",
+      "eventUrl": "https://jsnation.com/",
       "location": "Amsterdam",
       "region": "Europe",
       "categories": [
@@ -8161,7 +7748,7 @@
     {
       "id": "offensivecon-2027",
       "name": "OffensiveCon 2027",
-      "cfpUrl": "https://cfp.offensivecon.org",
+      "cfpUrl": "https://cfp.offensivecon.org/",
       "cfpClosingDate": "2027-03-01",
       "eventStartDate": "2027-05-21",
       "eventEndDate": "2027-05-22",
@@ -8211,7 +7798,7 @@
       "cfpClosingDate": "2027-03-17",
       "eventStartDate": "2027-05-31",
       "eventEndDate": "2027-06-02",
-      "eventUrl": "https://www.cloudland.org",
+      "eventUrl": "https://www.cloudland.org/",
       "location": "Soltau, Germany",
       "region": "Europe",
       "categories": [
@@ -8234,7 +7821,7 @@
       "cfpClosingDate": "2027-03-17",
       "eventStartDate": "2027-04-22",
       "eventEndDate": "2027-04-22",
-      "eventUrl": "https://www.elc-conference.io",
+      "eventUrl": "https://www.elc-conference.io/",
       "location": "Prague",
       "region": "Europe",
       "categories": [
@@ -8270,6 +7857,29 @@
       "sources": [
         "developers.events",
         "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "boise-code-camp-2027",
+      "name": "Boise Code Camp 2027",
+      "cfpUrl": "https://sessionize.com/bcc2027/",
+      "cfpClosingDate": "2027-03-31",
+      "eventStartDate": "2027-05-01",
+      "eventEndDate": "2027-05-01",
+      "eventUrl": "https://www.boisecodecamp.com/",
+      "location": "Boise, ID, USA",
+      "region": "North America",
+      "categories": [
+        "Cloud Native & DevOps",
+        "Agile & Leadership"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
         "opentechcfps"
       ]
     },
@@ -8351,7 +7961,7 @@
       "cfpClosingDate": "2027-04-03",
       "eventStartDate": "2027-05-06",
       "eventEndDate": "2027-05-07",
-      "eventUrl": "https://secretcon.com",
+      "eventUrl": "https://secretcon.com/",
       "location": "Saint Paul, MN, USA",
       "region": "North America",
       "categories": [
@@ -8443,7 +8053,7 @@
       "cfpClosingDate": "2027-05-01",
       "eventStartDate": "2027-06-15",
       "eventEndDate": "2027-06-16",
-      "eventUrl": "https://www.acceleratetomorrow.com",
+      "eventUrl": "https://www.acceleratetomorrow.com/",
       "location": "Berlin",
       "region": "Europe",
       "categories": [
@@ -8514,7 +8124,7 @@
       "cfpClosingDate": "2027-05-13",
       "eventStartDate": "2027-07-02",
       "eventEndDate": "2027-07-02",
-      "eventUrl": "https://normandie.ai",
+      "eventUrl": "https://normandie.ai/",
       "location": "Rouen, France",
       "region": "Europe",
       "categories": [
@@ -8623,13 +8233,35 @@
       ]
     },
     {
+      "id": "net-zuid",
+      "name": ".NET Zuid",
+      "cfpUrl": "https://sessionize.com/dotnetzuid/",
+      "cfpClosingDate": "2027-06-10",
+      "eventStartDate": "2026-12-14",
+      "eventEndDate": "2026-12-14",
+      "eventUrl": "https://www.dotnetzuid.nl/",
+      "location": "Virtual",
+      "region": "Virtual",
+      "categories": [
+        "Programming Languages"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "aws-community-summit-manchester-2027",
       "name": "AWS Community Summit - Manchester 2027",
       "cfpUrl": "https://sessionize.com/aws-community-summit-manchester-20265638/",
       "cfpClosingDate": "2027-06-30",
       "eventStartDate": "2027-09-30",
       "eventEndDate": "2027-09-30",
-      "eventUrl": "https://www.comsum.co.uk",
+      "eventUrl": "https://www.comsum.co.uk/",
       "location": "Manchester, United Kingdom",
       "region": "Europe",
       "categories": [
@@ -8651,7 +8283,7 @@
       "cfpClosingDate": "2027-06-30",
       "eventStartDate": "2027-09-18",
       "eventEndDate": "2027-09-18",
-      "eventUrl": "https://bsideskrakow.pl",
+      "eventUrl": "https://bsideskrakow.pl/",
       "location": "Kraków, Poland",
       "region": "Europe",
       "categories": [
@@ -8675,7 +8307,7 @@
       "cfpClosingDate": "2027-07-01",
       "eventStartDate": "2027-09-01",
       "eventEndDate": "2027-09-01",
-      "eventUrl": "https://marche.python.it",
+      "eventUrl": "https://marche.python.it/",
       "location": "Virtual",
       "region": "Virtual",
       "categories": [
@@ -8809,7 +8441,7 @@
       "cfpClosingDate": "2027-10-29",
       "eventStartDate": "2026-12-10",
       "eventEndDate": "2026-12-10",
-      "eventUrl": "https://cloudnativevalencia.com",
+      "eventUrl": "https://cloudnativevalencia.com/",
       "location": "Valencia, Spain",
       "region": "Europe",
       "categories": [
@@ -8832,7 +8464,7 @@
       "cfpClosingDate": "2027-11-06",
       "eventStartDate": "2027-11-01",
       "eventEndDate": "2027-11-01",
-      "eventUrl": "https://arcasiles.com",
+      "eventUrl": "https://arcasiles.com/",
       "location": "Madrid, Spain",
       "region": "Europe",
       "categories": [
