@@ -1,12 +1,14 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import yaml from 'js-yaml';
 import {
   classifyCategories,
   classifyOrganizer,
   isActiveMeetupCall,
   isMeetup,
   organizerParents,
+  regionForCoordinates,
   regionForCountry,
   regionForTimezone,
 } from './classify.mjs';
@@ -134,10 +136,32 @@ function nameKey(name) {
     .replace(/[^a-z0-9]+/g, '');
 }
 
-async function getJSON(url) {
-  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
+async function fetchOk(url, headers = {}) {
+  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT, ...headers } });
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-  return res.json();
+  return res;
+}
+
+async function getJSON(url, headers) {
+  return (await fetchOk(url, headers)).json();
+}
+
+async function getText(url) {
+  return (await fetchOk(url)).text();
+}
+
+// Runs `fn` over `items` with at most `limit` requests in flight.
+async function mapLimit(items, limit, fn) {
+  const results = new Array(items.length);
+  let next = 0;
+  const worker = async () => {
+    while (next < items.length) {
+      const i = next++;
+      results[i] = await fn(items[i]);
+    }
+  };
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker));
+  return results;
 }
 
 function warn(message) {
@@ -279,6 +303,212 @@ async function fetchOpenTechCFPs() {
     });
 }
 
+// devopsdays publishes every event's configuration in its website repo, one
+// data/events/<year>/<city>/main.yml per event.
+async function fetchDevopsdays() {
+  console.log('Fetching from devopsdays...');
+  const repo = 'devopsdays/devopsdays-web';
+  const headers = process.env.GITHUB_TOKEN ? { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {};
+  const year = new Date().getUTCFullYear();
+
+  const paths = [];
+  for (const y of [year, year + 1]) {
+    try {
+      const dirs = await getJSON(`https://api.github.com/repos/${repo}/contents/data/events/${y}`, headers);
+      paths.push(...dirs.filter((d) => d.type === 'dir').map((d) => `data/events/${y}/${d.name}/main.yml`));
+    } catch (err) {
+      // Next year's folder may not exist yet.
+      if (y === year) throw err;
+    }
+  }
+
+  const events = await mapLimit(paths, 8, async (path) => {
+    try {
+      return yaml.load(await getText(`https://raw.githubusercontent.com/${repo}/main/${path}`), {
+        schema: yaml.CORE_SCHEMA,
+      });
+    } catch (err) {
+      warn(`devopsdays ${path}: ${err.message}`);
+      return null;
+    }
+  });
+
+  return events
+    .filter((e) => e?.name && e.cfp_date_end && e.startdate)
+    .map((e) => {
+      const slug = String(e.name);
+      const city = cleanText(String(e.city || ''));
+      return {
+        name: `DevOpsDays ${city || slug.replace(/^\d{4}-/, '')} ${e.year || slug.slice(0, 4)}`,
+        cfpUrl: e.cfp_link || `https://devopsdays.org/events/${slug}/propose`,
+        cfpClosingDate: dateOnly(e.cfp_date_end),
+        eventStartDate: dateOnly(e.startdate),
+        eventEndDate: dateOnly(e.enddate || e.startdate),
+        eventUrl: `https://devopsdays.org/events/${slug}/`,
+        location: devopsdaysLocation(city, e.location_address),
+        country: '',
+        coordinates: parseCoordinates(e.coordinates),
+        virtual: /^(online|virtual)$/i.test(city),
+        tags: [],
+        source: 'devopsdays',
+      };
+    });
+}
+
+// devopsdays files give a city plus an optional street address, never a country.
+// US addresses end in "City, ST 12345"; elsewhere the country comes from this map.
+const DEVOPSDAYS_COUNTRIES = {
+  almaty: 'Kazakhstan', amsterdam: 'Netherlands', barcelona: 'Spain', 'belo horizonte': 'Brazil', 'belém': 'Brazil',
+  berlin: 'Germany', bogota: 'Colombia', 'brasília': 'Brazil', brasov: 'Romania', cairo: 'Egypt', campinas: 'Brazil',
+  'ciudad autonoma de buenos aires': 'Argentina', copenhagen: 'Denmark', curitiba: 'Brazil', 'feira de santana': 'Brazil',
+  'florianópolis': 'Brazil', geneva: 'Switzerland', graz: 'Austria', halifax: 'Canada', islamabad: 'Pakistan',
+  istanbul: 'Turkey', jakarta: 'Indonesia', 'juiz de fora': 'Brazil', 'kraków': 'Poland', lima: 'Peru', london: 'United Kingdom',
+  'medellín': 'Colombia', melbourne: 'Australia', natal: 'Brazil', portugal: 'Portugal', prague: 'Czechia', recife: 'Brazil',
+  'rio de janeiro': 'Brazil', salvador: 'Brazil', santiago: 'Chile', 'são paulo': 'Brazil', sibiu: 'Romania', taipei: 'Taiwan',
+  tashkent: 'Uzbekistan', 'tel aviv': 'Israel', tokyo: 'Japan', toronto: 'Canada', vilnius: 'Lithuania', vitoria: 'Brazil',
+  warsaw: 'Poland', zurich: 'Switzerland',
+};
+
+function devopsdaysLocation(city, address = '') {
+  const us = String(address).match(/,\s*([^,]+),\s*([A-Z]{2})\s+\d{5}/);
+  if (us && US_STATES.has(us[2])) return `${us[1].trim()}, ${us[2]}, USA`;
+  const name = titleCase(city.replace(/,\s*[A-Z]{2}$/, ''));
+  const state = city.match(/,\s*([A-Z]{2})$/)?.[1];
+  if (state && US_STATES.has(state)) return `${name}, ${state}, USA`;
+  const country = DEVOPSDAYS_COUNTRIES[city.toLowerCase()];
+  return country && country.toLowerCase() !== city.toLowerCase() ? `${name}, ${country}` : name;
+}
+
+// Conference Hall (a CFP platform popular in France) has no public API; its
+// robots.txt disallows /api/. Its search and event pages embed their data as a
+// React Router "turbo-stream" payload, which is read here.
+async function fetchConferenceHall() {
+  console.log('Fetching from Conference Hall...');
+  const base = 'https://conference-hall.io';
+  const search = turboStreamData(await getText(`${base}/?type=conference`))?.['features/event-search/event-search'];
+  if (!Array.isArray(search?.results)) throw new Error('unexpected search page format');
+
+  const open = search.results.filter((r) => r.slug && r.cfpState === 'OPENED');
+  const events = await mapLimit(open, 4, async (r) => {
+    try {
+      return turboStreamData(await getText(`${base}/${encodeURIComponent(r.slug)}`))?.['event-page'];
+    } catch (err) {
+      warn(`Conference Hall ${r.slug}: ${err.message}`);
+      return null;
+    }
+  });
+
+  return events
+    .filter((e) => e?.slug && e.name && e.cfpEnd && e.type === 'CONFERENCE')
+    .map((e) => {
+      const tz = e.timezone || 'UTC';
+      const name = cleanText(e.name);
+      return {
+        // Some events are named by their slug ("web-days-convention").
+        name: /^[a-z0-9]+(-[a-z0-9]+)+$/.test(name)
+          ? name.split('-').map((w) => w[0].toUpperCase() + w.slice(1)).join(' ')
+          : name,
+        cfpUrl: `${base}/${e.slug}`,
+        cfpClosingDate: toLocalDate(e.cfpEnd, tz),
+        eventStartDate: toLocalDate(e.conferenceStart, tz),
+        eventEndDate: toLocalDate(e.conferenceEnd || e.conferenceStart, tz),
+        eventUrl: e.websiteUrl || '',
+        location: e.onlineEvent ? '' : conferenceHallLocation(e.location, tz),
+        country: '',
+        timezone: tz,
+        virtual: Boolean(e.onlineEvent),
+        // Talk tracks and the organizing team ("Angular Devs France") hint at the topic.
+        autoTags: [...(e.categories || []).map((c) => c.name), e.teamName].filter(Boolean),
+        tags: [],
+        source: 'conference-hall',
+      };
+    });
+}
+
+// Conference Hall locations are free text, often a full street address or just a
+// venue: "La Sorbonne 4, place Jussieu. 75005 Paris". Keep the city, and add the
+// country from the event's timezone when the text doesn't name one.
+const TIMEZONE_COUNTRIES = {
+  'Europe/Paris': 'France', 'Europe/Brussels': 'Belgium', 'Europe/Zurich': 'Switzerland',
+  'Europe/Luxembourg': 'Luxembourg', 'Europe/London': 'United Kingdom', 'Europe/Madrid': 'Spain',
+  'Europe/Berlin': 'Germany', 'Europe/Amsterdam': 'Netherlands', 'Europe/Lisbon': 'Portugal',
+  'Europe/Rome': 'Italy', 'America/Montreal': 'Canada', 'America/Toronto': 'Canada', 'Africa/Douala': 'Cameroon',
+  'Africa/Casablanca': 'Morocco', 'Africa/Tunis': 'Tunisia', 'Africa/Dakar': 'Senegal', 'Africa/Abidjan': "Côte d'Ivoire",
+};
+
+// French names for countries whose spelling differs from the English one.
+const FRENCH_COUNTRY_NAMES = { cameroun: 'Cameroon', belgique: 'Belgium', suisse: 'Switzerland', maroc: 'Morocco', tunisie: 'Tunisia', 'sénégal': 'Senegal', "côte d'ivoire": "Côte d'Ivoire" };
+
+function conferenceHallLocation(text, timezone) {
+  let location = cleanText(text).replace(/\s*\(([^)]+)\)\s*$/, ', $1');
+  let country = TIMEZONE_COUNTRIES[timezone] || '';
+  // Drop a trailing country name ("Paris france", "Yaoundé, Cameroun"), in English or French.
+  const names = [country, ...Object.keys(FRENCH_COUNTRY_NAMES)].filter(Boolean);
+  for (const name of names) {
+    const re = new RegExp(`[,\\s]+${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`, 'i');
+    if (re.test(location)) {
+      country = FRENCH_COUNTRY_NAMES[name.toLowerCase()] || country;
+      location = location.replace(re, '');
+      break;
+    }
+  }
+  const parts = location.split(/[,.]/).map((p) => p.replace(/\b\d{4,6}\b/g, '').trim()).filter(Boolean);
+  if (!parts.length) return country;
+  // Street addresses end with the city; a lone multi-word name is likely a venue.
+  const last = parts.at(-1);
+  const city = parts.length > 1 || !/\s/.test(last) ? titleCase(last) : last;
+  return [city, country].filter(Boolean).join(', ');
+}
+
+function titleCase(str) {
+  return str.replace(/\p{L}[\p{L}'’-]*/gu, (w) =>
+    w === w.toLowerCase() || w === w.toUpperCase() ? w[0].toUpperCase() + w.slice(1).toLowerCase() : w,
+  );
+}
+
+// Decodes the loader data from a React Router turbo-stream payload: a flat JSON
+// array where objects refer to keys and values by index ("_12": 34).
+function turboStreamData(html) {
+  const text = [...html.matchAll(/streamController\.enqueue\(("(?:[^"\\]|\\.)*")\);/g)]
+    .map((m) => JSON.parse(m[1]))
+    .join('');
+  if (!text) return null;
+  const flat = JSON.parse(text.split('\n')[0]);
+  const SPECIAL = { '-5': undefined, '-7': null, '-1': undefined };
+  const seen = new Map();
+  const hydrate = (i) => {
+    if (i in SPECIAL) return SPECIAL[i];
+    if (seen.has(i)) return seen.get(i);
+    const v = flat[i];
+    if (Array.isArray(v)) {
+      if (v[0] === 'D') return new Date(v[1]).toISOString();
+      const out = [];
+      seen.set(i, out);
+      for (const j of v) out.push(hydrate(j));
+      return out;
+    }
+    if (v && typeof v === 'object') {
+      const out = {};
+      seen.set(i, out);
+      for (const [k, j] of Object.entries(v)) out[flat[Number(k.slice(1))]] = hydrate(j);
+      return out;
+    }
+    return v;
+  };
+  return hydrate(0)?.loaderData ?? null;
+}
+
+// "2027-02-07T23:59:00+01:00" -> "2027-02-07", the date where the event is.
+function dateOnly(val) {
+  const m = String(val || '').match(/^(\d{4})-(\d{2})-(\d{2})/);
+  return m ? `${m[1]}-${m[2]}-${m[3]}` : null;
+}
+
+function parseCoordinates(val) {
+  const m = String(val || '').match(/(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)/);
+  return m ? [Number(m[1]), Number(m[2])] : null;
+}
+
 // data/manual-cfps.json lists CFPs the aggregators miss or get wrong. Entries use
 // the output fields (name, cfpUrl, cfpClosingDate, eventStartDate, eventEndDate,
 // eventUrl, location, plus optional country, region, categories, organizer) and
@@ -290,13 +520,17 @@ function loadManualCFPs() {
 }
 
 // Sources earlier in this list win when merged records disagree.
-const SOURCE_PRIORITY = ['manual', 'linuxfoundation', 'developers.events', 'callingallpapers', 'opentechcfps'];
+const SOURCE_PRIORITY = [
+  'manual', 'linuxfoundation', 'devopsdays', 'developers.events', 'conference-hall', 'callingallpapers', 'opentechcfps',
+];
 // developers.events is curated by hand and its deadlines drift; the other
 // sources read the CFP platforms directly, so they win for closing dates.
-const DEADLINE_PRIORITY = ['manual', 'linuxfoundation', 'opentechcfps', 'callingallpapers', 'developers.events'];
+const DEADLINE_PRIORITY = [
+  'manual', 'linuxfoundation', 'devopsdays', 'conference-hall', 'opentechcfps', 'callingallpapers', 'developers.events',
+];
 const MERGED_FIELDS = [
   'name', 'cfpUrl', 'cfpClosingDate', 'eventStartDate', 'eventEndDate', 'eventUrl',
-  'location', 'country', 'timezone', 'region', 'categories', 'organizer',
+  'location', 'country', 'timezone', 'coordinates', 'region', 'categories', 'organizer',
 ];
 
 function mergeRecords(records) {
@@ -392,6 +626,7 @@ function deriveRegion(cfp) {
     regionForCountry(cfp.country) ||
     regionForCountry(lastSegment) ||
     (US_STATES.has(lastSegment.toUpperCase()) ? 'North America' : '') ||
+    regionForCoordinates(cfp.coordinates) ||
     regionForTimezone(cfp.timezone)
   );
 }
@@ -406,6 +641,8 @@ async function main() {
     ['linuxfoundation', fetchLinuxFoundation],
     ['callingallpapers', fetchCallingAllPapers],
     ['opentechcfps', fetchOpenTechCFPs],
+    ['devopsdays', fetchDevopsdays],
+    ['conference-hall', fetchConferenceHall],
   ];
   const results = await Promise.all(
     sources.map(async ([name, fetcher]) => {

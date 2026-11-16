@@ -120,28 +120,6 @@
       ]
     },
     {
-      "id": "igf-2026",
-      "name": "IGF 2026",
-      "cfpUrl": "https://sessionize.com/igf2026/",
-      "cfpClosingDate": "2026-11-16",
-      "eventStartDate": "2026-12-14",
-      "eventEndDate": "2026-12-18",
-      "eventUrl": "https://igf2026.intgovforum.org/",
-      "location": "Nairobi, Kenya",
-      "region": "Middle East & Africa",
-      "categories": [
-        "Other"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
       "id": "netcoreconf-barcelona-2026",
       "name": "NetCoreConf Barcelona 2026",
       "cfpUrl": "https://sessionize.com/netcoreconf-barcelona-2026/",
@@ -184,29 +162,6 @@
       },
       "sources": [
         "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "zero-trust-kz-community-day-december-2026",
-      "name": "Zero Trust KZ Community Day - December 2026",
-      "cfpUrl": "https://sessionize.com/zerotrustkz-2026-12/",
-      "cfpClosingDate": "2026-11-16",
-      "eventStartDate": "2026-12-04",
-      "eventEndDate": "2026-12-04",
-      "eventUrl": "",
-      "location": "Almaty, Kazakhstan",
-      "region": "Asia-Pacific",
-      "categories": [
-        "AI & ML",
-        "Security"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
         "opentechcfps"
       ]
     },
@@ -384,7 +339,9 @@
       "location": "Alaior, Spain",
       "region": "Europe",
       "categories": [
-        "General Developer"
+        "AI & ML",
+        "Cloud Native & DevOps",
+        "Web & Mobile"
       ],
       "organizer": {
         "name": "Google Developer Groups",
@@ -911,7 +868,8 @@
         "parents": []
       },
       "sources": [
-        "developers.events"
+        "developers.events",
+        "conference-hall"
       ]
     },
     {
@@ -1066,7 +1024,8 @@
       "location": "Strasbourg, France",
       "region": "Europe",
       "categories": [
-        "General Developer"
+        "AI & ML",
+        "Cloud Native & DevOps"
       ],
       "organizer": {
         "name": "Google Developer Groups",
@@ -1074,7 +1033,8 @@
         "parents": []
       },
       "sources": [
-        "developers.events"
+        "developers.events",
+        "conference-hall"
       ]
     },
     {
@@ -1187,7 +1147,9 @@
       "location": "Актобе, Kazakhstan",
       "region": "Asia-Pacific",
       "categories": [
-        "General Developer"
+        "AI & ML",
+        "Cloud Native & DevOps",
+        "Web & Mobile"
       ],
       "organizer": {
         "name": "Google Developer Groups",
@@ -1209,7 +1171,9 @@
       "location": "Aswan, Egypt",
       "region": "Middle East & Africa",
       "categories": [
-        "General Developer"
+        "AI & ML",
+        "Cloud Native & DevOps",
+        "Web & Mobile"
       ],
       "organizer": {
         "name": "Google Developer Groups",
@@ -2403,7 +2367,9 @@
       "location": "Aix-en-Provence, France",
       "region": "Europe",
       "categories": [
-        "General Developer"
+        "AI & ML",
+        "Cloud Native & DevOps",
+        "Web & Mobile"
       ],
       "organizer": {
         "name": "Google Developer Groups",
@@ -2728,7 +2694,9 @@
       "location": "Essen, Germany",
       "region": "Europe",
       "categories": [
-        "General Developer"
+        "AI & ML",
+        "Cloud Native & DevOps",
+        "Web & Mobile"
       ],
       "organizer": {
         "name": "Google Developer Groups",
@@ -4004,7 +3972,7 @@
       "cfpClosingDate": "2026-12-15",
       "eventStartDate": "2027-04-15",
       "eventEndDate": "2027-04-15",
-      "eventUrl": "https://azureheroes.online/azure-heroes-retro",
+      "eventUrl": "https://azureheroes.online/retro",
       "location": "Netherlands",
       "region": "Europe",
       "categories": [
@@ -4016,31 +3984,6 @@
         "parents": []
       },
       "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "containerdays-ai-context-warsaw-2027",
-      "name": "ContainerDays AI Context Warsaw 2027",
-      "cfpUrl": "https://sessionize.com/containerdays-ai-context-warsaw-2027/",
-      "cfpClosingDate": "2026-12-15",
-      "eventStartDate": "2027-02-22",
-      "eventEndDate": "2027-02-23",
-      "eventUrl": "https://www.containerdays.io/containerdays-warsaw-2027/",
-      "location": "Warsaw, Poland",
-      "region": "Europe",
-      "categories": [
-        "AI & ML",
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
         "opentechcfps"
       ]
     },
@@ -5058,7 +5001,7 @@
       "cfpClosingDate": "2026-12-31",
       "eventStartDate": "2027-04-14",
       "eventEndDate": "2027-04-15",
-      "eventUrl": "https://www.devopsdays.ch/",
+      "eventUrl": "https://devopsdays.org/events/2027-zurich/",
       "location": "Winterthur, Switzerland",
       "region": "Europe",
       "categories": [
@@ -5070,6 +5013,7 @@
         "parents": []
       },
       "sources": [
+        "devopsdays",
         "developers.events",
         "callingallpapers",
         "opentechcfps"
@@ -5394,6 +5338,28 @@
       ]
     },
     {
+      "id": "web-days-convention",
+      "name": "Web Days Convention",
+      "cfpUrl": "https://conference-hall.io/web-days-convention",
+      "cfpClosingDate": "2026-12-31",
+      "eventStartDate": "2027-05-13",
+      "eventEndDate": "2027-05-13",
+      "eventUrl": "https://webdays.events/",
+      "location": "Aix-En-Provence, France",
+      "region": "Europe",
+      "categories": [
+        "Web & Mobile"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "conference-hall"
+      ]
+    },
+    {
       "id": "women-in-power-series",
       "name": "Women In Power Series",
       "cfpUrl": "https://sessionize.com/women-in-power-series/",
@@ -5511,11 +5477,11 @@
     {
       "id": "devopsdays-raleigh-2027",
       "name": "DevOpsDays Raleigh 2027",
-      "cfpUrl": "https://devopsdays.org/events/2027-raleigh/propose/",
+      "cfpUrl": "https://devopsdays.org/events/2027-raleigh/propose",
       "cfpClosingDate": "2027-01-01",
       "eventStartDate": "2027-04-27",
       "eventEndDate": "2027-04-28",
-      "eventUrl": "https://devopsdays.org/events/2027-raleigh",
+      "eventUrl": "https://devopsdays.org/events/2027-raleigh/",
       "location": "Raleigh, NC, USA",
       "region": "North America",
       "categories": [
@@ -5527,6 +5493,7 @@
         "parents": []
       },
       "sources": [
+        "devopsdays",
         "developers.events"
       ]
     },
@@ -5599,6 +5566,29 @@
       "sources": [
         "developers.events",
         "opentechcfps"
+      ]
+    },
+    {
+      "id": "ai-product-day-2027",
+      "name": "AI Product Day 2027",
+      "cfpUrl": "https://conference-hall.io/ai-product-day-2027",
+      "cfpClosingDate": "2027-01-03",
+      "eventStartDate": "2027-03-22",
+      "eventEndDate": "2027-03-22",
+      "eventUrl": "https://www.ai-product-day.com/",
+      "location": "Paris, France",
+      "region": "Europe",
+      "categories": [
+        "AI & ML",
+        "Agile & Leadership"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "conference-hall"
       ]
     },
     {
@@ -6715,6 +6705,7 @@
       },
       "sources": [
         "developers.events",
+        "conference-hall",
         "callingallpapers"
       ]
     },
@@ -6744,11 +6735,11 @@
     {
       "id": "devopsdays-atlanta-2027",
       "name": "DevOpsDays Atlanta 2027",
-      "cfpUrl": "https://talks.devopsdays.org/devopsdays-atlanta-2027/cfp",
+      "cfpUrl": "https://talks.devopsdays.org/devopsdays-atlanta-2027/",
       "cfpClosingDate": "2027-01-19",
       "eventStartDate": "2027-04-20",
       "eventEndDate": "2027-04-21",
-      "eventUrl": "https://devopsdays.org/events/2027-atlanta",
+      "eventUrl": "https://devopsdays.org/events/2027-atlanta/",
       "location": "Atlanta, GA, USA",
       "region": "North America",
       "categories": [
@@ -6760,6 +6751,7 @@
         "parents": []
       },
       "sources": [
+        "devopsdays",
         "developers.events"
       ]
     },
@@ -6950,6 +6942,28 @@
       "sources": [
         "developers.events",
         "callingallpapers"
+      ]
+    },
+    {
+      "id": "ng-baguette-conf-2027",
+      "name": "NG Baguette Conf 2027",
+      "cfpUrl": "https://conference-hall.io/ng-baguette-conf-2027",
+      "cfpClosingDate": "2027-01-29",
+      "eventStartDate": "2027-05-28",
+      "eventEndDate": "2027-05-28",
+      "eventUrl": "https://ngbaguette.angulardevs.fr/en/",
+      "location": "Paris, France",
+      "region": "Europe",
+      "categories": [
+        "Web & Mobile"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "conference-hall"
       ]
     },
     {
@@ -7468,13 +7482,13 @@
       ]
     },
     {
-      "id": "devopsdays-geneva",
-      "name": "Devopsdays Geneva",
-      "cfpUrl": "https://devopsdays-geneva.ch/cfp_submit.php",
+      "id": "devopsdays-geneva-2027",
+      "name": "DevOpsDays Geneva 2027",
+      "cfpUrl": "https://devopsdays.org/events/2027-geneva/propose",
       "cfpClosingDate": "2027-02-07",
       "eventStartDate": "2027-05-25",
       "eventEndDate": "2027-05-26",
-      "eventUrl": "https://devopsdays.org/events/2027-geneva",
+      "eventUrl": "https://devopsdays.org/events/2027-geneva/",
       "location": "Geneva, Switzerland",
       "region": "Europe",
       "categories": [
@@ -7486,6 +7500,7 @@
         "parents": []
       },
       "sources": [
+        "devopsdays",
         "developers.events"
       ]
     },
@@ -7735,6 +7750,54 @@
       "region": "North America",
       "categories": [
         "AI & ML"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events",
+        "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "polycloud-2027",
+      "name": "Polycloud 2027",
+      "cfpUrl": "https://conference-hall.io/polycloud-2027",
+      "cfpClosingDate": "2027-02-28",
+      "eventStartDate": "2027-05-22",
+      "eventEndDate": "2027-05-22",
+      "eventUrl": "https://polycloud.fr/",
+      "location": "Polytech Montpellier, France",
+      "region": "Europe",
+      "categories": [
+        "AI & ML",
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "conference-hall"
+      ]
+    },
+    {
+      "id": "containerdays-ai-context-warsaw-2027",
+      "name": "ContainerDays AI Context Warsaw 2027",
+      "cfpUrl": "https://sessionize.com/containerdays-ai-context-warsaw-2027/",
+      "cfpClosingDate": "2027-03-01",
+      "eventStartDate": "2027-02-22",
+      "eventEndDate": "2027-02-23",
+      "eventUrl": "https://www.containerdays.io/containerdays-warsaw-2027/",
+      "location": "Warsaw, Poland",
+      "region": "Europe",
+      "categories": [
+        "AI & ML",
+        "Cloud Native & DevOps"
       ],
       "organizer": {
         "name": "",
@@ -8162,7 +8225,8 @@
         "parents": []
       },
       "sources": [
-        "developers.events"
+        "developers.events",
+        "conference-hall"
       ]
     },
     {
@@ -8347,6 +8411,28 @@
       "sources": [
         "callingallpapers",
         "opentechcfps"
+      ]
+    },
+    {
+      "id": "devopsdays-cairo-2027",
+      "name": "DevOpsDays Cairo 2027",
+      "cfpUrl": "https://talks.devopsdays.org/devopsdays-cairo-2027/cfp",
+      "cfpClosingDate": "2027-07-25",
+      "eventStartDate": "2027-09-25",
+      "eventEndDate": "2027-09-25",
+      "eventUrl": "https://devopsdays.org/events/2027-cairo/",
+      "location": "Cairo, Egypt",
+      "region": "Middle East & Africa",
+      "categories": [
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "DevOpsDays",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "devopsdays"
       ]
     },
     {

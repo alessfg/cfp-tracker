@@ -26,6 +26,8 @@ jobs:
       - run: npm ci
 
       - name: Fetch CFP data
+        env:
+          GITHUB_TOKEN: ${{ github.token }} # avoids the GitHub API's anonymous rate limit
         run: node scripts/fetch-cfps.mjs
 
       - name: Commit updated data

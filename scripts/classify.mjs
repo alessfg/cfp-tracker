@@ -86,6 +86,31 @@ export function regionForCountry(country) {
   return COUNTRY_TO_REGION.get(key) || COUNTRY_TO_REGION.get(CITY_TO_COUNTRY[key]) || '';
 }
 
+// Rough boxes, [region, south, north, west, east], checked in order; the first
+// match wins, so narrow exceptions come before the continents around them.
+// Only used for sources that give coordinates but no country (devopsdays).
+const REGION_BOXES = [
+  ['Middle East & Africa', 12, 42, 34, 63], // Arabian Peninsula, Levant, Iran
+  ['Middle East & Africa', 19, 37.6, -18, 12], // Maghreb (north of the Africa box below)
+  ['North America', 25.8, 49.5, -106.6, -93.5], // Texas, whose Gulf coast reaches below Mexico's border
+  ['Latin America', 14.5, 32.7, -118, -86], // Mexico
+  ['Latin America', 7, 18, -92, -77], // Central America
+  ['Latin America', 10, 23.5, -85, -59], // Caribbean, south of Florida (Miami is 25.8 N)
+  ['Europe', 35, 72, -25, 45],
+  ['Middle East & Africa', -35, 37.5, -18, 52], // Africa
+  ['North America', 14.5, 84, -170, -50],
+  ['Latin America', -56, 33, -118, -34],
+  ['Asia-Pacific', -50, 56, 60, 180],
+  ['Asia-Pacific', 35, 56, 45, 60], // Central Asia
+];
+
+export function regionForCoordinates(coords) {
+  if (!coords) return '';
+  const [lat, lon] = coords;
+  const box = REGION_BOXES.find(([, s, n, w, e]) => lat >= s && lat <= n && lon >= w && lon <= e);
+  return box ? box[0] : '';
+}
+
 // Fallback for sources that give a timezone but no usable country.
 export function regionForTimezone(tz) {
   if (!tz) return '';
