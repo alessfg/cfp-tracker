@@ -7232,14 +7232,39 @@
       ]
     },
     {
+      "id": "kcd-bangkok-2027",
+      "name": "KCD Bangkok 2027",
+      "cfpUrl": "https://sessionize.com/kcd-bangkok-2027",
+      "cfpClosingDate": "2027-01-31",
+      "eventStartDate": "2027-03-25",
+      "eventEndDate": "2027-03-25",
+      "eventUrl": "https://ocgroups.dev/cncf/group/cncg-bkk",
+      "location": "Bangkok, Thailand",
+      "region": "Asia-Pacific",
+      "categories": [
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "CNCF Community",
+        "type": "community",
+        "parents": [
+          "CNCF",
+          "Linux Foundation"
+        ]
+      },
+      "sources": [
+        "manual"
+      ]
+    },
+    {
       "id": "kcd-texas-2027",
       "name": "KCD Texas 2027",
       "cfpUrl": "https://kcdtexas.org/2027/cfp/",
       "cfpClosingDate": "2027-01-31",
       "eventStartDate": "2027-04-23",
       "eventEndDate": "2027-04-23",
-      "eventUrl": "https://kcdtexas.org/2027/",
-      "location": "Austin, TX, USA",
+      "eventUrl": "https://kcdtexas.org/",
+      "location": "Dallas, TX, USA",
       "region": "North America",
       "categories": [
         "Cloud Native & DevOps"
@@ -7253,6 +7278,7 @@
         ]
       },
       "sources": [
+        "manual",
         "developers.events"
       ]
     },
