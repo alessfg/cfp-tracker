@@ -1,98 +1,6 @@
 {
-  "lastUpdated": "2026-11-17",
+  "lastUpdated": "2026-11-18",
   "cfps": [
-    {
-      "id": "net-conf-2026-en-espa-ol",
-      "name": ".NET Conf 2026 (En Español)",
-      "cfpUrl": "https://sessionize.com/dotnet-conf-2026",
-      "cfpClosingDate": "2026-11-17",
-      "eventStartDate": "2026-11-25",
-      "eventEndDate": "2026-11-25",
-      "eventUrl": "https://www.meetup.com/virtualdevshow/events/316451194",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "Programming Languages",
-        "Microsoft Ecosystem"
-      ],
-      "organizer": {
-        "name": "Microsoft Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "global-security-bootcamp-melbourne-2026",
-      "name": "Global Security Bootcamp Melbourne 2026",
-      "cfpUrl": "https://sessionize.com/global-security-bootcamp-melbourne-20261177/",
-      "cfpClosingDate": "2026-11-17",
-      "eventStartDate": "2026-11-30",
-      "eventEndDate": "2026-11-30",
-      "eventUrl": "https://globalsecurity.community/events/global-security-bootcamp-melbourne-2026-nov/",
-      "location": "Melbourne, Australia",
-      "region": "Asia-Pacific",
-      "categories": [
-        "Security"
-      ],
-      "organizer": {
-        "name": "Microsoft Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "pdug-2026-in-cracow",
-      "name": "PDUG 2026 in Cracow",
-      "cfpUrl": "https://sessionize.com/pdug-2026-in-cracow",
-      "cfpClosingDate": "2026-11-17",
-      "eventStartDate": "2026-11-19",
-      "eventEndDate": "2026-11-20",
-      "eventUrl": "https://www.pdug.pl/event/pdug-2026-in-krakow",
-      "location": "Kraków, Poland",
-      "region": "Europe",
-      "categories": [
-        "Other"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "agentic-ai-engineering-summit-2026-casablanca",
-      "name": "Agentic AI Engineering Summit 2026 - Casablanca",
-      "cfpUrl": "https://sessionize.com/ai-engineering-summit-2026/",
-      "cfpClosingDate": "2026-11-18",
-      "eventStartDate": "2026-12-18",
-      "eventEndDate": "2026-12-19",
-      "eventUrl": "https://cloudengineeringsummit.org/",
-      "location": "Casablanca, Morocco",
-      "region": "Middle East & Africa",
-      "categories": [
-        "AI & ML"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
     {
       "id": "f2-future-of-fintech-2026",
       "name": "F2 - Future of Fintech 2026",
@@ -104,7 +12,7 @@
       "location": "Zagreb, Croatia",
       "region": "Europe",
       "categories": [
-        "AI & ML"
+        "Other"
       ],
       "organizer": {
         "name": "",
@@ -112,9 +20,7 @@
         "parents": []
       },
       "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
+        "developers.events"
       ]
     },
     {
@@ -220,7 +126,7 @@
       "eventStartDate": "2027-01-14",
       "eventEndDate": "2027-01-16",
       "eventUrl": "https://upstream.snowxa.com/",
-      "location": "San Francisco, CA",
+      "location": "San Francisco, CA, USA",
       "region": "North America",
       "categories": [
         "Open Source & Linux"
@@ -231,6 +137,7 @@
         "parents": []
       },
       "sources": [
+        "developers.events",
         "callingallpapers"
       ]
     },
@@ -1562,28 +1469,6 @@
       ]
     },
     {
-      "id": "2027-acsa-lead-with-pride-summit",
-      "name": "2027 ACSA Lead With Pride Summit",
-      "cfpUrl": "https://sessionize.com/acsa-2027-lead-with-pride-summit/",
-      "cfpClosingDate": "2026-11-30",
-      "eventStartDate": "2027-03-24",
-      "eventEndDate": "2027-03-26",
-      "eventUrl": "https://cvent.me/lKQWGr?RefId=Sessionize+Link",
-      "location": "Long Beach, CA, USA",
-      "region": "North America",
-      "categories": [
-        "Other"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
       "id": "2027-ispe-nordic-affiliate-annual-meeting-from-insight-to-impact",
       "name": "2027 ISPE Nordic Affiliate Annual Meeting - From Insight to Impact",
       "cfpUrl": "https://sessionize.com/2027-Nordic-Annual-Meeting/",
@@ -2712,7 +2597,7 @@
     {
       "id": "openvt-summit",
       "name": "OpenVT Summit",
-      "cfpUrl": "https://sessionize.com/openvt-summit/",
+      "cfpUrl": "https://sessionize.com/openvt-summit",
       "cfpClosingDate": "2026-12-01",
       "eventStartDate": "2027-02-10",
       "eventEndDate": "2027-02-11",
@@ -2728,6 +2613,7 @@
         "parents": []
       },
       "sources": [
+        "callingallpapers",
         "opentechcfps"
       ]
     },
@@ -3397,29 +3283,6 @@
       },
       "sources": [
         "developers.events"
-      ]
-    },
-    {
-      "id": "agentic-ai-engineering-summit-casablanca",
-      "name": "Agentic AI Engineering Summit - Casablanca",
-      "cfpUrl": "https://sessionize.com/ai-engineering-summit-2027",
-      "cfpClosingDate": "2026-12-07",
-      "eventStartDate": "2027-01-23",
-      "eventEndDate": "2027-01-23",
-      "eventUrl": "https://cloudengineeringsummit.org/",
-      "location": "Casablanca, Morocco",
-      "region": "Middle East & Africa",
-      "categories": [
-        "AI & ML"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
       ]
     },
     {
@@ -4380,6 +4243,28 @@
       ]
     },
     {
+      "id": "owasp-snowfroc-2027-call-for-trainers",
+      "name": "OWASP SnowFROC 2027 - Call for Trainers",
+      "cfpUrl": "https://sessionize.com/owasp-snowfroc-2027-cft/",
+      "cfpClosingDate": "2026-12-20",
+      "eventStartDate": "2027-03-24",
+      "eventEndDate": "2027-03-25",
+      "eventUrl": "https://snowfroc.com/",
+      "location": "Denver, CO, USA",
+      "region": "North America",
+      "categories": [
+        "Security"
+      ],
+      "organizer": {
+        "name": "OWASP Foundation",
+        "type": "foundation",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "pycon-de-2027",
       "name": "PyCon DE 2027",
       "cfpUrl": "https://pretalx.com/pyconde-2027/cfp",
@@ -4516,6 +4401,29 @@
       },
       "sources": [
         "developers.events",
+        "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "agentic-ai-engineering-summit-casablanca",
+      "name": "Agentic AI Engineering Summit - Casablanca",
+      "cfpUrl": "https://sessionize.com/ai-engineering-summit-2027",
+      "cfpClosingDate": "2026-12-27",
+      "eventStartDate": "2027-01-23",
+      "eventEndDate": "2027-01-23",
+      "eventUrl": "https://cloudengineeringsummit.org/",
+      "location": "Casablanca, Morocco",
+      "region": "Middle East & Africa",
+      "categories": [
+        "AI & ML"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
         "callingallpapers",
         "opentechcfps"
       ]
@@ -4777,15 +4685,40 @@
       ]
     },
     {
-      "id": "cloud-native-amsterdam",
-      "name": "Cloud Native Amsterdam",
-      "cfpUrl": "https://sessionize.com/cloud-native-amsterdam/",
+      "id": "cityai-by-cityjs-conference",
+      "name": "CityAI by CityJS Conference",
+      "cfpUrl": "https://sessionize.com/cityai2027/",
       "cfpClosingDate": "2026-12-31",
-      "eventStartDate": "2026-11-18",
-      "eventEndDate": "2026-11-18",
-      "eventUrl": "https://ocgroups.dev/cncf/group/v62fy27",
-      "location": "Netherlands",
+      "eventStartDate": "2027-04-21",
+      "eventEndDate": "2027-04-23",
+      "eventUrl": "https://london.cityaiconf.org/",
+      "location": "London, UK",
       "region": "Europe",
+      "categories": [
+        "Data & Databases",
+        "Programming Languages",
+        "Web & Mobile"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events",
+        "callingallpapers"
+      ]
+    },
+    {
+      "id": "cloud-native-mexico-city",
+      "name": "Cloud Native Mexico City",
+      "cfpUrl": "https://sessionize.com/cloud-native-mexico-city/",
+      "cfpClosingDate": "2026-12-31",
+      "eventStartDate": "2026-12-01",
+      "eventEndDate": "2026-12-09",
+      "eventUrl": "https://ocgroups.dev/cncf/group/e5vgp72",
+      "location": "Virtual",
+      "region": "Virtual",
       "categories": [
         "Cloud Native & DevOps"
       ],
@@ -4942,6 +4875,28 @@
         "devopsdays",
         "developers.events",
         "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "dsm-ai-group",
+      "name": "DSM AI Group",
+      "cfpUrl": "https://sessionize.com/dsm-ai-group/",
+      "cfpClosingDate": "2026-12-31",
+      "eventStartDate": "2026-12-15",
+      "eventEndDate": "2026-12-15",
+      "eventUrl": "https://www.meetup.com/des-moines-artificial-intelligence-group/",
+      "location": "Des Moines, IA, USA",
+      "region": "North America",
+      "categories": [
+        "AI & ML"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
         "opentechcfps"
       ]
     },
@@ -6130,8 +6085,53 @@
       ]
     },
     {
-      "id": "cityai-2027",
-      "name": "CityAI 2027",
+      "id": "2027-acsa-lead-with-pride-summit",
+      "name": "2027 ACSA Lead With Pride Summit",
+      "cfpUrl": "https://sessionize.com/acsa-2027-lead-with-pride-summit/",
+      "cfpClosingDate": "2027-01-15",
+      "eventStartDate": "2027-03-24",
+      "eventEndDate": "2027-03-26",
+      "eventUrl": "https://cvent.me/lKQWGr?RefId=Sessionize+Link",
+      "location": "Long Beach, CA, USA",
+      "region": "North America",
+      "categories": [
+        "Other"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "cityai-london-2027",
+      "name": "CityAI London 2027",
+      "cfpUrl": "https://sessionize.com/cityai2027/",
+      "cfpClosingDate": "2027-01-15",
+      "eventStartDate": "2027-04-21",
+      "eventEndDate": "2027-04-23",
+      "eventUrl": "https://london.cityjsconf.org/",
+      "location": "London, United Kingdom",
+      "region": "Europe",
+      "categories": [
+        "AI & ML",
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "cityjs-2027",
+      "name": "CityJS 2027",
       "cfpUrl": "https://sessionize.com/cityai2027/",
       "cfpClosingDate": "2027-01-15",
       "eventStartDate": "2027-04-21",
@@ -6140,10 +6140,7 @@
       "location": "London, UK",
       "region": "Europe",
       "categories": [
-        "AI & ML",
-        "Data & Databases",
-        "Programming Languages",
-        "Web & Mobile"
+        "Other"
       ],
       "organizer": {
         "name": "",
@@ -6151,9 +6148,7 @@
         "parents": []
       },
       "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
+        "developers.events"
       ]
     },
     {
@@ -6210,8 +6205,8 @@
       "name": "ISPE Nordic Quality Summit 2027",
       "cfpUrl": "https://sessionize.com/ispe-nordic-quality-summit-2027/",
       "cfpClosingDate": "2027-01-15",
-      "eventStartDate": "2027-04-12",
-      "eventEndDate": "2027-04-13",
+      "eventStartDate": "2027-04-06",
+      "eventEndDate": "2027-04-07",
       "eventUrl": "",
       "location": "Göteborg, Sweden",
       "region": "Europe",
@@ -6225,6 +6220,28 @@
       },
       "sources": [
         "opentechcfps"
+      ]
+    },
+    {
+      "id": "juliacon-2027",
+      "name": "JuliaCon 2027",
+      "cfpUrl": "https://pretalx.com/juliacon-2027/cfp",
+      "cfpClosingDate": "2027-01-15",
+      "eventStartDate": "2027-08-09",
+      "eventEndDate": "2027-08-14",
+      "eventUrl": "https://pretalx.com/juliacon-2027/",
+      "location": "Rhineland Palatinate, Germany",
+      "region": "Europe",
+      "categories": [
+        "Other"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events"
       ]
     },
     {
@@ -6661,6 +6678,28 @@
       ]
     },
     {
+      "id": "owasp-snowfroc-2027-speakers",
+      "name": "OWASP SnowFROC 2027 (Speakers)",
+      "cfpUrl": "https://sessionize.com/owasp-snowfroc-2027-cfp/",
+      "cfpClosingDate": "2027-01-18",
+      "eventStartDate": "2027-03-24",
+      "eventEndDate": "2027-03-25",
+      "eventUrl": "https://snowfroc.com/",
+      "location": "Denver, CO, USA",
+      "region": "North America",
+      "categories": [
+        "Security"
+      ],
+      "organizer": {
+        "name": "OWASP Foundation",
+        "type": "foundation",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "write-the-docs-portland-2027",
       "name": "Write the Docs Portland 2027",
       "cfpUrl": "https://pretalx.com/wtd-portland-2027/cfp",
@@ -6753,9 +6792,31 @@
       ]
     },
     {
+      "id": "powerplatform-bootcamp-valencia-2027",
+      "name": "Powerplatform Bootcamp - Valencia 2027",
+      "cfpUrl": "https://sessionize.com/powerplatform-bootcamp-valencia-2027/",
+      "cfpClosingDate": "2027-01-21",
+      "eventStartDate": "2027-02-19",
+      "eventEndDate": "2027-02-20",
+      "eventUrl": "https://www.powerplatformbootcamp.com/2027/location-detail/?id=73d3eaec-5bc1-f111-aad2-000d3ae9a84f&city=Valencia",
+      "location": "Valencia, Spain",
+      "region": "Europe",
+      "categories": [
+        "Microsoft Ecosystem"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "2027-global-power-platform-bootcamp-south-africa",
       "name": "2027 Global Power Platform Bootcamp South Africa",
-      "cfpUrl": "https://sessionize.com/2027-global-power-platform-bootcamp-SA/",
+      "cfpUrl": "https://sessionize.com/2027-global-power-platform-bootcamp-SA",
       "cfpClosingDate": "2027-01-23",
       "eventStartDate": "2027-03-06",
       "eventEndDate": "2027-03-06",
@@ -6771,6 +6832,7 @@
         "parents": []
       },
       "sources": [
+        "callingallpapers",
         "opentechcfps"
       ]
     },
@@ -6848,7 +6910,7 @@
     {
       "id": "les-rencontres-du-pmi-2027",
       "name": "Les Rencontres du PMI 2027",
-      "cfpUrl": "https://sessionize.com/les-rencontres-du-pmi-2027/",
+      "cfpUrl": "https://sessionize.com/les-rencontres-du-pmi-2027",
       "cfpClosingDate": "2027-01-25",
       "eventStartDate": "2027-05-17",
       "eventEndDate": "2027-05-18",
@@ -6864,6 +6926,7 @@
         "parents": []
       },
       "sources": [
+        "callingallpapers",
         "opentechcfps"
       ]
     },
@@ -7007,6 +7070,28 @@
       ]
     },
     {
+      "id": "azure-in-the-atl",
+      "name": "Azure in the ATL",
+      "cfpUrl": "https://sessionize.com/azure-in-the-atl/",
+      "cfpClosingDate": "2027-01-30",
+      "eventStartDate": "2026-12-22",
+      "eventEndDate": "2026-12-22",
+      "eventUrl": "https://www.meetup.com/Azure-in-the-ATL",
+      "location": "Atlanta, GA, USA",
+      "region": "North America",
+      "categories": [
+        "Microsoft Ecosystem"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "melbourne-data-saturday-2027",
       "name": "Melbourne Data Saturday 2027",
       "cfpUrl": "https://sessionize.com/melbourne-data-saturday-2027/",
@@ -7028,6 +7113,28 @@
       "sources": [
         "developers.events",
         "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "ai-conf-2027",
+      "name": "AI Conf 2027",
+      "cfpUrl": "https://sessionize.com/ai-conf-2027/",
+      "cfpClosingDate": "2027-01-31",
+      "eventStartDate": "2027-06-24",
+      "eventEndDate": "2027-06-24",
+      "eventUrl": "https://www.aiconf.it/",
+      "location": "Milan, Italy",
+      "region": "Europe",
+      "categories": [
+        "AI & ML"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
         "opentechcfps"
       ]
     },
@@ -7547,6 +7654,28 @@
       ]
     },
     {
+      "id": "devopsdays-baltimore-2027",
+      "name": "DevOpsDays Baltimore 2027",
+      "cfpUrl": "https://talks.devopsdays.org/devopsdays-baltimore-2027/cfp",
+      "cfpClosingDate": "2027-02-15",
+      "eventStartDate": "2027-05-18",
+      "eventEndDate": "2027-05-19",
+      "eventUrl": "https://devopsdays.org/events/2027-baltimore/",
+      "location": "Baltimore, MD, USA",
+      "region": "North America",
+      "categories": [
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "DevOpsDays",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "devopsdays"
+      ]
+    },
+    {
       "id": "foss-north-2027",
       "name": "foss-north 2027",
       "cfpUrl": "https://foss-north.se/events/2027/callforpapers/",
@@ -7588,6 +7717,28 @@
       },
       "sources": [
         "developers.events"
+      ]
+    },
+    {
+      "id": "the-hidden-costs-of-ai-and-the-price-of-dependence-road-to-geneva-paris",
+      "name": "The hidden costs of AI and the price of dependence (Road to Geneva, Paris)",
+      "cfpUrl": "https://sessionize.com/hidden-costs-of-ai-2027/",
+      "cfpClosingDate": "2027-02-15",
+      "eventStartDate": "2027-06-10",
+      "eventEndDate": "2027-06-10",
+      "eventUrl": "https://groupement-numerique.fr/road-to-geneva",
+      "location": "Paris, France",
+      "region": "Europe",
+      "categories": [
+        "AI & ML"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
       ]
     },
     {
@@ -8037,8 +8188,8 @@
       ]
     },
     {
-      "id": "day-of-data-jacksonville-2027",
-      "name": "Day of Data Jacksonville 2027",
+      "id": "day-of-data-2027",
+      "name": "Day of Data 2027",
       "cfpUrl": "https://sessionize.com/day-of-data-jacksonville-2027/",
       "cfpClosingDate": "2027-03-31",
       "eventStartDate": "2027-05-14",
@@ -8055,6 +8206,7 @@
         "parents": []
       },
       "sources": [
+        "developers.events",
         "opentechcfps"
       ]
     },
@@ -8155,13 +8307,13 @@
     },
     {
       "id": "aws-community-summit-birmingham-2027",
-      "name": "AWS Community Summit - Birmingham 2027",
+      "name": "AWS Community Summit Birmingham 2027",
       "cfpUrl": "https://sessionize.com/aws-community-summit-birmingham-20266087/",
       "cfpClosingDate": "2027-04-29",
       "eventStartDate": "2027-06-24",
       "eventEndDate": "2027-06-24",
       "eventUrl": "https://www.comsum.co.uk/brum-27",
-      "location": "Birmingham, United Kingdom",
+      "location": "Birmingham, UK",
       "region": "Europe",
       "categories": [
         "Cloud Native & DevOps"
@@ -8172,6 +8324,7 @@
         "parents": []
       },
       "sources": [
+        "developers.events",
         "opentechcfps"
       ]
     },
@@ -8276,7 +8429,7 @@
       "cfpClosingDate": "2027-05-17",
       "eventStartDate": "2027-05-31",
       "eventEndDate": "2027-06-01",
-      "eventUrl": "https://momentera.org/conference/unhacked-360-germany-futuresec-world-summit",
+      "eventUrl": "https://momentera.org/conference/avarqon-global-security-technology-summit",
       "location": "Berlin",
       "region": "Europe",
       "categories": [
