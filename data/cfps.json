@@ -1,100 +1,6 @@
 {
-  "lastUpdated": "2026-11-19",
+  "lastUpdated": "2026-11-20",
   "cfps": [
-    {
-      "id": "net-conf-2026-ahmedabad",
-      "name": ".NET Conf 2026 Ahmedabad",
-      "cfpUrl": "https://sessionize.com/net-conf-2026-ahmedabad-in-person/",
-      "cfpClosingDate": "2026-11-19",
-      "eventStartDate": "2026-11-28",
-      "eventEndDate": "2026-11-28",
-      "eventUrl": "https://www.meetup.com/m365ahmedabad/events/317280748/",
-      "location": "Ahmedabad, India",
-      "region": "Asia-Pacific",
-      "categories": [
-        "Programming Languages",
-        "Microsoft Ecosystem"
-      ],
-      "organizer": {
-        "name": "Microsoft Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "devfest-menorca-2026",
-      "name": "DevFest Menorca 2026",
-      "cfpUrl": "https://app.advocu.com/events/6a9ffed04f57bc69c8b5a33f",
-      "cfpClosingDate": "2026-11-19",
-      "eventStartDate": "2026-12-18",
-      "eventEndDate": "2026-12-18",
-      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-menorca-presents-devfest-menorca-2026/",
-      "location": "Alaior, Spain",
-      "region": "Europe",
-      "categories": [
-        "AI & ML",
-        "Cloud Native & DevOps",
-        "Web & Mobile"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events"
-      ]
-    },
-    {
-      "id": "inted",
-      "name": "INTED",
-      "cfpUrl": "https://iated.org/inted/call_for_abstracts",
-      "cfpClosingDate": "2026-11-19",
-      "eventStartDate": "2027-03-09",
-      "eventEndDate": "2027-03-11",
-      "eventUrl": "https://iated.org/inted",
-      "location": "Valencia, Spain",
-      "region": "Europe",
-      "categories": [
-        "General Developer"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers"
-      ]
-    },
-    {
-      "id": "upstream",
-      "name": "Upstream",
-      "cfpUrl": "https://upstream.snowxa.com/submissions",
-      "cfpClosingDate": "2026-11-19",
-      "eventStartDate": "2027-01-14",
-      "eventEndDate": "2027-01-16",
-      "eventUrl": "https://upstream.snowxa.com/",
-      "location": "San Francisco, CA, USA",
-      "region": "North America",
-      "categories": [
-        "Open Source & Linux"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers"
-      ]
-    },
     {
       "id": "apres-cyber-slopes-summit-2027",
       "name": "Apres-Cyber Slopes Summit 2027",
@@ -469,29 +375,6 @@
       },
       "sources": [
         "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "devfest-santa-b-rbara-2026",
-      "name": "DevFest Santa Bárbara 2026",
-      "cfpUrl": "https://sessionize.com/devfest-santa-barbara-2026",
-      "cfpClosingDate": "2026-11-21",
-      "eventStartDate": "2026-12-13",
-      "eventEndDate": "2026-12-13",
-      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-santa-barbara-presents-devfest-santa-barbara-2026",
-      "location": "Villanueva, Honduras",
-      "region": "Latin America",
-      "categories": [
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
         "callingallpapers",
         "opentechcfps"
       ]
@@ -1064,6 +947,28 @@
       ]
     },
     {
+      "id": "global-ai-nights-chennai",
+      "name": "Global AI Nights - Chennai",
+      "cfpUrl": "https://sessionize.com/globalainightschennai/",
+      "cfpClosingDate": "2026-11-27",
+      "eventStartDate": "2026-12-05",
+      "eventEndDate": "2026-12-05",
+      "eventUrl": "https://globalai.community/e/rbbi27ie",
+      "location": "Virtual",
+      "region": "Virtual",
+      "categories": [
+        "AI & ML"
+      ],
+      "organizer": {
+        "name": "Microsoft Community",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "global-ai-nights-sofia-2026",
       "name": "Global AI Nights Sofia 2026",
       "cfpUrl": "https://sessionize.com/gloabal-ai-nights-sofia/",
@@ -1273,8 +1178,7 @@
       },
       "sources": [
         "developers.events",
-        "callingallpapers",
-        "opentechcfps"
+        "callingallpapers"
       ]
     },
     {
@@ -1960,6 +1864,29 @@
       ]
     },
     {
+      "id": "devfest-santa-b-rbara-2026",
+      "name": "DevFest Santa Bárbara 2026",
+      "cfpUrl": "https://sessionize.com/devfest-santa-barbara-2026",
+      "cfpClosingDate": "2026-11-30",
+      "eventStartDate": "2026-12-13",
+      "eventEndDate": "2026-12-13",
+      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-santa-barbara-presents-devfest-santa-barbara-2026",
+      "location": "Villanueva, Honduras",
+      "region": "Latin America",
+      "categories": [
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "Google Developer Groups",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "devoxx-greece",
       "name": "Devoxx Greece",
       "cfpUrl": "https://dvgr27.cfp.dev/",
@@ -2118,6 +2045,28 @@
       },
       "sources": [
         "developers.events"
+      ]
+    },
+    {
+      "id": "gdg-devfest-surat-2026",
+      "name": "GDG DevFest Surat 2026",
+      "cfpUrl": "https://sessionize.com/gdg-devfest-surat-2026/",
+      "cfpClosingDate": "2026-11-30",
+      "eventStartDate": "2026-12-20",
+      "eventEndDate": "2026-12-20",
+      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-surat-presents-gdg-devfest-surat-2026/",
+      "location": "Surat, India",
+      "region": "Asia-Pacific",
+      "categories": [
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "Google Developer Groups",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
       ]
     },
     {
@@ -2537,28 +2486,6 @@
       "sources": [
         "developers.events",
         "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "global-ai-nights-chennai",
-      "name": "Global AI Nights - Chennai",
-      "cfpUrl": "https://sessionize.com/globalainightschennai/",
-      "cfpClosingDate": "2026-12-01",
-      "eventStartDate": "2026-12-12",
-      "eventEndDate": "2026-12-12",
-      "eventUrl": "https://globalai.community/e/rbbi27ie",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "AI & ML"
-      ],
-      "organizer": {
-        "name": "Microsoft Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
         "opentechcfps"
       ]
     },
@@ -3914,6 +3841,28 @@
       ]
     },
     {
+      "id": "ai-fokus-2027",
+      "name": "AI fokus 2027",
+      "cfpUrl": "https://sessionize.com/ai-fokus-2027/",
+      "cfpClosingDate": "2026-12-18",
+      "eventStartDate": "2027-05-17",
+      "eventEndDate": "2027-05-18",
+      "eventUrl": "https://www.ai-fokus.se/",
+      "location": "Stockholm, Sweden",
+      "region": "Europe",
+      "categories": [
+        "AI & ML"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "appdevcon",
       "name": "Appdevcon",
       "cfpUrl": "https://sessionize.com/dawn-conferences-2027/",
@@ -4354,7 +4303,7 @@
     {
       "id": "sugcon-europe-2027",
       "name": "SUGCON Europe 2027",
-      "cfpUrl": "https://sessionize.com/sugcon-europe-2027/",
+      "cfpUrl": "https://sessionize.com/sugcon-europe-2027",
       "cfpClosingDate": "2026-12-20",
       "eventStartDate": "2027-04-15",
       "eventEndDate": "2027-04-16",
@@ -4370,6 +4319,7 @@
         "parents": []
       },
       "sources": [
+        "callingallpapers",
         "opentechcfps"
       ]
     },
@@ -4395,6 +4345,28 @@
       "sources": [
         "developers.events",
         "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "the-linux-foundation-member-summit-2027",
+      "name": "The Linux Foundation Member Summit 2027",
+      "cfpUrl": "https://sessionize.com/lfms_2027/",
+      "cfpClosingDate": "2026-12-21",
+      "eventStartDate": "2027-02-22",
+      "eventEndDate": "2027-02-23",
+      "eventUrl": "https://events.linuxfoundation.org/lf-member-summit/",
+      "location": "Half Moon Bay, CA, USA",
+      "region": "North America",
+      "categories": [
+        "Open Source & Linux"
+      ],
+      "organizer": {
+        "name": "Linux Foundation",
+        "type": "foundation",
+        "parents": []
+      },
+      "sources": [
         "opentechcfps"
       ]
     },
@@ -5165,6 +5137,29 @@
       },
       "sources": [
         "developers.events",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "null-dallas",
+      "name": "null Dallas",
+      "cfpUrl": "https://sessionize.com/null-dallas9421/",
+      "cfpClosingDate": "2026-12-31",
+      "eventStartDate": "2026-12-05",
+      "eventEndDate": "2026-12-05",
+      "eventUrl": "https://luma.com/4zexuckx",
+      "location": "Dallas, TX, USA",
+      "region": "North America",
+      "categories": [
+        "Security",
+        "Web & Mobile"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
         "opentechcfps"
       ]
     },
@@ -6879,6 +6874,29 @@
       },
       "sources": [
         "developers.events"
+      ]
+    },
+    {
+      "id": "2027-atpe-summit",
+      "name": "2027 ATPE Summit",
+      "cfpUrl": "https://sessionize.com/ATPESummit27",
+      "cfpClosingDate": "2027-01-19",
+      "eventStartDate": "2027-07-12",
+      "eventEndDate": "2027-07-14",
+      "eventUrl": "https://atpe.org/summit",
+      "location": "Arlington, Texas, United States",
+      "region": "North America",
+      "categories": [
+        "AI & ML"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "callingallpapers",
+        "opentechcfps"
       ]
     },
     {
