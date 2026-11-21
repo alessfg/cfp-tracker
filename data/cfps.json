@@ -1,288 +1,6 @@
 {
-  "lastUpdated": "2026-11-20",
+  "lastUpdated": "2026-11-21",
   "cfps": [
-    {
-      "id": "apres-cyber-slopes-summit-2027",
-      "name": "Apres-Cyber Slopes Summit 2027",
-      "cfpUrl": "https://sessionize.com/apres-cyber-slopes-summit-2027/",
-      "cfpClosingDate": "2026-11-20",
-      "eventStartDate": "2027-02-24",
-      "eventEndDate": "2027-02-26",
-      "eventUrl": "http://aprescyber.com/",
-      "location": "Park City, UT, USA",
-      "region": "North America",
-      "categories": [
-        "Security"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "aria-community",
-      "name": "ARIA Community",
-      "cfpUrl": "https://sessionize.com/ARIACommunity/",
-      "cfpClosingDate": "2026-11-20",
-      "eventStartDate": "2026-11-20",
-      "eventEndDate": "2026-11-20",
-      "eventUrl": "https://ariacommunity.com/",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "Web & Mobile"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "artificialmente",
-      "name": "ARTIFICIALMENTE",
-      "cfpUrl": "https://sessionize.com/azuremeetuptorino-gam-26/",
-      "cfpClosingDate": "2026-11-20",
-      "eventStartDate": "2026-12-11",
-      "eventEndDate": "2026-12-11",
-      "eventUrl": "https://torino.azuremeetup.it/",
-      "location": "Turin, Italy",
-      "region": "Europe",
-      "categories": [
-        "AI & ML",
-        "Microsoft Ecosystem"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "aws-community-day-nigeria-2026",
-      "name": "AWS Community Day Nigeria 2026",
-      "cfpUrl": "https://sessionize.com/aws-community-day-nigeria-2026/",
-      "cfpClosingDate": "2026-11-20",
-      "eventStartDate": "2026-12-12",
-      "eventEndDate": "2026-12-12",
-      "eventUrl": "http://www.awswomensusergroupportharcourt.org/",
-      "location": "Port Harcourt, Nigeria",
-      "region": "Middle East & Africa",
-      "categories": [
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "AWS Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "aws-student-community-day-2026",
-      "name": "AWS Student Community Day 2026",
-      "cfpUrl": "https://sessionize.com/aws-student-community-day-salvador/",
-      "cfpClosingDate": "2026-11-20",
-      "eventStartDate": "2026-11-28",
-      "eventEndDate": "2026-11-28",
-      "eventUrl": "https://www.awsclubsenai.com.br/events/aws-student-community-day",
-      "location": "Salvador, Brazil",
-      "region": "Latin America",
-      "categories": [
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "AWS Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "devfest-kosova-2026",
-      "name": "DevFest Kosova 2026",
-      "cfpUrl": "https://sessionize.com/devfest-kosova-2026",
-      "cfpClosingDate": "2026-11-20",
-      "eventStartDate": "2026-12-04",
-      "eventEndDate": "2026-12-05",
-      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-prishtina-presents-devfest-kosova-2026",
-      "location": "Pristina, Kosovo",
-      "region": "Europe",
-      "categories": [
-        "General Developer"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers"
-      ]
-    },
-    {
-      "id": "devfest-singapore-2026",
-      "name": "DevFest Singapore 2026",
-      "cfpUrl": "https://sessionize.com/devfest-singapore-2026/",
-      "cfpClosingDate": "2026-11-20",
-      "eventStartDate": "2026-11-28",
-      "eventEndDate": "2026-11-28",
-      "eventUrl": "https://luma.com/gdgsg-devfest26",
-      "location": "Singapore",
-      "region": "Asia-Pacific",
-      "categories": [
-        "Web & Mobile"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers"
-      ]
-    },
-    {
-      "id": "devon-and-cornwall-power-platform-user-group-christmas-event-virtual",
-      "name": "Devon and Cornwall Power Platform User Group | Christmas Event | Virtual",
-      "cfpUrl": "https://sessionize.com/devon-and-cornwall-ppug-q4",
-      "cfpClosingDate": "2026-11-20",
-      "eventStartDate": "2026-12-03",
-      "eventEndDate": "2026-12-03",
-      "eventUrl": "https://community.powerplatform.com/usergroups/eventdetails",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "Meetups",
-        "Microsoft Ecosystem"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "jconf-peru-2026",
-      "name": "JCONF PERU 2026",
-      "cfpUrl": "https://sessionize.com/jconf-peru-2026",
-      "cfpClosingDate": "2026-11-20",
-      "eventStartDate": "2026-11-28",
-      "eventEndDate": "2026-11-28",
-      "eventUrl": "https://www.jconfperu.com/",
-      "location": "Lima, Peru",
-      "region": "Latin America",
-      "categories": [
-        "Programming Languages"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "net-conf-online-2026",
-      "name": "NET Conf Online 2026",
-      "cfpUrl": "https://sessionize.com/net-conf-2026-net-baires/",
-      "cfpClosingDate": "2026-11-20",
-      "eventStartDate": "2026-11-25",
-      "eventEndDate": "2026-11-25",
-      "eventUrl": "https://www.meetup.com/es/net-baires/events/311541156/",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "Programming Languages"
-      ],
-      "organizer": {
-        "name": "Microsoft Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "power-bi-fabric-barcelona-desembre-2026-powered-by-isolutions",
-      "name": "Power BI & Fabric Barcelona – Desembre 2026 (Powered by isolutions)",
-      "cfpUrl": "https://sessionize.com/power-bi-fabric-barcelona-desembre-2026",
-      "cfpClosingDate": "2026-11-20",
-      "eventStartDate": "2026-12-15",
-      "eventEndDate": "2026-12-15",
-      "eventUrl": "https://www.meetup.com/es-es/power-bi-barcelona",
-      "location": "Barcelona",
-      "region": "Europe",
-      "categories": [
-        "Data & Databases",
-        "Microsoft Ecosystem"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "sugcon-global-online-2027",
-      "name": "SUGCON Global Online 2027",
-      "cfpUrl": "https://sessionize.com/sugcon-global-virtual-2027/",
-      "cfpClosingDate": "2026-11-20",
-      "eventStartDate": "2027-01-17",
-      "eventEndDate": "2027-01-17",
-      "eventUrl": "https://virtual.sugcon.events/",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "Open Source & Linux"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
     {
       "id": "net-azure-meetup-tajerska-december-2026",
       "name": ".NET & Azure Meetup Štajerska - December 2026",
@@ -351,30 +69,6 @@
         "parents": []
       },
       "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "devfest-pune-2026",
-      "name": "Devfest Pune 2026",
-      "cfpUrl": "https://sessionize.com/devfest-pune-2026/",
-      "cfpClosingDate": "2026-11-21",
-      "eventStartDate": "2026-12-13",
-      "eventEndDate": "2026-12-13",
-      "eventUrl": "https://devfest.gdgpune.in/",
-      "location": "Pune, India",
-      "region": "Asia-Pacific",
-      "categories": [
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
         "callingallpapers",
         "opentechcfps"
       ]
@@ -497,6 +191,30 @@
       ]
     },
     {
+      "id": "devfest-pune-2026",
+      "name": "Devfest Pune 2026",
+      "cfpUrl": "https://sessionize.com/devfest-pune-2026/",
+      "cfpClosingDate": "2026-11-22",
+      "eventStartDate": "2026-12-13",
+      "eventEndDate": "2026-12-13",
+      "eventUrl": "https://devfest.gdgpune.in/",
+      "location": "Pune, India",
+      "region": "Asia-Pacific",
+      "categories": [
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "Google Developer Groups",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "developers.events",
+        "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "fabcon-2027-sqlcon-2027-sessions",
       "name": "FABCON 2027 & SQLCON 2027 - SESSIONS",
       "cfpUrl": "https://sessionize.com/fabcon-2027-sqlcon-2027-sessions",
@@ -563,31 +281,6 @@
         "parents": []
       },
       "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "microsoft-foundry-day",
-      "name": "Microsoft Foundry Day",
-      "cfpUrl": "https://sessionize.com/microsoft-foundry-day/",
-      "cfpClosingDate": "2026-11-22",
-      "eventStartDate": "2026-11-28",
-      "eventEndDate": "2026-11-28",
-      "eventUrl": "https://axet.nttdata.com/flows/cloud/nttdata-eventos-programas/?form=Programas&nombrePrograma=40-Microsoft%20Foundry%20Day%20en%20NTT%20DATA",
-      "location": "Lima, Peru",
-      "region": "Latin America",
-      "categories": [
-        "AI & ML",
-        "Cloud Native & DevOps",
-        "Microsoft Ecosystem"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
         "opentechcfps"
       ]
     },
@@ -680,6 +373,31 @@
         "parents": []
       },
       "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "microsoft-foundry-day",
+      "name": "Microsoft Foundry Day",
+      "cfpUrl": "https://sessionize.com/microsoft-foundry-day/",
+      "cfpClosingDate": "2026-11-23",
+      "eventStartDate": "2026-11-28",
+      "eventEndDate": "2026-11-28",
+      "eventUrl": "https://axet.nttdata.com/flows/cloud/nttdata-eventos-programas/?form=Programas&nombrePrograma=40-Microsoft%20Foundry%20Day%20en%20NTT%20DATA",
+      "location": "Lima, Peru",
+      "region": "Latin America",
+      "categories": [
+        "AI & ML",
+        "Cloud Native & DevOps",
+        "Microsoft Ecosystem"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events",
         "opentechcfps"
       ]
     },
@@ -943,6 +661,29 @@
       },
       "sources": [
         "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "data-analytic-group-monthly-connect-2026",
+      "name": "Data Analytic Group Monthly Connect 2026",
+      "cfpUrl": "https://sessionize.com/data-analytic-group-monthly-connect-2026/",
+      "cfpClosingDate": "2026-11-27",
+      "eventStartDate": "2026-11-28",
+      "eventEndDate": "2026-11-29",
+      "eventUrl": "https://www.meetup.com/dataanalyticgroup/",
+      "location": "Virtual",
+      "region": "Virtual",
+      "categories": [
+        "Meetups",
+        "Data & Databases"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
         "opentechcfps"
       ]
     },
@@ -2191,6 +1932,30 @@
       ]
     },
     {
+      "id": "sugcon-global-online-2027",
+      "name": "SUGCON Global Online 2027",
+      "cfpUrl": "https://sessionize.com/sugcon-global-virtual-2027/",
+      "cfpClosingDate": "2026-11-30",
+      "eventStartDate": "2027-01-17",
+      "eventEndDate": "2027-01-17",
+      "eventUrl": "https://virtual.sugcon.events/",
+      "location": "Virtual",
+      "region": "Virtual",
+      "categories": [
+        "Open Source & Linux"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events",
+        "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "tokioconf-2027",
       "name": "TokioConf 2027",
       "cfpUrl": "https://sessionize.com/tokioconf-2027/",
@@ -2257,29 +2022,6 @@
       },
       "sources": [
         "callingallpapers"
-      ]
-    },
-    {
-      "id": "workplace-ninjas-denmark-2026",
-      "name": "Workplace Ninjas Denmark 2026",
-      "cfpUrl": "https://sessionize.com/workplace-ninjas-denmark-2026/",
-      "cfpClosingDate": "2026-11-30",
-      "eventStartDate": "2026-12-11",
-      "eventEndDate": "2026-12-11",
-      "eventUrl": "https://www.meetup.com/wpninjasdk/",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "AI & ML",
-        "Security"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
       ]
     },
     {
@@ -3049,6 +2791,28 @@
       ]
     },
     {
+      "id": "rocket-science-summit",
+      "name": "Rocket Science Summit",
+      "cfpUrl": "https://sessionize.com/rocket-science-summit/",
+      "cfpClosingDate": "2026-12-05",
+      "eventStartDate": "2027-01-20",
+      "eventEndDate": "2027-01-23",
+      "eventUrl": "",
+      "location": "New York City, NY, USA",
+      "region": "North America",
+      "categories": [
+        "Other"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "net-maui-day-london-2027",
       "name": ".NET MAUI Day London 2027",
       "cfpUrl": "https://sessionize.com/maui-day-london-2027/",
@@ -3150,6 +2914,7 @@
       "location": "Brussels, Belgium",
       "region": "Europe",
       "categories": [
+        "Cloud Native & DevOps",
         "Open Source & Linux"
       ],
       "organizer": {
@@ -3158,7 +2923,8 @@
         "parents": []
       },
       "sources": [
-        "developers.events"
+        "developers.events",
+        "callingallpapers"
       ]
     },
     {
@@ -3325,6 +3091,28 @@
       },
       "sources": [
         "opentechcfps"
+      ]
+    },
+    {
+      "id": "devopsdays-vitoria-2027",
+      "name": "DevOpsDays Vitoria 2027",
+      "cfpUrl": "https://talks.devopsdays.org/devopsdays-vitoria-2027/",
+      "cfpClosingDate": "2026-12-09",
+      "eventStartDate": "2027-01-23",
+      "eventEndDate": "2027-01-23",
+      "eventUrl": "https://devopsdays.org/events/2027-vitoria/",
+      "location": "Vitoria, Brazil",
+      "region": "Latin America",
+      "categories": [
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "DevOpsDays",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "devopsdays"
       ]
     },
     {
@@ -4732,6 +4520,7 @@
       "location": "London, UK",
       "region": "Europe",
       "categories": [
+        "AI & ML",
         "Data & Databases",
         "Programming Languages",
         "Web & Mobile"
@@ -5166,11 +4955,11 @@
     {
       "id": "power-bi-fabric-barcelona-january-2027-powered-by-innoit",
       "name": "Power BI & Fabric Barcelona January 2027 (powered by InnoIT)",
-      "cfpUrl": "https://sessionize.com/power-bi-fabric-barcelona-jan-2027/",
+      "cfpUrl": "https://sessionize.com/power-bi-fabric-barcelona-jan-2027",
       "cfpClosingDate": "2026-12-31",
       "eventStartDate": "2027-01-20",
       "eventEndDate": "2027-01-20",
-      "eventUrl": "https://www.meetup.com/es-ES/power-bi-barcelona/",
+      "eventUrl": "https://www.meetup.com/es-es/power-bi-barcelona",
       "location": "Barcelona",
       "region": "Europe",
       "categories": [
@@ -5183,6 +4972,7 @@
         "parents": []
       },
       "sources": [
+        "callingallpapers",
         "opentechcfps"
       ]
     },
@@ -5202,6 +4992,28 @@
       "organizer": {
         "name": "NumFOCUS",
         "type": "foundation",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "singapore-microsoft-azure-m365-power-platform",
+      "name": "Singapore Microsoft Azure, M365 & Power Platform",
+      "cfpUrl": "https://sessionize.com/azuresingapore2026/",
+      "cfpClosingDate": "2026-12-31",
+      "eventStartDate": "2026-12-10",
+      "eventEndDate": "2026-12-10",
+      "eventUrl": "https://www.meetup.com/mssgug/",
+      "location": "Virtual",
+      "region": "Virtual",
+      "categories": [
+        "Microsoft Ecosystem"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
         "parents": []
       },
       "sources": [
@@ -6294,7 +6106,7 @@
       "location": "London, UK",
       "region": "Europe",
       "categories": [
-        "Other"
+        "Web & Mobile"
       ],
       "organizer": {
         "name": "",
@@ -6355,21 +6167,22 @@
       ]
     },
     {
-      "id": "ispe-nordic-quality-summit-2027",
-      "name": "ISPE Nordic Quality Summit 2027",
-      "cfpUrl": "https://sessionize.com/ispe-nordic-quality-summit-2027/",
+      "id": "global-power-platform-agent-bootcamp-2027-cali",
+      "name": "Global Power Platform & Agent Bootcamp 2027 - Cali",
+      "cfpUrl": "https://sessionize.com/global-power-platform-agent-bootcamp-2/",
       "cfpClosingDate": "2027-01-15",
-      "eventStartDate": "2027-04-06",
-      "eventEndDate": "2027-04-07",
+      "eventStartDate": "2027-02-19",
+      "eventEndDate": "2027-02-19",
       "eventUrl": "",
-      "location": "Göteborg, Sweden",
-      "region": "Europe",
+      "location": "Cali, Colombia",
+      "region": "Latin America",
       "categories": [
-        "Software Engineering"
+        "AI & ML",
+        "Microsoft Ecosystem"
       ],
       "organizer": {
-        "name": "",
-        "type": "independent",
+        "name": "Microsoft Community",
+        "type": "community",
         "parents": []
       },
       "sources": [
@@ -6387,7 +6200,7 @@
       "location": "Rhineland Palatinate, Germany",
       "region": "Europe",
       "categories": [
-        "Other"
+        "Programming Languages"
       ],
       "organizer": {
         "name": "",
