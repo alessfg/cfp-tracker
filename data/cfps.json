@@ -1,78 +1,6 @@
 {
-  "lastUpdated": "2026-11-21",
+  "lastUpdated": "2026-11-22",
   "cfps": [
-    {
-      "id": "net-azure-meetup-tajerska-december-2026",
-      "name": ".NET & Azure Meetup Štajerska - December 2026",
-      "cfpUrl": "https://sessionize.com/net-azure-meetup-stajerska-december-2026/",
-      "cfpClosingDate": "2026-11-21",
-      "eventStartDate": "2026-12-03",
-      "eventEndDate": "2026-12-03",
-      "eventUrl": "https://www.eventbrite.it/e/net-azure-meetup-stajerska-december-2026-tickets-2003417868776?aff=oddtdtcreator",
-      "location": "Ptuj, Slovenia",
-      "region": "Europe",
-      "categories": [
-        "Meetups",
-        "Programming Languages",
-        "Microsoft Ecosystem"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "agile-en-med-casablanca-2026",
-      "name": "Agile En Med Casablanca 2026",
-      "cfpUrl": "https://sessionize.com/agile-en-med-casablanca-20242478/",
-      "cfpClosingDate": "2026-11-21",
-      "eventStartDate": "2026-12-12",
-      "eventEndDate": "2026-12-12",
-      "eventUrl": "https://agileenmed.com/",
-      "location": "Casablanca, Morocco",
-      "region": "Middle East & Africa",
-      "categories": [
-        "Agile & Leadership"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "devfest-asaba-2026",
-      "name": "Devfest Asaba 2026",
-      "cfpUrl": "https://sessionize.com/devfest-asaba-2026",
-      "cfpClosingDate": "2026-11-21",
-      "eventStartDate": "2026-12-05",
-      "eventEndDate": "2026-12-05",
-      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-asaba-presents-devfest-asaba-2026",
-      "location": "Asaba, Nigeria",
-      "region": "Middle East & Africa",
-      "categories": [
-        "AI & ML",
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
     {
       "id": "net-conf-2026-coimbatore",
       "name": ".NET Conf 2026 - Coimbatore",
@@ -1040,29 +968,6 @@
       ]
     },
     {
-      "id": "net-conf-2026-amravati",
-      "name": ".NET Conf 2026 Amravati",
-      "cfpUrl": "https://sessionize.com/dnc26/",
-      "cfpClosingDate": "2026-11-30",
-      "eventStartDate": "2027-01-02",
-      "eventEndDate": "2027-01-02",
-      "eventUrl": "https://dnc.mscprpcem.tech/",
-      "location": "Amravati, India",
-      "region": "Asia-Pacific",
-      "categories": [
-        "Programming Languages",
-        "Microsoft Ecosystem"
-      ],
-      "organizer": {
-        "name": "Microsoft Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
       "id": "net-conf-2026-torino",
       "name": ".NET Conf 2026 Torino",
       "cfpUrl": "https://sessionize.com/dotnet-conf-torino-2026",
@@ -1532,6 +1437,28 @@
       },
       "sources": [
         "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "comunidad-analytics",
+      "name": "Comunidad Analytics",
+      "cfpUrl": "https://sessionize.com/comunidad-analytics/",
+      "cfpClosingDate": "2026-11-30",
+      "eventStartDate": "2026-12-12",
+      "eventEndDate": "2026-12-12",
+      "eventUrl": "https://www.analytics.gt/",
+      "location": "Guatemala City, Guatemala",
+      "region": "Latin America",
+      "categories": [
+        "Data & Databases"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
         "opentechcfps"
       ]
     },
@@ -2399,6 +2326,29 @@
       ]
     },
     {
+      "id": "devfest-kenitra-2026",
+      "name": "DevFest Kenitra 2026",
+      "cfpUrl": "https://sessionize.com/devfest-kenitra-2026/",
+      "cfpClosingDate": "2026-12-02",
+      "eventStartDate": "2026-12-12",
+      "eventEndDate": "2026-12-12",
+      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-kenitra-presents-devfest-kenitra-2026/",
+      "location": "Kenitra, Morocco",
+      "region": "Middle East & Africa",
+      "categories": [
+        "AI & ML",
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "Google Developer Groups",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "secit-thementag-it-security-im-ki-zeitalter",
       "name": "secIT Thementag: IT-Security im KI-Zeitalter",
       "cfpUrl": "https://pretalx.com/secit-thementag-it-security-im-ki-zeitalter-2026/cfp",
@@ -3046,6 +2996,29 @@
       ]
     },
     {
+      "id": "devfest-2026-gda-sk-gdg-3city",
+      "name": "DevFest 2026 Gdańsk – GDG 3City",
+      "cfpUrl": "https://sessionize.com/devfest-2026-gdg-3city/",
+      "cfpClosingDate": "2026-12-08",
+      "eventStartDate": "2026-12-08",
+      "eventEndDate": "2026-12-08",
+      "eventUrl": "",
+      "location": "Gdańsk, Poland",
+      "region": "Europe",
+      "categories": [
+        "AI & ML",
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "Google Developer Groups",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "devsum-2027",
       "name": "DevSum 2027",
       "cfpUrl": "https://sessionize.com/devsum-2027/",
@@ -3199,28 +3172,6 @@
       "organizer": {
         "name": "",
         "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "global-power-platform-bootcamp-2027-dubai",
-      "name": "Global Power Platform Bootcamp 2027 Dubai",
-      "cfpUrl": "https://sessionize.com/gppb-dubai-2027/",
-      "cfpClosingDate": "2026-12-11",
-      "eventStartDate": "2027-02-19",
-      "eventEndDate": "2027-02-20",
-      "eventUrl": "",
-      "location": "Dubai, United Arab Emirates",
-      "region": "Middle East & Africa",
-      "categories": [
-        "Microsoft Ecosystem"
-      ],
-      "organizer": {
-        "name": "Microsoft Community",
-        "type": "community",
         "parents": []
       },
       "sources": [
@@ -3629,6 +3580,29 @@
       ]
     },
     {
+      "id": "net-conf-2026-amravati",
+      "name": ".NET Conf 2026 Amravati",
+      "cfpUrl": "https://sessionize.com/dnc26/",
+      "cfpClosingDate": "2026-12-16",
+      "eventStartDate": "2027-01-02",
+      "eventEndDate": "2027-01-02",
+      "eventUrl": "https://dnc.mscprpcem.tech/",
+      "location": "Amravati, India",
+      "region": "Asia-Pacific",
+      "categories": [
+        "Programming Languages",
+        "Microsoft Ecosystem"
+      ],
+      "organizer": {
+        "name": "Microsoft Community",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "ai-fokus-2027",
       "name": "AI fokus 2027",
       "cfpUrl": "https://sessionize.com/ai-fokus-2027/",
@@ -3927,6 +3901,28 @@
         "developers.events",
         "callingallpapers",
         "opentechcfps"
+      ]
+    },
+    {
+      "id": "pycon-us-2027",
+      "name": "PyCon US 2027",
+      "cfpUrl": "https://pretalx.com/pycon-us-2027/cfp",
+      "cfpClosingDate": "2026-12-19",
+      "eventStartDate": "2027-05-12",
+      "eventEndDate": "2027-05-18",
+      "eventUrl": "https://us.pycon.org/",
+      "location": "Long Beach, CA, USA",
+      "region": "North America",
+      "categories": [
+        "Programming Languages"
+      ],
+      "organizer": {
+        "name": "Python Software Foundation",
+        "type": "foundation",
+        "parents": []
+      },
+      "sources": [
+        "developers.events"
       ]
     },
     {
@@ -4794,6 +4790,29 @@
       ]
     },
     {
+      "id": "global-power-platform-agent-bootcamp-2027-vancouver",
+      "name": "Global Power Platform & Agent Bootcamp 2027 - Vancouver",
+      "cfpUrl": "https://sessionize.com/global-power-platform-bootcamp-van/",
+      "cfpClosingDate": "2026-12-31",
+      "eventStartDate": "2027-02-19",
+      "eventEndDate": "2027-02-19",
+      "eventUrl": "https://www.powerplatformbootcamp.com/",
+      "location": "Vancouver, Canada",
+      "region": "North America",
+      "categories": [
+        "AI & ML",
+        "Microsoft Ecosystem"
+      ],
+      "organizer": {
+        "name": "Microsoft Community",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "global-power-platform-bootcamp-germany",
       "name": "Global Power Platform Bootcamp Germany",
       "cfpUrl": "https://sessionize.com/global-power-platform-bootcamp-germany-2027/",
@@ -5415,6 +5434,28 @@
       ]
     },
     {
+      "id": "bsides-ot-uk-2027",
+      "name": "BSides OT UK 2027",
+      "cfpUrl": "https://pretalx.com/bsides-ot-uk-2027/cfp",
+      "cfpClosingDate": "2027-01-03",
+      "eventStartDate": "2027-04-09",
+      "eventEndDate": "2027-04-09",
+      "eventUrl": "https://bsidesot.uk/",
+      "location": "Manchester, UK",
+      "region": "Europe",
+      "categories": [
+        "Security"
+      ],
+      "organizer": {
+        "name": "Security BSides",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "developers.events"
+      ]
+    },
+    {
       "id": "global-power-platform-agent-bootcamp-polish-edition-online-2027",
       "name": "Global Power Platform & Agent Bootcamp Polish Edition Online 2027",
       "cfpUrl": "https://sessionize.com/gppb2027pl/",
@@ -5576,6 +5617,28 @@
       },
       "sources": [
         "opentechcfps"
+      ]
+    },
+    {
+      "id": "devfest-stockholm",
+      "name": "DevFest Stockholm",
+      "cfpUrl": "https://app.advocu.com/public/gde/events/6af20a16ac782e9f31fbf4d8",
+      "cfpClosingDate": "2027-01-08",
+      "eventStartDate": "2027-02-05",
+      "eventEndDate": "2027-02-05",
+      "eventUrl": "https://www.devfest-stockholm.com/",
+      "location": "Stockholm, Sweden",
+      "region": "Europe",
+      "categories": [
+        "General Developer"
+      ],
+      "organizer": {
+        "name": "Google Developer Groups",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "developers.events"
       ]
     },
     {
@@ -7151,6 +7214,29 @@
       ]
     },
     {
+      "id": "azure-ai-connect-2027",
+      "name": "Azure AI Connect 2027",
+      "cfpUrl": "https://sessionize.com/azure-ai-connect-2027/",
+      "cfpClosingDate": "2027-01-31",
+      "eventStartDate": "2027-03-02",
+      "eventEndDate": "2027-03-05",
+      "eventUrl": "https://www.ai-athens.gr/",
+      "location": "Virtual",
+      "region": "Virtual",
+      "categories": [
+        "AI & ML",
+        "Microsoft Ecosystem"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "bsides-groningen-2027",
       "name": "BSides Groningen 2027",
       "cfpUrl": "https://sessionize.com/bsides-groningen-2027/",
@@ -7712,6 +7798,28 @@
       ]
     },
     {
+      "id": "global-power-platform-bootcamp-2027-dubai",
+      "name": "Global Power Platform Bootcamp 2027 Dubai",
+      "cfpUrl": "https://sessionize.com/gppb-dubai-2027/",
+      "cfpClosingDate": "2027-02-12",
+      "eventStartDate": "2027-02-19",
+      "eventEndDate": "2027-02-20",
+      "eventUrl": "",
+      "location": "Dubai, United Arab Emirates",
+      "region": "Middle East & Africa",
+      "categories": [
+        "Microsoft Ecosystem"
+      ],
+      "organizer": {
+        "name": "Microsoft Community",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "devopsdays-baltimore-2027",
       "name": "DevOpsDays Baltimore 2027",
       "cfpUrl": "https://talks.devopsdays.org/devopsdays-baltimore-2027/cfp",
@@ -7867,6 +7975,50 @@
       },
       "sources": [
         "opentechcfps"
+      ]
+    },
+    {
+      "id": "umedev-2027",
+      "name": "Umedev 2027",
+      "cfpUrl": "https://sessionize.com/umedev-2027/",
+      "cfpClosingDate": "2027-02-20",
+      "eventStartDate": "2027-03-18",
+      "eventEndDate": "2027-03-18",
+      "eventUrl": "https://umedev.org/",
+      "location": "Umeå, Sweden",
+      "region": "Europe",
+      "categories": [
+        "Other"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "berlin-buzzwords-2027",
+      "name": "Berlin Buzzwords 2027",
+      "cfpUrl": "https://pretalx.com/bbuzz27/cfp",
+      "cfpClosingDate": "2027-02-21",
+      "eventStartDate": "2027-06-13",
+      "eventEndDate": "2027-06-15",
+      "eventUrl": "https://berlinbuzzwords.de/",
+      "location": "Berlin, Germany",
+      "region": "Europe",
+      "categories": [
+        "Other"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events"
       ]
     },
     {
@@ -8032,6 +8184,28 @@
       },
       "sources": [
         "conference-hall"
+      ]
+    },
+    {
+      "id": "bsides-porto-2027-3rd",
+      "name": "BSides Porto - 2027 - 3rd",
+      "cfpUrl": "https://sessionize.com/bsides-porto-2027/",
+      "cfpClosingDate": "2027-03-01",
+      "eventStartDate": "2027-05-06",
+      "eventEndDate": "2027-05-07",
+      "eventUrl": "https://bsidesporto.org/",
+      "location": "Porto, Portugal",
+      "region": "Europe",
+      "categories": [
+        "Security"
+      ],
+      "organizer": {
+        "name": "Security BSides",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
       ]
     },
     {
@@ -8223,7 +8397,7 @@
     },
     {
       "id": "boise-code-camp-2027",
-      "name": "Boise Code Camp 2027",
+      "name": "Boise Code Camp - 2027",
       "cfpUrl": "https://sessionize.com/bcc2027/",
       "cfpClosingDate": "2027-03-31",
       "eventStartDate": "2027-05-01",
