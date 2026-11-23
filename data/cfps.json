@@ -1,217 +1,6 @@
 {
-  "lastUpdated": "2026-11-22",
+  "lastUpdated": "2026-11-23",
   "cfps": [
-    {
-      "id": "net-conf-2026-coimbatore",
-      "name": ".NET Conf 2026 - Coimbatore",
-      "cfpUrl": "https://sessionize.com/dotnet-local-conf-2026-coimbatore/",
-      "cfpClosingDate": "2026-11-22",
-      "eventStartDate": "2026-11-28",
-      "eventEndDate": "2026-11-28",
-      "eventUrl": "https://www.meetup.com/msdevgeeks/events/316865800/",
-      "location": "Coimbatore, India",
-      "region": "Asia-Pacific",
-      "categories": [
-        "Programming Languages",
-        "Microsoft Ecosystem"
-      ],
-      "organizer": {
-        "name": "Microsoft Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "aws-community-day-lahore-2026",
-      "name": "AWS Community Day Lahore 2026",
-      "cfpUrl": "https://sessionize.com/aws-community-day-lahore-2026",
-      "cfpClosingDate": "2026-11-22",
-      "eventStartDate": "2026-12-26",
-      "eventEndDate": "2026-12-26",
-      "eventUrl": "https://awscommunity.pk/lahore",
-      "location": "Lahore, Pakistan",
-      "region": "Asia-Pacific",
-      "categories": [
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "AWS Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "aws-student-community-day-itaja",
-      "name": "AWS Student Community Day Itajaí",
-      "cfpUrl": "https://sessionize.com/aws-student-community-day-itajai",
-      "cfpClosingDate": "2026-11-22",
-      "eventStartDate": "2026-12-12",
-      "eventEndDate": "2026-12-12",
-      "eventUrl": "https://awssbg.com.br/univali",
-      "location": "Itajaí, Brazil",
-      "region": "Latin America",
-      "categories": [
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "AWS Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "devfest-budapest-2026-on-campus-conference",
-      "name": "DevFest Budapest 2026 - On Campus Conference",
-      "cfpUrl": "https://sessionize.com/devfest-budapest-2026-on-campus/",
-      "cfpClosingDate": "2026-11-22",
-      "eventStartDate": "2026-11-27",
-      "eventEndDate": "2026-11-27",
-      "eventUrl": "https://devfest.hu/",
-      "location": "Budapest, Hungary",
-      "region": "Europe",
-      "categories": [
-        "General Developer"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers"
-      ]
-    },
-    {
-      "id": "devfest-nantes-2027",
-      "name": "DevFest Nantes 2027",
-      "cfpUrl": "https://conference-hall.io/devfest-nantes-2027",
-      "cfpClosingDate": "2026-11-22",
-      "eventStartDate": "2027-03-11",
-      "eventEndDate": "2027-03-12",
-      "eventUrl": "https://devfest.gdgnantes.com/",
-      "location": "Nantes, France",
-      "region": "Europe",
-      "categories": [
-        "Cloud Native & DevOps",
-        "Web & Mobile"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "conference-hall"
-      ]
-    },
-    {
-      "id": "devfest-pune-2026",
-      "name": "Devfest Pune 2026",
-      "cfpUrl": "https://sessionize.com/devfest-pune-2026/",
-      "cfpClosingDate": "2026-11-22",
-      "eventStartDate": "2026-12-13",
-      "eventEndDate": "2026-12-13",
-      "eventUrl": "https://devfest.gdgpune.in/",
-      "location": "Pune, India",
-      "region": "Asia-Pacific",
-      "categories": [
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "fabcon-2027-sqlcon-2027-sessions",
-      "name": "FABCON 2027 & SQLCON 2027 - SESSIONS",
-      "cfpUrl": "https://sessionize.com/fabcon-2027-sqlcon-2027-sessions",
-      "cfpClosingDate": "2026-11-22",
-      "eventStartDate": "2027-03-08",
-      "eventEndDate": "2027-03-12",
-      "eventUrl": "https://fabriccon.com/",
-      "location": "Atlanta, GA, USA",
-      "region": "North America",
-      "categories": [
-        "Cloud Native & DevOps",
-        "Data & Databases",
-        "Microsoft Ecosystem"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "global-ai-community-helsinki-2026",
-      "name": "Global AI Community Helsinki 2026",
-      "cfpUrl": "https://sessionize.com/global-ai-community-helsinki/",
-      "cfpClosingDate": "2026-11-22",
-      "eventStartDate": "2026-12-09",
-      "eventEndDate": "2026-12-09",
-      "eventUrl": "https://globalai.community/chapters/helsinki",
-      "location": "Helsinki, Finland",
-      "region": "Europe",
-      "categories": [
-        "AI & ML"
-      ],
-      "organizer": {
-        "name": "Microsoft Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "global-ai-dubai",
-      "name": "Global AI Dubai",
-      "cfpUrl": "https://sessionize.com/global-ai-dubai/",
-      "cfpClosingDate": "2026-11-22",
-      "eventStartDate": "2026-12-03",
-      "eventEndDate": "2026-12-03",
-      "eventUrl": "https://globalai.community/chapters/dubai/",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "AI & ML"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
     {
       "id": "2027-knoxville-microsoft-community-day",
       "name": "2027 Knoxville Microsoft Community Day",
@@ -326,29 +115,6 @@
       },
       "sources": [
         "developers.events",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "sessionize-com-dekaigi2027",
-      "name": "行政デジタル改革共創会議（デッカイギ）",
-      "cfpUrl": "https://sessionize.com/dekaigi2027",
-      "cfpClosingDate": "2026-11-23",
-      "eventStartDate": "2027-01-08",
-      "eventEndDate": "2027-01-09",
-      "eventUrl": "https://dekaigi.org/",
-      "location": "Tokyo, Japan",
-      "region": "Asia-Pacific",
-      "categories": [
-        "Other"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
         "opentechcfps"
       ]
     },
@@ -477,6 +243,30 @@
       ]
     },
     {
+      "id": "devfest-pune-2026",
+      "name": "Devfest Pune 2026",
+      "cfpUrl": "https://sessionize.com/devfest-pune-2026/",
+      "cfpClosingDate": "2026-11-25",
+      "eventStartDate": "2026-12-13",
+      "eventEndDate": "2026-12-13",
+      "eventUrl": "https://devfest.gdgpune.in/",
+      "location": "Pune, India",
+      "region": "Asia-Pacific",
+      "categories": [
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "Google Developer Groups",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "developers.events",
+        "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "intune-summit-mozambique",
       "name": "Intune Summit Mozambique",
       "cfpUrl": "https://sessionize.com/intune-summit-para-mozambique/",
@@ -487,6 +277,30 @@
       "location": "Virtual",
       "region": "Virtual",
       "categories": [
+        "AI & ML",
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "mumbai-technology-meetup-mumtechup",
+      "name": "Mumbai Technology Meetup #mumtechup",
+      "cfpUrl": "https://sessionize.com/mumtechup/",
+      "cfpClosingDate": "2026-11-25",
+      "eventStartDate": "2026-11-28",
+      "eventEndDate": "2026-11-28",
+      "eventUrl": "https://hackmum.in/",
+      "location": "Mumbai, India",
+      "region": "Asia-Pacific",
+      "categories": [
+        "Meetups",
         "AI & ML",
         "Cloud Native & DevOps"
       ],
@@ -800,6 +614,28 @@
       },
       "sources": [
         "opentechcfps"
+      ]
+    },
+    {
+      "id": "trustsecai-2027",
+      "name": "TrustSecAI 2027",
+      "cfpUrl": "https://rayentech.github.io/TrustSecAI2027/",
+      "cfpClosingDate": "2026-11-27",
+      "eventStartDate": "2027-04-13",
+      "eventEndDate": "2027-04-15",
+      "eventUrl": "https://cs-conferences.acadiau.ca/ant-27/",
+      "location": "Delft, Netherlands",
+      "region": "Europe",
+      "categories": [
+        "Other"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events"
       ]
     },
     {
@@ -1128,6 +964,29 @@
       "sources": [
         "developers.events",
         "callingallpapers"
+      ]
+    },
+    {
+      "id": "aws-community-day-lahore-2026",
+      "name": "AWS Community Day Lahore 2026",
+      "cfpUrl": "https://sessionize.com/aws-community-day-lahore-2026",
+      "cfpClosingDate": "2026-11-30",
+      "eventStartDate": "2026-12-26",
+      "eventEndDate": "2026-12-26",
+      "eventUrl": "https://awscommunity.pk/lahore",
+      "location": "Lahore, Pakistan",
+      "region": "Asia-Pacific",
+      "categories": [
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "AWS Community",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "developers.events",
+        "opentechcfps"
       ]
     },
     {
@@ -1529,6 +1388,29 @@
       },
       "sources": [
         "opentechcfps"
+      ]
+    },
+    {
+      "id": "devfest-nepal-2026-agents-of-change-buildathon",
+      "name": "DevFest Nepal 2026: Agents of Change - Buildathon",
+      "cfpUrl": "https://sessionize.com/buildathon-devfest-nepal-2026/",
+      "cfpClosingDate": "2026-11-30",
+      "eventStartDate": "2026-12-05",
+      "eventEndDate": "2026-12-05",
+      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-kathmandu-presents-agents-of-change-buildathon/",
+      "location": "Kathmandu, Nepal",
+      "region": "Asia-Pacific",
+      "categories": [
+        "AI & ML"
+      ],
+      "organizer": {
+        "name": "Google Developer Groups",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "developers.events",
+        "callingallpapers"
       ]
     },
     {
@@ -2110,30 +1992,6 @@
       ]
     },
     {
-      "id": "devfest-nepal-2026-agents-of-change-buildathon",
-      "name": "DevFest Nepal 2026: Agents of Change - Buildathon",
-      "cfpUrl": "https://sessionize.com/buildathon-devfest-nepal-2026/",
-      "cfpClosingDate": "2026-12-01",
-      "eventStartDate": "2026-12-05",
-      "eventEndDate": "2026-12-05",
-      "eventUrl": "https://gdg.community.dev/events/details/google-gdg-kathmandu-presents-agents-of-change-buildathon/",
-      "location": "Kathmandu, Nepal",
-      "region": "Asia-Pacific",
-      "categories": [
-        "AI & ML"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
       "id": "euctech-2027",
       "name": "EUCtech 2027",
       "cfpUrl": "https://sessionize.com/euctech-denmark-conference-2027/",
@@ -2159,18 +2017,17 @@
       ]
     },
     {
-      "id": "india-cloud-security-summit-2027",
-      "name": "India Cloud Security Summit 2027",
-      "cfpUrl": "https://sessionize.com/india-cloud-security-summit-2026/",
+      "id": "f-e-x-edition-1-2027",
+      "name": "F.E.X Edition 1 2027",
+      "cfpUrl": "https://pretalx.com/aquesa-fex/cfp",
       "cfpClosingDate": "2026-12-01",
-      "eventStartDate": "2027-01-09",
-      "eventEndDate": "2027-01-09",
-      "eventUrl": "",
-      "location": "Virtual",
-      "region": "Virtual",
+      "eventStartDate": "2027-01-30",
+      "eventEndDate": "2027-01-30",
+      "eventUrl": "https://fex.aquesa-solutions.com/",
+      "location": "Vijayawada, India",
+      "region": "Asia-Pacific",
       "categories": [
-        "Cloud Native & DevOps",
-        "Security"
+        "Other"
       ],
       "organizer": {
         "name": "",
@@ -2178,7 +2035,7 @@
         "parents": []
       },
       "sources": [
-        "opentechcfps"
+        "developers.events"
       ]
     },
     {
@@ -3580,12 +3437,12 @@
       ]
     },
     {
-      "id": "net-conf-2026-amravati",
-      "name": ".NET Conf 2026 Amravati",
+      "id": "net-conf-2026-2026-12-16",
+      "name": ".NET Conf 2026",
       "cfpUrl": "https://sessionize.com/dnc26/",
       "cfpClosingDate": "2026-12-16",
-      "eventStartDate": "2027-01-02",
-      "eventEndDate": "2027-01-02",
+      "eventStartDate": "2026-12-26",
+      "eventEndDate": "2026-12-26",
       "eventUrl": "https://dnc.mscprpcem.tech/",
       "location": "Amravati, India",
       "region": "Asia-Pacific",
@@ -3599,6 +3456,7 @@
         "parents": []
       },
       "sources": [
+        "developers.events",
         "opentechcfps"
       ]
     },
@@ -3914,6 +3772,7 @@
       "location": "Long Beach, CA, USA",
       "region": "North America",
       "categories": [
+        "Open Source & Linux",
         "Programming Languages"
       ],
       "organizer": {
@@ -5630,7 +5489,7 @@
       "location": "Stockholm, Sweden",
       "region": "Europe",
       "categories": [
-        "General Developer"
+        "Web & Mobile"
       ],
       "organizer": {
         "name": "Google Developer Groups",
@@ -5759,6 +5618,29 @@
       "sources": [
         "callingallpapers",
         "opentechcfps"
+      ]
+    },
+    {
+      "id": "devoxx-france-2027",
+      "name": "Devoxx France 2027",
+      "cfpUrl": "https://www.devoxx.fr/presenter",
+      "cfpClosingDate": "2027-01-10",
+      "eventStartDate": "2027-04-07",
+      "eventEndDate": "2027-04-09",
+      "eventUrl": "https://www.devoxx.fr/",
+      "location": "Paris, France",
+      "region": "Europe",
+      "categories": [
+        "Cloud Native & DevOps",
+        "Programming Languages"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events"
       ]
     },
     {
@@ -6867,6 +6749,28 @@
       ]
     },
     {
+      "id": "makeit-ai-2027",
+      "name": "MakeIT AI 2027",
+      "cfpUrl": "https://sessionize.com/makeit-ai-jcon-2027/",
+      "cfpClosingDate": "2027-01-22",
+      "eventStartDate": "2027-05-24",
+      "eventEndDate": "2027-05-26",
+      "eventUrl": "https://makeit.si/",
+      "location": "Portorož, Slovenia",
+      "region": "Europe",
+      "categories": [
+        "AI & ML"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "2027-global-power-platform-bootcamp-south-africa",
       "name": "2027 Global Power Platform Bootcamp South Africa",
       "cfpUrl": "https://sessionize.com/2027-global-power-platform-bootcamp-SA",
@@ -7053,6 +6957,28 @@
       "sources": [
         "developers.events",
         "callingallpapers"
+      ]
+    },
+    {
+      "id": "geecon",
+      "name": "GeeCON",
+      "cfpUrl": "https://cfp.geecon.org/",
+      "cfpClosingDate": "2027-01-29",
+      "eventStartDate": "2027-05-13",
+      "eventEndDate": "2027-05-14",
+      "eventUrl": "https://2027.geecon.org/",
+      "location": "Krakow, Poland",
+      "region": "Europe",
+      "categories": [
+        "Other"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events"
       ]
     },
     {
@@ -7377,12 +7303,12 @@
       ]
     },
     {
-      "id": "devfest-budapest-conference",
-      "name": "DevFest Budapest Conference",
-      "cfpUrl": "https://sessionize.com/devfest-budapest-2026-on-campus",
+      "id": "devfest-budapest-2026-on-campus-conference",
+      "name": "DevFest Budapest 2026 - On Campus Conference",
+      "cfpUrl": "https://sessionize.com/devfest-budapest-2026-on-campus/",
       "cfpClosingDate": "2027-01-31",
-      "eventStartDate": "2027-02-27",
-      "eventEndDate": "2027-02-27",
+      "eventStartDate": "2026-11-27",
+      "eventEndDate": "2026-11-27",
       "eventUrl": "https://devfest.hu/",
       "location": "Budapest, Hungary",
       "region": "Europe",
@@ -7396,6 +7322,7 @@
         "parents": []
       },
       "sources": [
+        "developers.events",
         "callingallpapers",
         "opentechcfps"
       ]
@@ -7798,15 +7725,37 @@
       ]
     },
     {
+      "id": "spring-i-o-2027",
+      "name": "Spring I/O 2027",
+      "cfpUrl": "https://sessionize.com/spring-io-2027/",
+      "cfpClosingDate": "2027-02-09",
+      "eventStartDate": "2027-04-28",
+      "eventEndDate": "2027-04-30",
+      "eventUrl": "https://2027.springio.net/",
+      "location": "Valencia, Spain",
+      "region": "Europe",
+      "categories": [
+        "Programming Languages"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "global-power-platform-bootcamp-2027-dubai",
       "name": "Global Power Platform Bootcamp 2027 Dubai",
       "cfpUrl": "https://sessionize.com/gppb-dubai-2027/",
       "cfpClosingDate": "2027-02-12",
-      "eventStartDate": "2027-02-19",
+      "eventStartDate": "2027-02-20",
       "eventEndDate": "2027-02-20",
-      "eventUrl": "",
-      "location": "Dubai, United Arab Emirates",
-      "region": "Middle East & Africa",
+      "eventUrl": "https://luma.com/event/manage/evt-mnX145DggA6EYSL",
+      "location": "Virtual",
+      "region": "Virtual",
       "categories": [
         "Microsoft Ecosystem"
       ],
@@ -8010,7 +7959,7 @@
       "location": "Berlin, Germany",
       "region": "Europe",
       "categories": [
-        "Other"
+        "Software Engineering"
       ],
       "organizer": {
         "name": "",
@@ -8349,6 +8298,28 @@
       ]
     },
     {
+      "id": "tech-lead-conference-2027",
+      "name": "Tech Lead Conference 2027",
+      "cfpUrl": "https://gitnation.com/events/techlead-conf-amsterdam-2027-adopting-ai-in-orgs/cfp",
+      "cfpClosingDate": "2027-03-20",
+      "eventStartDate": "2027-05-20",
+      "eventEndDate": "2027-05-20",
+      "eventUrl": "https://techleadconf.com/",
+      "location": "Amsterdam, Netherlands",
+      "region": "Europe",
+      "categories": [
+        "General Developer"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events"
+      ]
+    },
+    {
       "id": "agl-all-member-meeting-japan",
       "name": "AGL All Member Meeting Japan",
       "cfpUrl": "https://events.linuxfoundation.org/agl-amm/program/cfp/",
@@ -8397,7 +8368,7 @@
     },
     {
       "id": "boise-code-camp-2027",
-      "name": "Boise Code Camp - 2027",
+      "name": "Boise Code Camp 2027",
       "cfpUrl": "https://sessionize.com/bcc2027/",
       "cfpClosingDate": "2027-03-31",
       "eventStartDate": "2027-05-01",
@@ -8415,6 +8386,7 @@
         "parents": []
       },
       "sources": [
+        "developers.events",
         "opentechcfps"
       ]
     },
@@ -8815,14 +8787,39 @@
       ]
     },
     {
-      "id": "aws-community-summit-manchester-2027",
-      "name": "AWS Community Summit - Manchester 2027",
+      "id": "infobip-shift-zadar-2027",
+      "name": "Infobip Shift Zadar 2027",
+      "cfpUrl": "https://sessionize.com/infobip-shift-zadar-2027",
+      "cfpClosingDate": "2027-06-25",
+      "eventStartDate": "2027-09-12",
+      "eventEndDate": "2027-09-14",
+      "eventUrl": "https://shift.infobip.com/",
+      "location": "Zadar, Croatia",
+      "region": "Europe",
+      "categories": [
+        "Cloud Native & DevOps",
+        "Data & Databases",
+        "Security"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "aws-community-summit-2027",
+      "name": "AWS Community Summit 2027",
       "cfpUrl": "https://sessionize.com/aws-community-summit-manchester-20265638/",
       "cfpClosingDate": "2027-06-30",
       "eventStartDate": "2027-09-30",
       "eventEndDate": "2027-09-30",
       "eventUrl": "https://www.comsum.co.uk/",
-      "location": "Manchester, United Kingdom",
+      "location": "Manchester, UK",
       "region": "Europe",
       "categories": [
         "Cloud Native & DevOps"
@@ -8833,6 +8830,7 @@
         "parents": []
       },
       "sources": [
+        "developers.events",
         "opentechcfps"
       ]
     },
@@ -9039,8 +9037,8 @@
       ]
     },
     {
-      "id": "arcasiles-community-talks",
-      "name": "Arcasiles Community Talks",
+      "id": "arcasiles-community-talks-2027",
+      "name": "Arcasiles Community Talks 2027",
       "cfpUrl": "https://sessionize.com/arcasiles-speaker-matching-program-spain/",
       "cfpClosingDate": "2027-11-06",
       "eventStartDate": "2027-11-01",
@@ -9057,6 +9055,7 @@
         "parents": []
       },
       "sources": [
+        "developers.events",
         "opentechcfps"
       ]
     },
