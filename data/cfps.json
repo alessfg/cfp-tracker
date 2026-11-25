@@ -1,32 +1,6 @@
 {
-  "lastUpdated": "2026-11-24",
+  "lastUpdated": "2026-11-25",
   "cfps": [
-    {
-      "id": "ebpf-security-summit-online-2027",
-      "name": "eBPF Security Summit Online 2027",
-      "cfpUrl": "https://sessionize.com/ebpf-security-summit-2027/",
-      "cfpClosingDate": "2026-11-24",
-      "eventStartDate": "2027-01-27",
-      "eventEndDate": "2027-01-27",
-      "eventUrl": "https://ebpf.io/summit-2027/",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "Cloud Native & DevOps",
-        "Security",
-        "Open Source & Linux"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
     {
       "id": "agentic-ai-foundation-aaif-december-talks",
       "name": "Agentic AI Foundation ( AAIF ) December Talks",
@@ -123,30 +97,6 @@
       },
       "sources": [
         "developers.events"
-      ]
-    },
-    {
-      "id": "devfest-pune-2026",
-      "name": "Devfest Pune 2026",
-      "cfpUrl": "https://sessionize.com/devfest-pune-2026/",
-      "cfpClosingDate": "2026-11-25",
-      "eventStartDate": "2026-12-13",
-      "eventEndDate": "2026-12-13",
-      "eventUrl": "https://devfest.gdgpune.in/",
-      "location": "Pune, India",
-      "region": "Asia-Pacific",
-      "categories": [
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
       ]
     },
     {
@@ -287,6 +237,30 @@
         "parents": []
       },
       "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "devfest-pune-2026",
+      "name": "Devfest Pune 2026",
+      "cfpUrl": "https://sessionize.com/devfest-pune-2026/",
+      "cfpClosingDate": "2026-11-27",
+      "eventStartDate": "2026-12-13",
+      "eventEndDate": "2026-12-13",
+      "eventUrl": "https://devfest.gdgpune.in/",
+      "location": "Pune, India",
+      "region": "Asia-Pacific",
+      "categories": [
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "Google Developer Groups",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "developers.events",
+        "callingallpapers",
         "opentechcfps"
       ]
     },
@@ -1418,7 +1392,7 @@
     {
       "id": "first-ever-student-community-day-rajkot-2026",
       "name": "First Ever Student Community Day Rajkot, 2026",
-      "cfpUrl": "https://sessionize.com/first-ever-community-day-rajkot/",
+      "cfpUrl": "https://sessionize.com/first-ever-student-community-day-rajkot/",
       "cfpClosingDate": "2026-11-30",
       "eventStartDate": "2026-12-19",
       "eventEndDate": "2026-12-19",
@@ -1518,7 +1492,9 @@
       "location": "Surat, India",
       "region": "Asia-Pacific",
       "categories": [
-        "Cloud Native & DevOps"
+        "Cloud Native & DevOps",
+        "Open Source & Linux",
+        "Web & Mobile"
       ],
       "organizer": {
         "name": "Google Developer Groups",
@@ -2104,8 +2080,9 @@
       "location": "Kenitra, Morocco",
       "region": "Middle East & Africa",
       "categories": [
-        "AI & ML",
-        "Cloud Native & DevOps"
+        "Cloud Native & DevOps",
+        "Open Source & Linux",
+        "Web & Mobile"
       ],
       "organizer": {
         "name": "Google Developer Groups",
@@ -2392,6 +2369,29 @@
       ]
     },
     {
+      "id": "day-of-date-lima",
+      "name": "Day of Date - Lima",
+      "cfpUrl": "https://sessionize.com/dayofdatalima2026/",
+      "cfpClosingDate": "2026-12-05",
+      "eventStartDate": "2026-12-19",
+      "eventEndDate": "2026-12-19",
+      "eventUrl": "https://www.meetup.com/cloudexpertsc/events/312468427/?eventOrigin=group_upcoming_events",
+      "location": "Lima, Peru",
+      "region": "Latin America",
+      "categories": [
+        "AI & ML",
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "devfest-bujumbura-2026",
       "name": "DevFest Bujumbura 2026",
       "cfpUrl": "https://sessionize.com/devfest-bujumbura-2026/",
@@ -2411,6 +2411,29 @@
       },
       "sources": [
         "developers.events",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "first-ever-student-community-day-rajkot-2026-2026-12-05",
+      "name": "First Ever Student Community Day Rajkot, 2026",
+      "cfpUrl": "https://sessionize.com/first-ever-community-day-rajkot/",
+      "cfpClosingDate": "2026-12-05",
+      "eventStartDate": "2026-12-19",
+      "eventEndDate": "2026-12-19",
+      "eventUrl": "http://www.awsscdrajkot.in/",
+      "location": "Rājkot, India",
+      "region": "Asia-Pacific",
+      "categories": [
+        "AI & ML",
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
         "opentechcfps"
       ]
     },
@@ -2735,6 +2758,31 @@
         "name": "",
         "type": "independent",
         "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "agentic-cloudverse-aaif-kolkata-x-cloud-native-kolkata",
+      "name": "Agentic CloudVerse - AAIF Kolkata x Cloud Native Kolkata",
+      "cfpUrl": "https://sessionize.com/agentic-cloudverse/",
+      "cfpClosingDate": "2026-12-08",
+      "eventStartDate": "2026-12-12",
+      "eventEndDate": "2026-12-12",
+      "eventUrl": "",
+      "location": "Kolkata, India",
+      "region": "Asia-Pacific",
+      "categories": [
+        "AI & ML",
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "Agentic AI Foundation",
+        "type": "foundation",
+        "parents": [
+          "Linux Foundation"
+        ]
       },
       "sources": [
         "opentechcfps"
@@ -4814,11 +4862,11 @@
     {
       "id": "power-bi-fabric-barcelona-january-2027-powered-by-innoit",
       "name": "Power BI & Fabric Barcelona January 2027 (powered by InnoIT)",
-      "cfpUrl": "https://sessionize.com/power-bi-fabric-barcelona-jan-2027",
+      "cfpUrl": "https://sessionize.com/power-bi-fabric-barcelona-jan-2027/",
       "cfpClosingDate": "2026-12-31",
       "eventStartDate": "2027-01-20",
       "eventEndDate": "2027-01-20",
-      "eventUrl": "https://www.meetup.com/es-es/power-bi-barcelona",
+      "eventUrl": "https://www.meetup.com/es-ES/power-bi-barcelona/",
       "location": "Barcelona",
       "region": "Europe",
       "categories": [
@@ -4831,7 +4879,6 @@
         "parents": []
       },
       "sources": [
-        "callingallpapers",
         "opentechcfps"
       ]
     },
@@ -5575,6 +5622,29 @@
       "sources": [
         "developers.events",
         "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "flutter-community-ai-circle-live-stream",
+      "name": "Flutter Community AI Circle Live Stream 💙🐦",
+      "cfpUrl": "https://sessionize.com/fcaic/",
+      "cfpClosingDate": "2027-01-09",
+      "eventStartDate": "2026-12-08",
+      "eventEndDate": "2026-12-22",
+      "eventUrl": "https://ai.fluttercommunity.dev/",
+      "location": "Virtual",
+      "region": "Virtual",
+      "categories": [
+        "AI & ML",
+        "Web & Mobile"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
         "opentechcfps"
       ]
     },
@@ -7704,17 +7774,42 @@
       ]
     },
     {
-      "id": "spring-i-o-2027",
-      "name": "Spring I/O 2027",
+      "id": "spring-i-o",
+      "name": "Spring I/O",
       "cfpUrl": "https://sessionize.com/spring-io-2027/",
       "cfpClosingDate": "2027-02-05",
       "eventStartDate": "2027-04-28",
       "eventEndDate": "2027-04-30",
-      "eventUrl": "https://2027.springio.net/",
+      "eventUrl": "https://springio.net/",
       "location": "Valencia, Spain",
       "region": "Europe",
       "categories": [
         "Programming Languages"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "databricks-sk-ne-meetup-february-2027",
+      "name": "Databricks Skåne Meetup, February 2027",
+      "cfpUrl": "https://sessionize.com/databricks-skane-meetup-feb-2027/",
+      "cfpClosingDate": "2027-02-07",
+      "eventStartDate": "2027-02-25",
+      "eventEndDate": "2027-02-25",
+      "eventUrl": "https://usergroups.databricks.com/skane-databricks-user-group/",
+      "location": "Malmö, Sweden",
+      "region": "Europe",
+      "categories": [
+        "Meetups",
+        "AI & ML",
+        "Cloud Native & DevOps"
       ],
       "organizer": {
         "name": "",
@@ -7983,7 +8078,7 @@
       "eventStartDate": "2027-03-18",
       "eventEndDate": "2027-03-18",
       "eventUrl": "https://umedev.org/",
-      "location": "Umeå, Sweden",
+      "location": "Ume, Sweden",
       "region": "Europe",
       "categories": [
         "Other"
@@ -7994,6 +8089,7 @@
         "parents": []
       },
       "sources": [
+        "developers.events",
         "opentechcfps"
       ]
     },
@@ -8278,6 +8374,30 @@
       ]
     },
     {
+      "id": "power-bi-fabric-barcelona-march-2027-english-edition",
+      "name": "Power BI & Fabric Barcelona March 2027 – English Edition",
+      "cfpUrl": "https://sessionize.com/power-bi-fabric-barcelona-mar-2027",
+      "cfpClosingDate": "2027-03-04",
+      "eventStartDate": "2027-03-25",
+      "eventEndDate": "2027-03-25",
+      "eventUrl": "https://www.meetup.com/es-es/power-bi-barcelona",
+      "location": "Barcelona",
+      "region": "Europe",
+      "categories": [
+        "Data & Databases",
+        "Microsoft Ecosystem"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "percona-live-bay-area-2027",
       "name": "Percona Live Bay Area 2027",
       "cfpUrl": "https://sessionize.com/percona-live-BayArea-2027/",
@@ -8413,6 +8533,29 @@
         "developers.events",
         "callingallpapers",
         "opentechcfps"
+      ]
+    },
+    {
+      "id": "techready-2027",
+      "name": "TechReady 2027",
+      "cfpUrl": "https://conference-hall.io/techready-2027",
+      "cfpClosingDate": "2027-03-28",
+      "eventStartDate": "2027-06-10",
+      "eventEndDate": "2027-06-10",
+      "eventUrl": "https://techready.live/",
+      "location": "Nantes, France",
+      "region": "Europe",
+      "categories": [
+        "AI & ML",
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events"
       ]
     },
     {
@@ -8986,6 +9129,28 @@
       "region": "Virtual",
       "categories": [
         "Data & Databases"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "cloud-native-austin",
+      "name": "Cloud Native Austin",
+      "cfpUrl": "https://sessionize.com/austin-kubernetes-meetup/",
+      "cfpClosingDate": "2027-09-24",
+      "eventStartDate": "2026-12-17",
+      "eventEndDate": "2026-12-17",
+      "eventUrl": "https://cloudnativeaustin.com/",
+      "location": "Austin, TX, USA",
+      "region": "North America",
+      "categories": [
+        "Cloud Native & DevOps"
       ],
       "organizer": {
         "name": "",
