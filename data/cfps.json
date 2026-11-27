@@ -1,51 +1,6 @@
 {
-  "lastUpdated": "2026-11-26",
+  "lastUpdated": "2026-11-27",
   "cfps": [
-    {
-      "id": "global-ai-nights-lima",
-      "name": "Global AI Nights - Lima",
-      "cfpUrl": "https://sessionize.com/global-ai-nights-lima/",
-      "cfpClosingDate": "2026-11-26",
-      "eventStartDate": "2026-12-10",
-      "eventEndDate": "2026-12-10",
-      "eventUrl": "",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "AI & ML"
-      ],
-      "organizer": {
-        "name": "Microsoft Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "workplace-security-ninja-user-group-switzerland",
-      "name": "Workplace & Security Ninja User Group Switzerland",
-      "cfpUrl": "https://sessionize.com/wpninja-ug-ch/",
-      "cfpClosingDate": "2026-11-26",
-      "eventStartDate": "2026-12-03",
-      "eventEndDate": "2026-12-03",
-      "eventUrl": "https://www.meetup.com/wpninjasugswitzerland",
-      "location": "Kloten, Switzerland",
-      "region": "Europe",
-      "categories": [
-        "Meetups",
-        "Security"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
     {
       "id": "data-ai-sovereignty-summit",
       "name": "Data AI Sovereignty Summit",
@@ -67,29 +22,6 @@
       },
       "sources": [
         "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "data-analytic-group-monthly-connect-2026",
-      "name": "Data Analytic Group Monthly Connect 2026",
-      "cfpUrl": "https://sessionize.com/data-analytic-group-monthly-connect-2026/",
-      "cfpClosingDate": "2026-11-27",
-      "eventStartDate": "2026-11-28",
-      "eventEndDate": "2026-11-29",
-      "eventUrl": "https://www.meetup.com/dataanalyticgroup/",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "Meetups",
-        "Data & Databases"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
         "opentechcfps"
       ]
     },
@@ -220,8 +152,7 @@
       "location": "Melbourne, Australia",
       "region": "Asia-Pacific",
       "categories": [
-        "Cloud Native & DevOps",
-        "Security"
+        "General Developer"
       ],
       "organizer": {
         "name": "",
@@ -229,8 +160,7 @@
         "parents": []
       },
       "sources": [
-        "developers.events",
-        "opentechcfps"
+        "developers.events"
       ]
     },
     {
@@ -244,8 +174,7 @@
       "location": "Sydney, Australia",
       "region": "Asia-Pacific",
       "categories": [
-        "Cloud Native & DevOps",
-        "Security"
+        "General Developer"
       ],
       "organizer": {
         "name": "",
@@ -253,9 +182,7 @@
         "parents": []
       },
       "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
+        "developers.events"
       ]
     },
     {
@@ -1193,29 +1120,6 @@
       },
       "sources": [
         "developers.events"
-      ]
-    },
-    {
-      "id": "dotnetfriday",
-      "name": "DotnetFriday",
-      "cfpUrl": "https://sessionize.com/dotnet-friday/",
-      "cfpClosingDate": "2026-11-30",
-      "eventStartDate": "2026-11-27",
-      "eventEndDate": "2026-11-27",
-      "eventUrl": "https://dotnetfriday.nl/",
-      "location": "Netherlands",
-      "region": "Europe",
-      "categories": [
-        "Cloud Native & DevOps",
-        "Security"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
       ]
     },
     {
@@ -3267,6 +3171,28 @@
       ]
     },
     {
+      "id": "devfest-26-patna",
+      "name": "DevFest 26 Patna",
+      "cfpUrl": "https://sessionize.com/devfest-26-patna/",
+      "cfpClosingDate": "2026-12-15",
+      "eventStartDate": "2026-12-20",
+      "eventEndDate": "2026-12-20",
+      "eventUrl": "https://devfest.gdgpatna.com/",
+      "location": "Patna, India",
+      "region": "Asia-Pacific",
+      "categories": [
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "Google Developer Groups",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "elixirconf-eu-2027",
       "name": "ElixirConf EU 2027",
       "cfpUrl": "https://sessionize.com/elixirconf-eu-2027/",
@@ -4270,6 +4196,30 @@
       ]
     },
     {
+      "id": "ai-governance-and-data-security-show",
+      "name": "AI Governance and Data Security Show",
+      "cfpUrl": "https://sessionize.com/ai-governance-and-data-security-show/",
+      "cfpClosingDate": "2026-12-31",
+      "eventStartDate": "2026-12-04",
+      "eventEndDate": "2026-12-18",
+      "eventUrl": "https://www.youtube.com/@AIGovernanceDataSecurity",
+      "location": "Virtual",
+      "region": "Virtual",
+      "categories": [
+        "AI & ML",
+        "Data & Databases",
+        "Security"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "azure-thursday",
       "name": "Azure Thursday",
       "cfpUrl": "https://sessionize.com/azurethursday/",
@@ -4761,6 +4711,28 @@
       ]
     },
     {
+      "id": "la-hora-de-kubernetes-2026-fundacion-hispana-de-cloud-native",
+      "name": "La Hora de Kubernetes 2026 - Fundacion ˙hispana de Cloud Native",
+      "cfpUrl": "https://sessionize.com/fhcn/",
+      "cfpClosingDate": "2026-12-31",
+      "eventStartDate": "2026-12-03",
+      "eventEndDate": "2026-12-17",
+      "eventUrl": "https://fhcn.webflow.io/",
+      "location": "Virtual",
+      "region": "Virtual",
+      "categories": [
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "matera-tech",
       "name": "Matera Tech",
       "cfpUrl": "https://sessionize.com/materatech/",
@@ -4817,6 +4789,29 @@
       "region": "Virtual",
       "categories": [
         "Microsoft Ecosystem"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "my-coding-zone-2026",
+      "name": "My Coding Zone - 2026",
+      "cfpUrl": "https://sessionize.com/my-coding-zone-2026/",
+      "cfpClosingDate": "2026-12-31",
+      "eventStartDate": "2026-12-04",
+      "eventEndDate": "2026-12-18",
+      "eventUrl": "https://www.meetup.com/de-de/my-coding-zone/",
+      "location": "Virtual",
+      "region": "Virtual",
+      "categories": [
+        "AI & ML",
+        "Programming Languages"
       ],
       "organizer": {
         "name": "",
@@ -5827,6 +5822,29 @@
       ]
     },
     {
+      "id": "dwx-2027",
+      "name": "DWX 2027",
+      "cfpUrl": "https://sessionize.com/dwx-2027/",
+      "cfpClosingDate": "2027-01-10",
+      "eventStartDate": "2027-06-28",
+      "eventEndDate": "2027-07-01",
+      "eventUrl": "https://www.developer-world.de/dwx",
+      "location": "Mannheim, Germany",
+      "region": "Europe",
+      "categories": [
+        "AI & ML",
+        "Programming Languages"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "hamburg-python-pizza",
       "name": "Hamburg Python Pizza",
       "cfpUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdTdYXdgDPnmpgZYU-Z3xK4VWmMwbHJCBNHd5xB2CRxIyCxTw/viewform",
@@ -5868,6 +5886,28 @@
       },
       "sources": [
         "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "infinite-ai-conference-2027",
+      "name": "Infinite AI Conference 2027",
+      "cfpUrl": "https://sessionize.com/IAIC-2027/",
+      "cfpClosingDate": "2027-01-10",
+      "eventStartDate": "2027-06-28",
+      "eventEndDate": "2027-06-30",
+      "eventUrl": "https://www.developer-world.de/infinite-ai",
+      "location": "Mannheim, Germany",
+      "region": "Europe",
+      "categories": [
+        "AI & ML"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
         "opentechcfps"
       ]
     },
@@ -7485,6 +7525,28 @@
       ]
     },
     {
+      "id": "data-conference-switzerland-2027",
+      "name": "Data Conference Switzerland 2027",
+      "cfpUrl": "https://sessionize.com/data-conference-switzerland-2027/",
+      "cfpClosingDate": "2027-01-31",
+      "eventStartDate": "2027-05-21",
+      "eventEndDate": "2027-05-21",
+      "eventUrl": "https://data-conference.ch/",
+      "location": "Zürich, Switzerland",
+      "region": "Europe",
+      "categories": [
+        "Data & Databases"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "data-point-prague-czechia-2027",
       "name": "Data Point Prague Czechia 2027",
       "cfpUrl": "https://sessionize.com/data-point-prague-2027/",
@@ -8924,6 +8986,29 @@
       ]
     },
     {
+      "id": "aws-community-summit-2027",
+      "name": "AWS Community Summit 2027",
+      "cfpUrl": "https://sessionize.com/aws-community-summit-manchester-20265638/",
+      "cfpClosingDate": "2027-04-30",
+      "eventStartDate": "2027-09-30",
+      "eventEndDate": "2027-09-30",
+      "eventUrl": "https://www.comsum.co.uk/",
+      "location": "Manchester, UK",
+      "region": "Europe",
+      "categories": [
+        "Cloud Native & DevOps"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events",
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "accelerate-tomorrow-ai-summit",
       "name": "Accelerate Tomorrow AI Summit",
       "cfpUrl": "https://www.acceleratetomorrow.com/become-a-speaker#speakersform",
@@ -9176,29 +9261,6 @@
       },
       "sources": [
         "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "aws-community-summit-2027",
-      "name": "AWS Community Summit 2027",
-      "cfpUrl": "https://sessionize.com/aws-community-summit-manchester-20265638/",
-      "cfpClosingDate": "2027-06-30",
-      "eventStartDate": "2027-09-30",
-      "eventEndDate": "2027-09-30",
-      "eventUrl": "https://www.comsum.co.uk/",
-      "location": "Manchester, UK",
-      "region": "Europe",
-      "categories": [
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
         "opentechcfps"
       ]
     },
