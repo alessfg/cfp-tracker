@@ -1,259 +1,6 @@
 {
-  "lastUpdated": "2026-11-27",
+  "lastUpdated": "2026-11-28",
   "cfps": [
-    {
-      "id": "data-ai-sovereignty-summit",
-      "name": "Data AI Sovereignty Summit",
-      "cfpUrl": "https://sessionize.com/data-ai-sovereignty-summit",
-      "cfpClosingDate": "2026-11-27",
-      "eventStartDate": "2027-02-25",
-      "eventEndDate": "2027-02-25",
-      "eventUrl": "https://data-ai-sovereignty.fr/",
-      "location": "Paris, France",
-      "region": "Europe",
-      "categories": [
-        "AI & ML",
-        "Data & Databases"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "global-ai-nights-chennai",
-      "name": "Global AI Nights - Chennai",
-      "cfpUrl": "https://sessionize.com/globalainightschennai/",
-      "cfpClosingDate": "2026-11-27",
-      "eventStartDate": "2026-12-05",
-      "eventEndDate": "2026-12-05",
-      "eventUrl": "https://globalai.community/e/rbbi27ie",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "AI & ML"
-      ],
-      "organizer": {
-        "name": "Microsoft Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "global-ai-nights-sofia-2026",
-      "name": "Global AI Nights Sofia 2026",
-      "cfpUrl": "https://sessionize.com/gloabal-ai-nights-sofia/",
-      "cfpClosingDate": "2026-11-27",
-      "eventStartDate": "2026-12-15",
-      "eventEndDate": "2026-12-15",
-      "eventUrl": "https://globalai.community/e/3bpbrt9d",
-      "location": "Sofia, Bulgaria",
-      "region": "Europe",
-      "categories": [
-        "AI & ML"
-      ],
-      "organizer": {
-        "name": "Microsoft Community",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "kotlinconf",
-      "name": "KotlinConf",
-      "cfpUrl": "https://sessionize.com/kotlinconf-2027",
-      "cfpClosingDate": "2026-11-27",
-      "eventStartDate": "2027-04-21",
-      "eventEndDate": "2027-04-23",
-      "eventUrl": "https://kotlinconf.com/",
-      "location": "Kraków, Poland",
-      "region": "Europe",
-      "categories": [
-        "Programming Languages"
-      ],
-      "organizer": {
-        "name": "JetBrains",
-        "type": "vendor",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "microsoft-fabric-portfolio-in-a-day",
-      "name": "Microsoft Fabric Portfolio in a Day",
-      "cfpUrl": "https://sessionize.com/microsoft-fabric-portfolio-in-a-day/",
-      "cfpClosingDate": "2026-11-27",
-      "eventStartDate": "2026-12-05",
-      "eventEndDate": "2026-12-05",
-      "eventUrl": "",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "Data & Databases",
-        "Microsoft Ecosystem"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "navigate-2027",
-      "name": "NAVIGATE 2027",
-      "cfpUrl": "https://sessionize.com/navigate-2027",
-      "cfpClosingDate": "2026-11-27",
-      "eventStartDate": "2027-03-09",
-      "eventEndDate": "2027-03-09",
-      "eventUrl": "https://navigate-kongress.de/",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "AI & ML"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "programmable-2027",
-      "name": "Programmable 2027",
-      "cfpUrl": "https://sessionize.com/programmable-2027-melbourne/",
-      "cfpClosingDate": "2026-11-27",
-      "eventStartDate": "2027-03-16",
-      "eventEndDate": "2027-03-16",
-      "eventUrl": "https://programmable.tech/",
-      "location": "Melbourne, Australia",
-      "region": "Asia-Pacific",
-      "categories": [
-        "General Developer"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events"
-      ]
-    },
-    {
-      "id": "programmable-sydney-2027",
-      "name": "Programmable Sydney 2027",
-      "cfpUrl": "https://sessionize.com/programmable-2027-sydney/",
-      "cfpClosingDate": "2026-11-27",
-      "eventStartDate": "2027-03-18",
-      "eventEndDate": "2027-03-18",
-      "eventUrl": "https://programmable.tech/",
-      "location": "Sydney, Australia",
-      "region": "Asia-Pacific",
-      "categories": [
-        "General Developer"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events"
-      ]
-    },
-    {
-      "id": "south-florida-women-in-tech",
-      "name": "South Florida Women in Tech",
-      "cfpUrl": "https://sessionize.com/south-florida-women-in-tech/",
-      "cfpClosingDate": "2026-11-27",
-      "eventStartDate": "2026-12-10",
-      "eventEndDate": "2026-12-10",
-      "eventUrl": "https://sfwit.org/",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "Agile & Leadership"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "trustsecai-2027",
-      "name": "TrustSecAI 2027",
-      "cfpUrl": "https://rayentech.github.io/TrustSecAI2027/",
-      "cfpClosingDate": "2026-11-27",
-      "eventStartDate": "2027-04-13",
-      "eventEndDate": "2027-04-15",
-      "eventUrl": "https://cs-conferences.acadiau.ca/ant-27/",
-      "location": "Delft, Netherlands",
-      "region": "Europe",
-      "categories": [
-        "AI & ML",
-        "Security"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events"
-      ]
-    },
-    {
-      "id": "net-saturday-2027-pordenone",
-      "name": ".NET Saturday 2027 Pordenone",
-      "cfpUrl": "https://sessionize.com/dotnetsat2027pn/",
-      "cfpClosingDate": "2026-11-28",
-      "eventStartDate": "2027-01-23",
-      "eventEndDate": "2027-01-23",
-      "eventUrl": "https://dotnetsat2027pn.1nn0va.it/",
-      "location": "Pordenone, Italy",
-      "region": "Europe",
-      "categories": [
-        "Programming Languages"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
     {
       "id": "devfest-ottawa-2026",
       "name": "DevFest Ottawa 2026",
@@ -298,30 +45,6 @@
       },
       "sources": [
         "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
-      "id": "infraiday-2027-pordenone",
-      "name": "InfrAIday 2027 Pordenone",
-      "cfpUrl": "https://sessionize.com/infraiday2027pn",
-      "cfpClosingDate": "2026-11-28",
-      "eventStartDate": "2027-02-26",
-      "eventEndDate": "2027-02-26",
-      "eventUrl": "https://eventi.1nn0va.it/events/2027/infraiday2027pn",
-      "location": "Pordenone, Italy",
-      "region": "Europe",
-      "categories": [
-        "Cloud Native & DevOps",
-        "Security"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
         "callingallpapers",
         "opentechcfps"
       ]
@@ -1306,8 +1029,7 @@
         "parents": []
       },
       "sources": [
-        "developers.events",
-        "opentechcfps"
+        "developers.events"
       ]
     },
     {
@@ -2038,6 +1760,29 @@
       ]
     },
     {
+      "id": "kotlinconf",
+      "name": "KotlinConf",
+      "cfpUrl": "https://sessionize.com/kotlinconf-2027",
+      "cfpClosingDate": "2026-12-04",
+      "eventStartDate": "2027-04-21",
+      "eventEndDate": "2027-04-23",
+      "eventUrl": "https://kotlinconf.com/",
+      "location": "Kraków, Poland",
+      "region": "Europe",
+      "categories": [
+        "Programming Languages"
+      ],
+      "organizer": {
+        "name": "JetBrains",
+        "type": "vendor",
+        "parents": []
+      },
+      "sources": [
+        "developers.events",
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "m365-saturday-ahmedabad-2027-in-person-only",
       "name": "M365 Saturday Ahmedabad 2027 (In-Person Only)",
       "cfpUrl": "https://sessionize.com/m365-saturday-ahmedabad-2027-in-person/",
@@ -2425,6 +2170,30 @@
       ]
     },
     {
+      "id": "net-saturday-2027-pordenone",
+      "name": ".NET Saturday 2027 Pordenone",
+      "cfpUrl": "https://sessionize.com/dotnetsat2027pn/",
+      "cfpClosingDate": "2026-12-06",
+      "eventStartDate": "2027-01-23",
+      "eventEndDate": "2027-01-23",
+      "eventUrl": "https://dotnetsat2027pn.1nn0va.it/",
+      "location": "Pordenone, Italy",
+      "region": "Europe",
+      "categories": [
+        "Programming Languages"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events",
+        "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "agentic-coding-shorts-december-2026-call-for-clips",
       "name": "Agentic Coding Shorts - December 2026 (Call for Clips)",
       "cfpUrl": "https://sessionize.com/agentic-coding-shorts-december-2026/",
@@ -2776,6 +2545,28 @@
       ]
     },
     {
+      "id": "foro-digital-prueba",
+      "name": "Foro Digital - Prueba",
+      "cfpUrl": "https://sessionize.com/foro-digital/",
+      "cfpClosingDate": "2026-12-10",
+      "eventStartDate": "2026-12-18",
+      "eventEndDate": "2026-12-18",
+      "eventUrl": "http://foro.digital/",
+      "location": "Virtual",
+      "region": "Virtual",
+      "categories": [
+        "Other"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "owasp-global-appsec-eu-vienna-2027-cft",
       "name": "OWASP Global AppSec EU (Vienna) 2027 - CFT",
       "cfpUrl": "https://sessionize.com/owasp-global-appsec-EU--2027-cft/",
@@ -3007,6 +2798,30 @@
       ]
     },
     {
+      "id": "infraiday-2027-pordenone",
+      "name": "InfrAIday 2027 Pordenone",
+      "cfpUrl": "https://sessionize.com/infraiday2027pn",
+      "cfpClosingDate": "2026-12-13",
+      "eventStartDate": "2027-02-26",
+      "eventEndDate": "2027-02-26",
+      "eventUrl": "https://eventi.1nn0va.it/events/2027/infraiday2027pn",
+      "location": "Pordenone, Italy",
+      "region": "Europe",
+      "categories": [
+        "Cloud Native & DevOps",
+        "Security"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
       "id": "phpday-2027",
       "name": "phpday 2027",
       "cfpUrl": "https://sessionize.com/phpday-2027",
@@ -3145,6 +2960,30 @@
         "parents": []
       },
       "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "budapest-data-ai-forum-2027",
+      "name": "Budapest Data+AI Forum 2027",
+      "cfpUrl": "https://sessionize.com/budapestdai27",
+      "cfpClosingDate": "2026-12-15",
+      "eventStartDate": "2027-05-10",
+      "eventEndDate": "2027-05-12",
+      "eventUrl": "https://budapestdata.hu/en",
+      "location": "Budapest, Hungary",
+      "region": "Europe",
+      "categories": [
+        "AI & ML",
+        "Data & Databases"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "callingallpapers",
         "opentechcfps"
       ]
     },
@@ -4433,31 +4272,6 @@
       ]
     },
     {
-      "id": "cloud-native-mumbai-online-in-person",
-      "name": "Cloud Native Mumbai [Online & In-person]",
-      "cfpUrl": "https://sessionize.com/cloud-native-mumbai-city/",
-      "cfpClosingDate": "2026-12-31",
-      "eventStartDate": "2026-11-28",
-      "eventEndDate": "2026-11-28",
-      "eventUrl": "https://ocgroups.dev/cncf/group/cncfmumbai",
-      "location": "Virtual",
-      "region": "Virtual",
-      "categories": [
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "CNCF Community",
-        "type": "community",
-        "parents": [
-          "CNCF",
-          "Linux Foundation"
-        ]
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
       "id": "cloud-native-per-2026",
       "name": "Cloud Native Perú 2026",
       "cfpUrl": "https://sessionize.com/cloud-native-peru/",
@@ -5101,29 +4915,6 @@
       ]
     },
     {
-      "id": "technexus-community-chennai-2026",
-      "name": "TechNexus Community Chennai 2026",
-      "cfpUrl": "https://sessionize.com/technexus-community-chennai-cfs-2026/",
-      "cfpClosingDate": "2026-12-31",
-      "eventStartDate": "2026-11-28",
-      "eventEndDate": "2026-11-28",
-      "eventUrl": "",
-      "location": "Chennai, India",
-      "region": "Asia-Pacific",
-      "categories": [
-        "AI & ML",
-        "Data & Databases"
-      ],
-      "organizer": {
-        "name": "",
-        "type": "independent",
-        "parents": []
-      },
-      "sources": [
-        "opentechcfps"
-      ]
-    },
-    {
       "id": "the-search-party",
       "name": "The Search Party",
       "cfpUrl": "https://sessionize.com/opensearch-the-search-party/",
@@ -5584,6 +5375,29 @@
       "sources": [
         "developers.events",
         "callingallpapers"
+      ]
+    },
+    {
+      "id": "agile-niort",
+      "name": "Agile Niort",
+      "cfpUrl": "https://sessionize.com/agile-niort-2027",
+      "cfpClosingDate": "2027-01-06",
+      "eventStartDate": "2027-03-25",
+      "eventEndDate": "2027-03-25",
+      "eventUrl": "https://agileniort.fr/",
+      "location": "Niort, France",
+      "region": "Europe",
+      "categories": [
+        "Agile & Leadership"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
+        "developers.events",
+        "opentechcfps"
       ]
     },
     {
@@ -6049,6 +5863,28 @@
       "sources": [
         "developers.events",
         "callingallpapers",
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "wintertech-27",
+      "name": "Wintertech '27",
+      "cfpUrl": "https://sessionize.com/wintertech-27/",
+      "cfpClosingDate": "2027-01-10",
+      "eventStartDate": "2027-02-20",
+      "eventEndDate": "2027-02-20",
+      "eventUrl": "https://wintertech.it/",
+      "location": "Aosta, Italy",
+      "region": "Europe",
+      "categories": [
+        "Other"
+      ],
+      "organizer": {
+        "name": "",
+        "type": "independent",
+        "parents": []
+      },
+      "sources": [
         "opentechcfps"
       ]
     },
@@ -7594,31 +7430,6 @@
       ]
     },
     {
-      "id": "devfest-budapest-2026-on-campus-conference",
-      "name": "DevFest Budapest 2026 - On Campus Conference",
-      "cfpUrl": "https://sessionize.com/devfest-budapest-2026-on-campus/",
-      "cfpClosingDate": "2027-01-31",
-      "eventStartDate": "2026-11-27",
-      "eventEndDate": "2026-11-27",
-      "eventUrl": "https://devfest.hu/",
-      "location": "Budapest, Hungary",
-      "region": "Europe",
-      "categories": [
-        "AI & ML",
-        "Cloud Native & DevOps"
-      ],
-      "organizer": {
-        "name": "Google Developer Groups",
-        "type": "community",
-        "parents": []
-      },
-      "sources": [
-        "developers.events",
-        "callingallpapers",
-        "opentechcfps"
-      ]
-    },
-    {
       "id": "devopsdays-nashville-2027",
       "name": "DevOpsDays Nashville 2027",
       "cfpUrl": "https://sessionize.com/devopsdays-nashville-2027/",
@@ -7933,6 +7744,29 @@
       "location": "Virtual",
       "region": "Virtual",
       "categories": [
+        "Microsoft Ecosystem"
+      ],
+      "organizer": {
+        "name": "Microsoft Community",
+        "type": "community",
+        "parents": []
+      },
+      "sources": [
+        "opentechcfps"
+      ]
+    },
+    {
+      "id": "global-power-platform-agentic-ai-summit-aba-2027-nigeria",
+      "name": "Global Power Platform & Agentic AI Summit Aba, 2027, Nigeria",
+      "cfpUrl": "https://sessionize.com/global-power-platform-bootcamp-2027-aba/",
+      "cfpClosingDate": "2027-02-05",
+      "eventStartDate": "2027-02-19",
+      "eventEndDate": "2027-02-19",
+      "eventUrl": "https://www.poweraisummit.com/",
+      "location": "Aba, Nigeria",
+      "region": "Middle East & Africa",
+      "categories": [
+        "AI & ML",
         "Microsoft Ecosystem"
       ],
       "organizer": {
